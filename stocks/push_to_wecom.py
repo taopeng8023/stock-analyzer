@@ -13,8 +13,9 @@
 import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, '/home/admin/.openclaw/workspace')
 
-from deep_push import PushNotifier
+from stocks.deep_push import PushNotifier
 from stock_analyzer.stock_analyzer_v2 import EnhancedStockAnalyzer
 import json
 from datetime import datetime
@@ -86,7 +87,7 @@ def push_stock_signal(stock_code: str, config_file: str = 'push_config.json'):
     content += f"""
 ---
 *生成时间：{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*
-*鹏总选股系统 v3.0*
+*选股系统 v3.0*
 """
     
     # 推送消息
@@ -177,7 +178,7 @@ def push_top_stocks(top_n: int = 10, config_file: str = 'push_config.json'):
     content += f"""
 ---
 *数据来源：东方财富*
-*鹏总选股系统 v3.0*
+*选股系统 v3.0*
 """
     
     title = f"📊 主力净流入 TOP {top_n}"
@@ -233,7 +234,7 @@ def push_sector_rank(top_n: int = 10, config_file: str = 'push_config.json'):
     content += f"""
 ---
 *数据来源：东方财富*
-*鹏总选股系统 v3.0*
+*选股系统 v3.0*
 """
     
     title = f"🏭 行业板块 TOP {top_n}"

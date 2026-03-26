@@ -1,0 +1,58 @@
+{
+  "version": "2.0",
+  "stock_code": "601899",
+  "stock_name": "紫金矿业",
+  "current_price": 32.09,
+  "change_pct": -346,
+  "data_source": "eastmoney",
+  "scores": {
+    "technical": 35,
+    "fundamental": 25,
+    "money_flow": 35,
+    "total": 31.5
+  },
+  "prediction": {
+    "expected_return": -2.0,
+    "optimistic": 3.0,
+    "pessimistic": -9.6,
+    "confidence": 52.6
+  },
+  "success_probability": {
+    "probability": 37.8,
+    "level": "很低",
+    "icon": "✗✗"
+  },
+  "target_prices": {
+    "target": 31.45,
+    "stop_loss": 29.52
+  },
+  "buy_advice": {
+    "action": "不建议买入",
+    "code": "SELL",
+    "icon": "🔴",
+    "position": "0%",
+    "strategies": [
+      "规避风险",
+      "等待企稳信号",
+      "不要抄底"
+    ],
+    "reason": "综合评分31.5, 成功概率37.8%"
+  },
+  "money_flow_analysis": {
+    "score": 35,
+    "level": "很弱",
+    "signals": [
+      "✗ 主力大幅净流出 (-68735.06亿)",
+      "✓ 主力占比为正 (3.0%)"
+    ],
+    "data": {
+      "date": "2026-03-26",
+      "main_force_net": -687350608.0,
+      "main_force_ratio": 3.01,
+      "super_net": -14.68,
+      "big_net": 11.67,
+      "mid_net": -7.72,
+      "small_net": -6.95
+    }
+  }
+}

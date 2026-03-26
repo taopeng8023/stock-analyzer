@@ -1,7 +1,7 @@
 {
     "wecom": {
         "enabled": true,
-        "webhook": "https://qyapi.weixin.qq.com/cgi/webhook/send?key=YOUR_KEY_HERE"
+        "webhook": "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=76babaf7-4a40-4e24-b547-98e9798baff5"
     },
     "wechat": {
         "enabled": false,
