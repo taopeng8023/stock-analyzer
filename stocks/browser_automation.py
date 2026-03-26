@@ -71,9 +71,8 @@ class EastmoneyBrowser:
         chrome_options.add_experimental_option("prefs", prefs)
         
         try:
-            # 自动安装 ChromeDriver
-            service = Service(ChromeDriverManager().install())
-            self.driver = webdriver.Chrome(service=service, options=chrome_options)
+            # 使用本地 ChromeDriver (兼容 Selenium 3.x)
+            self.driver = webdriver.Chrome('/usr/local/bin/chromedriver', chrome_options=chrome_options)
             
             # 设置隐式等待
             self.driver.implicitly_wait(10)
