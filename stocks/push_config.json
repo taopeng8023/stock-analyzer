@@ -1,0 +1,32 @@
+{
+    "wecom": {
+        "enabled": true,
+        "webhook": "https://qyapi.weixin.qq.com/cgi/webhook/send?key=YOUR_KEY_HERE"
+    },
+    "wechat": {
+        "enabled": false,
+        "corp_id": "",
+        "agent_id": "",
+        "corp_secret": ""
+    },
+    "dingtalk": {
+        "enabled": false,
+        "webhook": "",
+        "secret": ""
+    },
+    "email": {
+        "enabled": false,
+        "smtp_server": "smtp.qq.com",
+        "smtp_port": 587,
+        "from_email": "",
+        "password": "",
+        "to_emails": []
+    },
+    "push_settings": {
+        "daily_report_time": "08:30",
+        "after_market_time": "15:30",
+        "emergency_push": true,
+        "push_top_n": 10,
+        "min_score_to_push": 70
+    }
+}
