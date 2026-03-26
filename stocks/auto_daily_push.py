@@ -327,34 +327,61 @@ class AutoSelector:
         self.log(f"推送记录已保存：{history_file}")
     
     def run(self):
-        """运行完整流程"""
+        """运行完整流程 - 数据优先原则"""
         self.log("="*60)
         self.log("🚀 开始执行自动选股流程")
+        self.log("="*60)
+        self.log("⚠️ 原则：数据获取失败，不做推送")
         self.log("="*60)
         
         start_time = datetime.now()
         
-        # 1. 获取主力资金流 TOP 100
+        # 1. 获取主力资金流 TOP 100（必须成功）
+        self.log("📊 获取主力资金流 TOP 100（必需数据）...")
         main_force = self.get_main_force_top100()
-        if not main_force:
-            self.log("❌ 获取主力数据失败，终止流程")
+        
+        # 数据验证
+        if not main_force or len(main_force) < 50:
+            self.log("❌ 主力数据获取失败或数据不足（要求≥50 条，实际{}条）".format(len(main_force) if main_force else 0))
+            self.log("❌ 数据验证未通过，终止流程，不做推送")
+            self._send_failure_alert("主力数据获取失败")
             return
         
-        self.log(f"✅ 获取主力数据成功，共{len(main_force)}只股票")
+        # 进一步验证数据质量
+        valid_count = sum(1 for s in main_force if (s.get('f4001', 0) or 0) != 0)
+        if valid_count < 30:
+            self.log("❌ 数据质量不达标（有效数据{}条，要求≥30 条）".format(valid_count))
+            self.log("❌ 数据验证未通过，终止流程，不做推送")
+            self._send_failure_alert("主力数据质量不达标")
+            return
         
-        # 2. 获取板块排名 TOP 10
+        self.log(f"✅ 主力数据获取成功，共{len(main_force)}只股票，有效数据{valid_count}条")
+        
+        # 2. 获取板块排名 TOP 10（重要数据）
+        self.log("🏭 获取行业板块 TOP 10（重要数据）...")
         sectors = self.get_sector_top10()
-        if sectors:
-            self.log(f"✅ 获取板块数据成功，共{len(sectors)}个板块")
+        
+        if not sectors or len(sectors) < 5:
+            self.log("⚠️ 板块数据获取失败或数据不足（要求≥5 条，实际{}条）".format(len(sectors) if sectors else 0))
+            self.log("⚠️ 继续执行，但不包含板块分析")
+            sectors = []
+        else:
+            self.log(f"✅ 板块数据获取成功，共{len(sectors)}个板块")
         
         # 3. 分析股票，筛选买入信号
+        self.log("🔍 开始分析股票...")
         buy_signals = self.analyze_stocks(main_force)
         
-        # 4. 推送 TOP 5
-        if buy_signals:
-            self.push_top5_signals(buy_signals)
+        # 4. 推送 TOP 5（必须有符合条件的股票）
+        if buy_signals and len(buy_signals) >= 1:
+            # 验证买入信号质量
+            top_signal = buy_signals[0]
+            if top_signal['score'] >= 70:
+                self.push_top5_signals(buy_signals)
+            else:
+                self.log("⚠️ 最高评分{} < 70，无符合条件的买入信号，不做推送".format(top_signal['score']))
         else:
-            self.log("⚠️ 无符合条件的买入信号")
+            self.log("⚠️ 无符合条件的买入信号，不做推送")
         
         # 5. 保存数据
         self._save_data(main_force, sectors, buy_signals)
@@ -366,6 +393,32 @@ class AutoSelector:
         self.log(f"✅ 流程执行完成，耗时{duration:.1f}秒")
         self.log("="*60)
     
+    def _send_failure_alert(self, reason: str):
+        """发送数据获取失败告警"""
+        self.log(f"🚨 发送失败告警：{reason}")
+        
+        content = f"""## 🚨 数据获取失败告警
+
+**时间**: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+
+**失败原因**: {reason}
+
+**已执行操作**:
+- ❌ 选股推送已取消
+- ⚠️ 请检查网络或 API 状态
+
+**建议**:
+1. 检查网络连接
+2. 查看 API 是否正常
+3. 稍后重试
+
+---
+*选股系统 v3.0*
+"""
+        
+        # 发送告警（不推送选股信号）
+        self.notifier.send_wecom('🚨 数据获取失败告警', content, msg_type='markdown')
+    
     def _save_data(self, main_force: List, sectors: List, signals: List):
         """保存数据"""
         data = {
@@ -373,7 +426,8 @@ class AutoSelector:
             'time': datetime.now().strftime('%H:%M:%S'),
             'main_force': main_force,
             'sectors': sectors,
-            'signals': signals[:5],
+            'signals': signals[:5] if signals else [],
+            'status': 'success' if (main_force and len(main_force) >= 50) else 'failed',
         }
         
         data_file = os.path.join(
@@ -384,7 +438,7 @@ class AutoSelector:
         with open(data_file, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
         
-        self.log(f"数据已保存：{data_file}")
+        self.log(f"📁 数据已保存：{data_file}")
 
 
 if __name__ == "__main__":
