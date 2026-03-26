@@ -1,0 +1,459 @@
+{
+  "time": "2026-03-20T16:59:29.896818",
+  "count": 50,
+  "main_board": 29,
+  "cyb": 16,
+  "kcb": 5,
+  "stocks": [
+    {
+      "symbol": "sz300827",
+      "name": "上能电气",
+      "price": 44.93,
+      "change_pct": 20.01,
+      "volume": 1341839,
+      "amount": 5779478039.0,
+      "board": "创业板"
+    },
+    {
+      "symbol": "sz300782",
+      "name": "卓胜微",
+      "price": 90.3,
+      "change_pct": 13.87,
+      "volume": 659134,
+      "amount": 6075706482.0,
+      "board": "创业板"
+    },
+    {
+      "symbol": "sz300040",
+      "name": "九洲集团",
+      "price": 8.95,
+      "change_pct": 13.15,
+      "volume": 2745035,
+      "amount": 2509491127.0,
+      "board": "创业板"
+    },
+    {
+      "symbol": "sz002309",
+      "name": "中利集团",
+      "price": 3.81,
+      "change_pct": 10.12,
+      "volume": 2119220,
+      "amount": 794153929.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sz002256",
+      "name": "兆新股份",
+      "price": 4.49,
+      "change_pct": 10.05,
+      "volume": 2770646,
+      "amount": 1234156207.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sz000862",
+      "name": "银星能源",
+      "price": 8.44,
+      "change_pct": 10.04,
+      "volume": 1406275,
+      "amount": 1133369879.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sh603026",
+      "name": "石大胜华",
+      "price": 75.41,
+      "change_pct": 10.01,
+      "volume": 188317,
+      "amount": 1403894724.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sh603778",
+      "name": "国晟科技",
+      "price": 24.21,
+      "change_pct": 10.0,
+      "volume": 1505737,
+      "amount": 3463025573.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sz002428",
+      "name": "云南锗业",
+      "price": 43.46,
+      "change_pct": 10.0,
+      "volume": 193417,
+      "amount": 840550467.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sz002150",
+      "name": "正泰电源",
+      "price": 34.88,
+      "change_pct": 10.0,
+      "volume": 300035,
+      "amount": 1029642355.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sh603538",
+      "name": "美诺华",
+      "price": 27.84,
+      "change_pct": 10.0,
+      "volume": 307429,
+      "amount": 846766043.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sz000670",
+      "name": "盈方微",
+      "price": 8.83,
+      "change_pct": 9.96,
+      "volume": 1990845,
+      "amount": 1724439340.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sh605117",
+      "name": "德业股份",
+      "price": 140.7,
+      "change_pct": 9.91,
+      "volume": 338700,
+      "amount": 4678463468.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sh600310",
+      "name": "广西能源",
+      "price": 4.88,
+      "change_pct": 9.91,
+      "volume": 2320308,
+      "amount": 1111520598.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sz300724",
+      "name": "捷佳伟创",
+      "price": 129.1,
+      "change_pct": 9.41,
+      "volume": 543503,
+      "amount": 6962849437.0,
+      "board": "创业板"
+    },
+    {
+      "symbol": "sz300620",
+      "name": "光库科技",
+      "price": 163.8,
+      "change_pct": 9.21,
+      "volume": 371018,
+      "amount": 6160149604.0,
+      "board": "创业板"
+    },
+    {
+      "symbol": "sz300751",
+      "name": "迈为股份",
+      "price": 273.6,
+      "change_pct": 9.19,
+      "volume": 198965,
+      "amount": 5387533849.0,
+      "board": "创业板"
+    },
+    {
+      "symbol": "sz300502",
+      "name": "新易盛",
+      "price": 477.05,
+      "change_pct": 8.32,
+      "volume": 671922,
+      "amount": 32110554587.0,
+      "board": "创业板"
+    },
+    {
+      "symbol": "sh603659",
+      "name": "璞泰来",
+      "price": 31.6,
+      "change_pct": 8.0,
+      "volume": 1204632,
+      "amount": 3796269527.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sz300308",
+      "name": "中际旭创",
+      "price": 612.0,
+      "change_pct": 6.4,
+      "volume": 538539,
+      "amount": 33344122514.0,
+      "board": "创业板"
+    },
+    {
+      "symbol": "sz002460",
+      "name": "赣锋锂业",
+      "price": 67.43,
+      "change_pct": 6.29,
+      "volume": 879258,
+      "amount": 5905522244.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sh601133",
+      "name": "柏诚股份",
+      "price": 17.26,
+      "change_pct": 5.95,
+      "volume": 512448,
+      "amount": 906036720.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sz300014",
+      "name": "亿纬锂能",
+      "price": 70.8,
+      "change_pct": 5.58,
+      "volume": 1312173,
+      "amount": 9309877579.0,
+      "board": "创业板"
+    },
+    {
+      "symbol": "sh688223",
+      "name": "晶科能源",
+      "price": 7.61,
+      "change_pct": 5.4,
+      "volume": 515730994,
+      "amount": 3938337177.0,
+      "board": "科创板"
+    },
+    {
+      "symbol": "sz300274",
+      "name": "阳光电源",
+      "price": 173.6,
+      "change_pct": 5.15,
+      "volume": 1183556,
+      "amount": 20546994064.0,
+      "board": "创业板"
+    },
+    {
+      "symbol": "sz001267",
+      "name": "汇绿生态",
+      "price": 42.7,
+      "change_pct": 4.73,
+      "volume": 814517,
+      "amount": 3567956455.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sz002025",
+      "name": "航天电器",
+      "price": 63.44,
+      "change_pct": 4.36,
+      "volume": 485075,
+      "amount": 3022608486.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sh600930",
+      "name": "华电新能",
+      "price": 6.95,
+      "change_pct": 4.35,
+      "volume": 7019056,
+      "amount": 4854092343.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sh688516",
+      "name": "奥特维",
+      "price": 81.39,
+      "change_pct": 3.81,
+      "volume": 24452238,
+      "amount": 2018355241.0,
+      "board": "科创板"
+    },
+    {
+      "symbol": "sz000791",
+      "name": "甘肃能源",
+      "price": 8.5,
+      "change_pct": 3.53,
+      "volume": 1437714,
+      "amount": 1248769440.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sz002015",
+      "name": "协鑫能科",
+      "price": 20.8,
+      "change_pct": 3.17,
+      "volume": 3832447,
+      "amount": 7904166550.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sz300750",
+      "name": "宁德时代",
+      "price": 413.0,
+      "change_pct": 3.12,
+      "volume": 537297,
+      "amount": 22252017693.0,
+      "board": "创业板"
+    },
+    {
+      "symbol": "sh600105",
+      "name": "永鼎股份",
+      "price": 27.66,
+      "change_pct": 2.6,
+      "volume": 1581663,
+      "amount": 4430905208.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sh601012",
+      "name": "隆基绿能",
+      "price": 18.99,
+      "change_pct": 2.54,
+      "volume": 4469588,
+      "amount": 8522747284.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sz002008",
+      "name": "大族激光",
+      "price": 64.59,
+      "change_pct": 2.52,
+      "volume": 417423,
+      "amount": 2704583751.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sh688629",
+      "name": "华丰科技",
+      "price": 109.94,
+      "change_pct": 2.45,
+      "volume": 24691609,
+      "amount": 2683783956.0,
+      "board": "科创板"
+    },
+    {
+      "symbol": "sh688183",
+      "name": "生益电子",
+      "price": 82.6,
+      "change_pct": 1.99,
+      "volume": 19973021,
+      "amount": 1659982763.0,
+      "board": "科创板"
+    },
+    {
+      "symbol": "sz300548",
+      "name": "长芯博创",
+      "price": 146.13,
+      "change_pct": 1.79,
+      "volume": 287470,
+      "amount": 4342147242.0,
+      "board": "创业板"
+    },
+    {
+      "symbol": "sz300570",
+      "name": "太辰光",
+      "price": 119.16,
+      "change_pct": 1.62,
+      "volume": 280990,
+      "amount": 3430875656.0,
+      "board": "创业板"
+    },
+    {
+      "symbol": "sz002371",
+      "name": "北方华创",
+      "price": 468.72,
+      "change_pct": 1.54,
+      "volume": 81385,
+      "amount": 3819509328.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sz300342",
+      "name": "天银机电",
+      "price": 46.19,
+      "change_pct": 0.92,
+      "volume": 693507,
+      "amount": 3263723252.0,
+      "board": "创业板"
+    },
+    {
+      "symbol": "sz002594",
+      "name": "比亚迪",
+      "price": 103.03,
+      "change_pct": 0.7,
+      "volume": 628783,
+      "amount": 6495105104.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sz301205",
+      "name": "联特科技",
+      "price": 219.99,
+      "change_pct": 0.58,
+      "volume": 132801,
+      "amount": 3026309256.0,
+      "board": "创业板"
+    },
+    {
+      "symbol": "sz300476",
+      "name": "胜宏科技",
+      "price": 278.72,
+      "change_pct": 0.52,
+      "volume": 331517,
+      "amount": 9353669753.0,
+      "board": "创业板"
+    },
+    {
+      "symbol": "sh601869",
+      "name": "长飞光纤",
+      "price": 216.88,
+      "change_pct": 0.44,
+      "volume": 205015,
+      "amount": 4588502592.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sz002475",
+      "name": "立讯精密",
+      "price": 48.22,
+      "change_pct": 0.37,
+      "volume": 1004845,
+      "amount": 4918969446.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sh688521",
+      "name": "芯原股份",
+      "price": 199.5,
+      "change_pct": -0.01,
+      "volume": 19327549,
+      "amount": 3932469292.0,
+      "board": "科创板"
+    },
+    {
+      "symbol": "sh600487",
+      "name": "亨通光电",
+      "price": 42.98,
+      "change_pct": -0.3,
+      "volume": 1286511,
+      "amount": 5679526220.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sh601138",
+      "name": "工业富联",
+      "price": 50.3,
+      "change_pct": -0.32,
+      "volume": 1544521,
+      "amount": 7926093368.0,
+      "board": "主板"
+    },
+    {
+      "symbol": "sh601857",
+      "name": "中国石油",
+      "price": 12.24,
+      "change_pct": -1.92,
+      "volume": 3064078,
+      "amount": 3722916039.0,
+      "board": "主板"
+    }
+  ]
+}

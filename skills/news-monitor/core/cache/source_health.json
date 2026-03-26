@@ -1,0 +1,12 @@
+{
+  "今日头条": {
+    "success": 186,
+    "fail": 0,
+    "consecutive_fails": 0,
+    "last_success": "2026-03-26T22:00:04.939817",
+    "last_fail": null,
+    "last_update": "2026-03-26T22:00:04.939820",
+    "items_total": 2697,
+    "items_avg": 14.5
+  }
+}

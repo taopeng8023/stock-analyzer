@@ -1,0 +1,56 @@
+{
+  "check_time": "2026-03-22T13:07:20.523294",
+  "total_sources": 5,
+  "healthy_count": 1,
+  "degraded_count": 4,
+  "down_count": 0,
+  "avg_response_time": 98,
+  "avg_success_rate": 20.0,
+  "sources": [
+    {
+      "name": "baidu",
+      "status": "degraded",
+      "response_time_ms": 151,
+      "success_rate": 0.0,
+      "last_check": "2026-03-22T13:07:17.669936",
+      "last_error": "HTTP 200",
+      "uptime_24h": 0.0
+    },
+    {
+      "name": "eastmoney",
+      "status": "degraded",
+      "response_time_ms": 58,
+      "success_rate": 0.0,
+      "last_check": "2026-03-22T13:07:18.231082",
+      "last_error": "HTTP 200",
+      "uptime_24h": 0.0
+    },
+    {
+      "name": "tencent",
+      "status": "healthy",
+      "response_time_ms": 103,
+      "success_rate": 100.0,
+      "last_check": "2026-03-22T13:07:18.838592",
+      "last_error": null,
+      "uptime_24h": 100.0
+    },
+    {
+      "name": "sina",
+      "status": "degraded",
+      "response_time_ms": 91,
+      "success_rate": 0.0,
+      "last_check": "2026-03-22T13:07:19.432078",
+      "last_error": "HTTP 403",
+      "uptime_24h": 0.0
+    },
+    {
+      "name": "netease",
+      "status": "degraded",
+      "response_time_ms": 87,
+      "success_rate": 0.0,
+      "last_check": "2026-03-22T13:07:20.021788",
+      "last_error": "HTTP 502",
+      "uptime_24h": 0.0
+    }
+  ]
+}

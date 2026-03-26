@@ -1,0 +1,15 @@
+{
+  "code": "000592",
+  "name": "平潭发展",
+  "version": "demo",
+  "data_source": "simulated",
+  "period": 250,
+  "initial_capital": 100000,
+  "final_value": 100000,
+  "total_return": 0.0,
+  "total_trades": 0,
+  "win_rate": 0,
+  "max_drawdown": 0,
+  "trades": [],
+  "timestamp": "2026-03-25T19:46:55.241710"
+}
