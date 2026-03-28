@@ -11,8 +11,8 @@ dist/
 build/
 
 # Cache files (too large)
-# cache/history/  # 已注释，允许提交数据
-# cache/*.json    # 已注释，允许提交数据
+cache/history/
+cache/*.json
 
 # Logs
 logs/*.log
