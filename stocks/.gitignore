@@ -1,34 +1,23 @@
+# 数据缓存
+data_tushare/
+cache/
+logs/
+
+# 回测结果
+backtest_results/*.csv
+backtest_results/*.json
+backtest_results/*.log
+
+# 分析报告
+analysis_reports/
+*.md
+
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
-.Python
-env/
-venv/
-*.egg-info/
-dist/
-build/
 
-# Cache files (too large)
-cache/history/
-cache/*.json
-
-# Logs
-logs/*.log
-logs/scan_*.log
-logs/auto_scan*.log
-
-# Optimization results
-optimization_results/
-
-# Token files
-.akshare/
-xueqiu_token.txt
-
-# Test files
-test_*.py
-
-# Temporary files
-*.tmp
-*.bak
+# 配置文件
+a_stock_codes_fixed.json
+*.json
