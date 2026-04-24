@@ -1,0 +1,38 @@
+============================================================
+神经网络选股模型 V7 - 盈利优化版
+============================================================
+
+准备训练数据...
+发现 5,503 只股票数据
+选择 1500 只股票进行训练
+已加载 600/1500 只股票，累计 418,105 条样本
+已加载 900/1500 只股票，累计 631,230 条样本
+已加载 1200/1500 只股票，累计 842,119 条样本
+已加载 1500/1500 只股票，累计 1,051,674 条样本
+
+合并数据...
+总样本数：1,051,674
+正样本比例：17.1%
+采样后：779,996 条 (正样本：23.1%)
+特征矩阵：(779996, 20)
+特征内存：59.5MB
+样本权重范围：0.10 - 5.00
+训练集：530,396
+验证集：93,600
+测试集：156,000
+标准化...
+临时数据已保存到：/Users/taopeng/.openclaw/workspace/stocks/models/temp_v7
+============================================================
+分批训练 5 个模型...
+============================================================
+
+加载数据...
+训练模型 1 (seed=42)...
+Traceback (most recent call last):
+  File "/Users/taopeng/.openclaw/workspace/stocks/ml_train_neural_v7_profit.py", line 444, in <module>
+    main()
+  File "/Users/taopeng/.openclaw/workspace/stocks/ml_train_neural_v7_profit.py", line 426, in main
+    auc = train_single_model(temp_dir, seed, i)
+  File "/Users/taopeng/.openclaw/workspace/stocks/ml_train_neural_v7_profit.py", line 282, in train_single_model
+    model = MLPClassifier(
+TypeError: __init__() got an unexpected keyword argument 'class_weight'

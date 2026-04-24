@@ -1,0 +1,15 @@
+======================================================================
+📊 全市场历史数据批量获取
+======================================================================
+数据目录：/home/admin/.openclaw/workspace/stocks/data_tushare
+日期范围：20230101 至 20241231
+请求间隔：0.1秒
+======================================================================
+
+📋 获取股票列表...
+Traceback (most recent call last):
+  File "fetch_all_stocks_history.py", line 41, in <module>
+    df_stocks = pro.stock_basic(exchange='', list_status='L', fields='ts_code,symbol,name,market')
+  File "/home/admin/.local/lib/python3.6/site-packages/tushare/pro/client.py", line 46, in query
+    raise Exception(result['msg'])
+Exception: 抱歉，您每分钟最多访问该接口1次，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。

@@ -1,0 +1,132 @@
+============================================================
+神经网络选股模型 V4 - 简化增强版
+============================================================
+发现 5,503 只股票数据
+选择 1500 只股票进行训练
+已加载 300/1500 只股票，累计 224,718 条样本
+已加载 600/1500 只股票，累计 450,605 条样本
+已加载 900/1500 只股票，累计 676,567 条样本
+已加载 1200/1500 只股票，累计 897,857 条样本
+已加载 1500/1500 只股票，累计 1,122,100 条样本
+
+合并数据...
+总样本数：1,122,100
+正样本比例：25.5%
+采样后：600,000 条 (正样本：33.3%)
+准备数据...
+特征矩阵：(600000, 12)
+特征内存：27.5MB
+训练集：480,000
+测试集：120,000
+标准化...
+============================================================
+训练神经网络...
+============================================================
+Iteration 1, loss = 0.62332961
+Validation score: 0.678104
+Iteration 2, loss = 0.61806378
+Validation score: 0.679063
+Iteration 3, loss = 0.61594083
+Validation score: 0.679708
+Iteration 4, loss = 0.61460590
+Validation score: 0.680771
+Iteration 5, loss = 0.61344292
+Validation score: 0.681937
+Iteration 6, loss = 0.61240881
+Validation score: 0.683000
+Iteration 7, loss = 0.61157075
+Validation score: 0.683333
+Iteration 8, loss = 0.61064824
+Validation score: 0.684083
+Iteration 9, loss = 0.61000744
+Validation score: 0.682979
+Iteration 10, loss = 0.60945591
+Validation score: 0.684604
+Iteration 11, loss = 0.60904794
+Validation score: 0.685042
+Iteration 12, loss = 0.60837195
+Validation score: 0.684208
+Iteration 13, loss = 0.60812775
+Validation score: 0.684458
+Iteration 14, loss = 0.60740175
+Validation score: 0.685187
+Iteration 15, loss = 0.60716332
+Validation score: 0.684896
+Iteration 16, loss = 0.60679143
+Validation score: 0.685125
+Iteration 17, loss = 0.60632168
+Validation score: 0.684937
+Iteration 18, loss = 0.60607524
+Validation score: 0.684521
+Iteration 19, loss = 0.60571728
+Validation score: 0.686292
+Iteration 20, loss = 0.60547775
+Validation score: 0.686375
+Iteration 21, loss = 0.60513469
+Validation score: 0.685792
+Iteration 22, loss = 0.60489625
+Validation score: 0.686333
+Iteration 23, loss = 0.60460191
+Validation score: 0.685583
+Iteration 24, loss = 0.60430627
+Validation score: 0.685229
+Iteration 25, loss = 0.60406273
+Validation score: 0.686417
+Iteration 26, loss = 0.60389051
+Validation score: 0.686833
+Iteration 27, loss = 0.60350529
+Validation score: 0.687146
+Iteration 28, loss = 0.60324472
+Validation score: 0.687083
+Iteration 29, loss = 0.60304913
+Validation score: 0.685500
+Iteration 30, loss = 0.60285190
+Validation score: 0.686271
+Iteration 31, loss = 0.60270181
+Validation score: 0.686604
+Iteration 32, loss = 0.60230767
+Validation score: 0.686917
+Iteration 33, loss = 0.60223816
+Validation score: 0.685917
+Iteration 34, loss = 0.60200290
+Validation score: 0.685792
+Iteration 35, loss = 0.60181558
+Validation score: 0.686063
+Iteration 36, loss = 0.60166345
+Validation score: 0.685229
+Iteration 37, loss = 0.60145973
+Validation score: 0.685583
+Iteration 38, loss = 0.60114307
+Validation score: 0.687083
+Validation score did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+
+训练完成：259s
+迭代次数：38
+最终损失：0.6011
+============================================================
+评估结果
+============================================================
+准确率：0.6860
+精确率：0.6512
+召回率：0.1252
+F1: 0.2100
+AUC: 0.6214
+
+| 阈值 | 覆盖 | 精确率 |
+| 50% | 7689 | 0.6512 |
+| 55% | 5554 | 0.7029 |
+| 60% | 4307 | 0.7448 |
+| 65% | 3405 | 0.7815 |
+| 70% | 2785 | 0.8251 |
+| 75% | 2301 | 0.8644 |
+| 80% | 1884 | 0.8938 |
+| 85% | 1537 | 0.9278 |
+| 90% | 1169 | 0.9521 |
+
+最佳阈值：90% (精确率：0.9521)
+
+模型已保存：/Users/taopeng/.openclaw/workspace/stocks/models/ml_nn_v4_20260417_225658.pkl
+============================================================
+总耗时：313s
+完成时间：2026-04-17 22:56:58.394969
+============================================================

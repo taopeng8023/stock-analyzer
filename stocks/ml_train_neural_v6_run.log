@@ -1,0 +1,35 @@
+============================================================
+神经网络选股模型 V6 - 集成学习版
+============================================================
+发现 5,503 只股票数据
+选择 2000 只股票进行训练
+已加载 400/2000 只股票，累计 302,149 条样本
+已加载 800/2000 只股票，累计 600,241 条样本
+已加载 1200/2000 只股票，累计 902,747 条样本
+已加载 1600/2000 只股票，累计 1,204,925 条样本
+已加载 2000/2000 只股票，累计 1,507,468 条样本
+
+合并数据...
+总样本数：1,507,468
+正样本比例：25.5%
+采样后：900,000 条 (正样本：33.3%)
+准备数据...
+特征矩阵：(900000, 15)
+特征内存：51.5MB
+训练集：612,000
+验证集：108,000
+测试集：180,000
+标准化...
+============================================================
+训练集成模型 (5 个)...
+============================================================
+
+训练模型 1/5 (seed=42)...
+Traceback (most recent call last):
+  File "/Users/taopeng/.openclaw/workspace/stocks/ml_train_neural_v6.py", line 337, in <module>
+    main()
+  File "/Users/taopeng/.openclaw/workspace/stocks/ml_train_neural_v6.py", line 269, in main
+    model, auc = train_single_model(X_train_s, y_train, X_val_s, y_val, seed, i)
+  File "/Users/taopeng/.openclaw/workspace/stocks/ml_train_neural_v6.py", line 142, in train_single_model
+    model = MLPClassifier(
+TypeError: __init__() got an unexpected keyword argument 'class_weight'

@@ -1,0 +1,15 @@
+[2026-04-08 06:50:06] ================================================================================
+[2026-04-08 06:50:06] 📊 继续获取 A 股历史数据
+[2026-04-08 06:50:06] ================================================================================
+[2026-04-08 06:50:06] 日期范围：20230101 ~ 20241231
+[2026-04-08 06:50:06] 数据目录：/home/admin/.openclaw/workspace/stocks/data_tushare
+[2026-04-08 06:50:06] 
+[1/3] 加载股票列表...
+Traceback (most recent call last):
+  File "fetch_continue.py", line 181, in <module>
+    main()
+  File "fetch_continue.py", line 121, in main
+    all_stocks = load_stock_list()
+  File "fetch_continue.py", line 37, in load_stock_list
+    stocks.append(row['ts_code'])
+KeyError: 'ts_code'

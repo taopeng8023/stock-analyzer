@@ -1,0 +1,41 @@
+============================================================
+神经网络选股模型 V7 - 盈利优化版
+============================================================
+
+准备训练数据...
+发现 5,503 只股票数据
+选择 1500 只股票进行训练
+已加载 300/1500 只股票，累计 208,909 条样本
+已加载 600/1500 只股票，累计 419,363 条样本
+已加载 900/1500 只股票，累计 627,041 条样本
+已加载 1200/1500 只股票，累计 836,607 条样本
+已加载 1500/1500 只股票，累计 1,048,947 条样本
+
+合并数据...
+总样本数：1,048,947
+正样本比例：16.9%
+采样后：777,071 条 (正样本：22.8%)
+特征矩阵：(777071, 20)
+特征内存：59.3MB
+样本权重范围：0.10 - 5.00
+训练集：528,407
+验证集：93,249
+测试集：155,415
+标准化...
+临时数据已保存到：/Users/taopeng/.openclaw/workspace/stocks/models/temp_v7
+============================================================
+分批训练 5 个模型...
+============================================================
+
+加载数据...
+训练模型 1 (seed=42)...
+Traceback (most recent call last):
+  File "/Users/taopeng/.openclaw/workspace/stocks/ml_train_neural_v7_profit.py", line 445, in <module>
+    main()
+  File "/Users/taopeng/.openclaw/workspace/stocks/ml_train_neural_v7_profit.py", line 427, in main
+    auc = train_single_model(temp_dir, seed, i)
+  File "/Users/taopeng/.openclaw/workspace/stocks/ml_train_neural_v7_profit.py", line 300, in train_single_model
+    model.fit(X_train, y_train, sample_weight=weights_train)
+  File "/usr/local/lib/python3.9/site-packages/sklearn/base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+TypeError: fit() got an unexpected keyword argument 'sample_weight'

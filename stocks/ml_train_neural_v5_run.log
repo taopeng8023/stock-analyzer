@@ -1,0 +1,47 @@
+============================================================
+神经网络选股模型 V5 - 深度增强版
+============================================================
+发现 5,503 只股票数据
+选择 2000 只股票进行训练
+已加载 400/2000 只股票，累计 301,353 条样本
+已加载 800/2000 只股票，累计 604,631 条样本
+已加载 1200/2000 只股票，累计 907,974 条样本
+已加载 1600/2000 只股票，累计 1,208,690 条样本
+已加载 2000/2000 只股票，累计 1,508,434 条样本
+
+合并数据...
+总样本数：1,508,434
+正样本比例：25.4%
+采样后：900,000 条 (正样本：33.3%)
+准备数据...
+特征矩阵：(900000, 18)
+特征内存：61.8MB
+训练集：720,000
+测试集：180,000
+标准化...
+/usr/local/lib/python3.9/site-packages/numpy/core/fromnumeric.py:88: RuntimeWarning: invalid value encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+Traceback (most recent call last):
+  File "/Users/taopeng/.openclaw/workspace/stocks/ml_train_neural_v5.py", line 318, in <module>
+    main()
+  File "/Users/taopeng/.openclaw/workspace/stocks/ml_train_neural_v5.py", line 232, in main
+    X_train_s = scaler.fit_transform(X_train)
+  File "/usr/local/lib/python3.9/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/sklearn/base.py", line 918, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/usr/local/lib/python3.9/site-packages/sklearn/preprocessing/_data.py", line 894, in fit
+    return self.partial_fit(X, y, sample_weight)
+  File "/usr/local/lib/python3.9/site-packages/sklearn/base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/sklearn/preprocessing/_data.py", line 930, in partial_fit
+    X = validate_data(
+  File "/usr/local/lib/python3.9/site-packages/sklearn/utils/validation.py", line 2944, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/usr/local/lib/python3.9/site-packages/sklearn/utils/validation.py", line 1107, in check_array
+    _assert_all_finite(
+  File "/usr/local/lib/python3.9/site-packages/sklearn/utils/validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/usr/local/lib/python3.9/site-packages/sklearn/utils/validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains infinity or a value too large for dtype('float32').

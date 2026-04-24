@@ -1,0 +1,28 @@
+============================================================
+神经网络选股模型 V7 - 盈利优化版
+============================================================
+
+准备训练数据...
+发现 5,503 只股票数据
+选择 1500 只股票进行训练
+已加载 300/1500 只股票，累计 212,066 条样本
+已加载 600/1500 只股票，累计 422,928 条样本
+已加载 900/1500 只股票，累计 633,308 条样本
+已加载 1200/1500 只股票，累计 842,853 条样本
+已加载 1500/1500 只股票，累计 1,047,410 条样本
+
+合并数据...
+总样本数：1,047,410
+正样本比例：16.9%
+采样后：777,285 条 (正样本：22.8%)
+特征矩阵：(777285, 20)
+特征内存：59.3MB
+样本权重范围：0.10 - 5.00
+Traceback (most recent call last):
+  File "/Users/taopeng/.openclaw/workspace/stocks/ml_train_neural_v7_profit.py", line 451, in <module>
+    main()
+  File "/Users/taopeng/.openclaw/workspace/stocks/ml_train_neural_v7_profit.py", line 419, in main
+    temp_dir = prepare_data()
+  File "/Users/taopeng/.openclaw/workspace/stocks/ml_train_neural_v7_profit.py", line 234, in prepare_data
+    weights_train_full = weights[X_train_full.index]
+AttributeError: 'numpy.ndarray' object has no attribute 'index'

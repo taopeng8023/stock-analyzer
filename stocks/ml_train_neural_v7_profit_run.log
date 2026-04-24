@@ -1,0 +1,39 @@
+============================================================
+神经网络选股模型 V7 - 盈利优化版
+============================================================
+
+准备训练数据...
+发现 5,503 只股票数据
+选择 1500 只股票进行训练
+已加载 300/1500 只股票，累计 209,293 条样本
+已加载 600/1500 只股票，累计 421,451 条样本
+已加载 900/1500 只股票，累计 633,632 条样本
+已加载 1200/1500 只股票，累计 845,511 条样本
+已加载 1500/1500 只股票，累计 1,054,739 条样本
+
+合并数据...
+总样本数：1,054,739
+正样本比例：17.0%
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 181, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'future_return_5d'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/taopeng/.openclaw/workspace/stocks/ml_train_neural_v7_profit.py", line 452, in <module>
+    main()
+  File "/Users/taopeng/.openclaw/workspace/stocks/ml_train_neural_v7_profit.py", line 420, in main
+    temp_dir = prepare_data()
+  File "/Users/taopeng/.openclaw/workspace/stocks/ml_train_neural_v7_profit.py", line 201, in prepare_data
+    log(f'收益均值：{combined["future_return_5d"].mean()*100:.2f}%')
+  File "/usr/local/lib/python3.9/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'future_return_5d'

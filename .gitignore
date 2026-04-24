@@ -1,0 +1,32 @@
+# Data files (too large)
+data/
+data_files/
+data_history_2022_2026/
+stocks/data_history_2022_2026/
+stocks/data/
+stocks/models/
+stocks/selections/
+stocks/backtest_results/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.env
+*.key
+*.pem

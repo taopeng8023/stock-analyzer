@@ -1,0 +1,1103 @@
+✅ 缓存数据目录：data_tushare
+✅ 缓存股票数量：5687 只
+======================================================================
+选股系统 V3.0 全市场回测 (使用缓存数据)
+======================================================================
+
+抽样回测：1000 只股票
+
+❌ 加载 600671 数据失败：arrays must all be same length
+❌ 加载 688755 数据失败：arrays must all be same length
+❌ 加载 600885 数据失败：arrays must all be same length
+❌ 加载 300995 数据失败：arrays must all be same length
+❌ 加载 605369 数据失败：arrays must all be same length
+❌ 加载 603869 数据失败：arrays must all be same length
+❌ 加载 000962 数据失败：arrays must all be same length
+❌ 加载 000002 数据失败：arrays must all be same length
+❌ 加载 002182 数据失败：arrays must all be same length
+❌ 加载 003035 数据失败：arrays must all be same length
+❌ 加载 920112 数据失败：arrays must all be same length
+❌ 加载 002444 数据失败：arrays must all be same length
+❌ 加载 300554 数据失败：arrays must all be same length
+❌ 加载 688316 数据失败：arrays must all be same length
+❌ 加载 600629 数据失败：arrays must all be same length
+❌ 加载 002689 数据失败：arrays must all be same length
+❌ 加载 920056 数据失败：arrays must all be same length
+❌ 加载 002162 数据失败：arrays must all be same length
+❌ 加载 300154 数据失败：arrays must all be same length
+❌ 加载 600339 数据失败：arrays must all be same length
+❌ 加载 001400 数据失败：arrays must all be same length
+❌ 加载 688282 数据失败：arrays must all be same length
+❌ 加载 601187 数据失败：arrays must all be same length
+❌ 加载 600360 数据失败：arrays must all be same length
+❌ 加载 fetch_progress_batch_42 数据失败：Mixing dicts with non-Series may lead to ambiguous ordering.
+❌ 加载 920163 数据失败：arrays must all be same length
+❌ 加载 301338 数据失败：arrays must all be same length
+❌ 加载 605377 数据失败：arrays must all be same length
+❌ 加载 920005 数据失败：arrays must all be same length
+❌ 加载 688127 数据失败：arrays must all be same length
+❌ 加载 002625 数据失败：arrays must all be same length
+❌ 加载 301578 数据失败：arrays must all be same length
+❌ 加载 002947 数据失败：arrays must all be same length
+❌ 加载 600446 数据失败：arrays must all be same length
+❌ 加载 002632 数据失败：arrays must all be same length
+❌ 加载 300274 数据失败：arrays must all be same length
+❌ 加载 688615 数据失败：arrays must all be same length
+❌ 加载 603351 数据失败：arrays must all be same length
+❌ 加载 301251 数据失败：arrays must all be same length
+❌ 加载 301391 数据失败：arrays must all be same length
+❌ 加载 002575 数据失败：arrays must all be same length
+❌ 加载 300948 数据失败：arrays must all be same length
+❌ 加载 603825 数据失败：arrays must all be same length
+❌ 加载 301379 数据失败：arrays must all be same length
+❌ 加载 003009 数据失败：arrays must all be same length
+❌ 加载 002033 数据失败：arrays must all be same length
+❌ 加载 002578 数据失败：arrays must all be same length
+❌ 加载 688805 数据失败：arrays must all be same length
+❌ 加载 603171 数据失败：arrays must all be same length
+❌ 加载 002462 数据失败：arrays must all be same length
+❌ 加载 688535 数据失败：arrays must all be same length
+❌ 加载 002707 数据失败：arrays must all be same length
+❌ 加载 000955 数据失败：arrays must all be same length
+❌ 加载 001390 数据失败：arrays must all be same length
+❌ 加载 000975 数据失败：arrays must all be same length
+❌ 加载 688267 数据失败：arrays must all be same length
+❌ 加载 600231 数据失败：arrays must all be same length
+❌ 加载 002287 数据失败：arrays must all be same length
+❌ 加载 002429 数据失败：arrays must all be same length
+❌ 加载 920779 数据失败：arrays must all be same length
+❌ 加载 600617 数据失败：arrays must all be same length
+❌ 加载 601888 数据失败：arrays must all be same length
+❌ 加载 001328 数据失败：arrays must all be same length
+❌ 加载 300162 数据失败：arrays must all be same length
+❌ 加载 689009 数据失败：arrays must all be same length
+❌ 加载 000848 数据失败：arrays must all be same length
+❌ 加载 fetch_progress_batch_43 数据失败：Mixing dicts with non-Series may lead to ambiguous ordering.
+❌ 加载 300953 数据失败：arrays must all be same length
+❌ 加载 002412 数据失败：arrays must all be same length
+❌ 加载 002131 数据失败：arrays must all be same length
+❌ 加载 603136 数据失败：arrays must all be same length
+❌ 加载 300380 数据失败：arrays must all be same length
+❌ 加载 300181 数据失败：arrays must all be same length
+❌ 加载 300180 数据失败：arrays must all be same length
+
+======================================================================
+📊 回测报告
+======================================================================
+
+📈 收益统计
+   初始资金：    ¥  100,000.00
+   最终价值：    ¥   97,061.15
+   总盈利：      ¥   -2,834.52
+   总收益率：           -2.94%
+   年化收益：           -3.01%
+
+📊 交易统计
+   总交易次数：             5 次
+   盈利次数：               1 次
+   亏损次数：               4 次
+   胜率：               20.00%
+   盈亏比：              0.69
+
+⚠️  风险指标
+   最大回撤：           18.49%
+   波动率：             18.80%
+   夏普比率：           -0.32
+
+======================================================================
+❌ 加载 688329 数据失败：arrays must all be same length
+❌ 加载 920640 数据失败：arrays must all be same length
+❌ 加载 600100 数据失败：arrays must all be same length
+❌ 加载 605298 数据失败：arrays must all be same length
+❌ 加载 920183 数据失败：arrays must all be same length
+❌ 加载 920088 数据失败：arrays must all be same length
+❌ 加载 300609 数据失败：arrays must all be same length
+❌ 加载 601113 数据失败：arrays must all be same length
+❌ 加载 920351 数据失败：arrays must all be same length
+❌ 加载 605228 数据失败：arrays must all be same length
+❌ 加载 600189 数据失败：arrays must all be same length
+❌ 加载 300983 数据失败：arrays must all be same length
+❌ 加载 001234 数据失败：arrays must all be same length
+❌ 加载 688557 数据失败：arrays must all be same length
+❌ 加载 688283 数据失败：arrays must all be same length
+❌ 加载 002217 数据失败：arrays must all be same length
+❌ 加载 601988 数据失败：arrays must all be same length
+❌ 加载 002879 数据失败：arrays must all be same length
+❌ 加载 301386 数据失败：arrays must all be same length
+❌ 加载 600808 数据失败：arrays must all be same length
+❌ 加载 002154 数据失败：arrays must all be same length
+❌ 加载 920491 数据失败：arrays must all be same length
+❌ 加载 002714 数据失败：arrays must all be same length
+❌ 加载 003008 数据失败：arrays must all be same length
+❌ 加载 301126 数据失败：arrays must all be same length
+❌ 加载 002853 数据失败：arrays must all be same length
+❌ 加载 001278 数据失败：arrays must all be same length
+❌ 加载 300677 数据失败：arrays must all be same length
+❌ 加载 603650 数据失败：arrays must all be same length
+❌ 加载 600007 数据失败：arrays must all be same length
+❌ 加载 688366 数据失败：arrays must all be same length
+❌ 加载 301060 数据失败：arrays must all be same length
+❌ 加载 002602 数据失败：arrays must all be same length
+❌ 加载 300001 数据失败：arrays must all be same length
+❌ 加载 688246 数据失败：arrays must all be same length
+❌ 加载 300796 数据失败：arrays must all be same length
+❌ 加载 600356 数据失败：arrays must all be same length
+❌ 加载 688737 数据失败：arrays must all be same length
+❌ 加载 600585 数据失败：arrays must all be same length
+❌ 加载 301577 数据失败：arrays must all be same length
+❌ 加载 600995 数据失败：arrays must all be same length
+❌ 加载 601360 数据失败：arrays must all be same length
+❌ 加载 920111 数据失败：arrays must all be same length
+❌ 加载 603196 数据失败：arrays must all be same length
+❌ 加载 301248 数据失败：arrays must all be same length
+❌ 加载 603530 数据失败：arrays must all be same length
+❌ 加载 300153 数据失败：arrays must all be same length
+❌ 加载 688561 数据失败：arrays must all be same length
+❌ 加载 002485 数据失败：arrays must all be same length
+❌ 加载 000503 数据失败：arrays must all be same length
+❌ 加载 600663 数据失败：arrays must all be same length
+❌ 加载 600295 数据失败：arrays must all be same length
+❌ 加载 002136 数据失败：arrays must all be same length
+❌ 加载 000890 数据失败：arrays must all be same length
+❌ 加载 300171 数据失败：arrays must all be same length
+❌ 加载 002186 数据失败：arrays must all be same length
+❌ 加载 300511 数据失败：arrays must all be same length
+
+======================================================================
+📊 回测报告
+======================================================================
+
+📈 收益统计
+   初始资金：    ¥  100,000.00
+   最终价值：    ¥  100,000.00
+   总盈利：      ¥        0.00
+   总收益率：            0.00%
+   年化收益：            0.00%
+
+📊 交易统计
+   总交易次数：             0 次
+   盈利次数：               0 次
+   亏损次数：               0 次
+   胜率：                0.00%
+   盈亏比：               inf
+
+⚠️  风险指标
+   最大回撤：            0.00%
+   波动率：              0.00%
+   夏普比率：            0.00
+
+======================================================================
+❌ 加载 300318 数据失败：arrays must all be same length
+❌ 加载 002694 数据失败：arrays must all be same length
+❌ 加载 688565 数据失败：arrays must all be same length
+❌ 加载 300855 数据失败：arrays must all be same length
+❌ 加载 605288 数据失败：arrays must all be same length
+❌ 加载 301508 数据失败：arrays must all be same length
+❌ 加载 601118 数据失败：arrays must all be same length
+❌ 加载 002039 数据失败：arrays must all be same length
+❌ 加载 002315 数据失败：arrays must all be same length
+❌ 加载 603186 数据失败：arrays must all be same length
+❌ 加载 000605 数据失败：arrays must all be same length
+❌ 加载 600660 数据失败：arrays must all be same length
+❌ 加载 001369 数据失败：arrays must all be same length
+❌ 加载 601002 数据失败：arrays must all be same length
+❌ 加载 920792 数据失败：arrays must all be same length
+❌ 加载 605066 数据失败：arrays must all be same length
+❌ 加载 301302 数据失败：arrays must all be same length
+❌ 加载 300576 数据失败：arrays must all be same length
+❌ 加载 000728 数据失败：arrays must all be same length
+❌ 加载 920030 数据失败：arrays must all be same length
+❌ 加载 000600 数据失败：arrays must all be same length
+❌ 加载 002722 数据失败：arrays must all be same length
+❌ 加载 001330 数据失败：arrays must all be same length
+❌ 加载 600605 数据失败：arrays must all be same length
+❌ 加载 301178 数据失败：arrays must all be same length
+❌ 加载 progress_batch_76 数据失败：If using all scalar values, you must pass an index
+❌ 加载 002670 数据失败：arrays must all be same length
+❌ 加载 300826 数据失败：arrays must all be same length
+❌ 加载 603383 数据失败：arrays must all be same length
+❌ 加载 600345 数据失败：arrays must all be same length
+❌ 加载 300666 数据失败：arrays must all be same length
+❌ 加载 002425 数据失败：arrays must all be same length
+❌ 加载 603132 数据失败：arrays must all be same length
+❌ 加载 301197 数据失败：arrays must all be same length
+❌ 加载 600488 数据失败：arrays must all be same length
+❌ 加载 000552 数据失败：arrays must all be same length
+❌ 加载 688195 数据失败：arrays must all be same length
+❌ 加载 603808 数据失败：arrays must all be same length
+❌ 加载 920961 数据失败：arrays must all be same length
+❌ 加载 300501 数据失败：arrays must all be same length
+❌ 加载 688085 数据失败：arrays must all be same length
+❌ 加载 603611 数据失败：arrays must all be same length
+❌ 加载 600666 数据失败：arrays must all be same length
+❌ 加载 300517 数据失败：arrays must all be same length
+❌ 加载 603004 数据失败：arrays must all be same length
+❌ 加载 920593 数据失败：arrays must all be same length
+❌ 加载 300053 数据失败：arrays must all be same length
+❌ 加载 300561 数据失败：arrays must all be same length
+❌ 加载 000591 数据失败：arrays must all be same length
+❌ 加载 600307 数据失败：arrays must all be same length
+❌ 加载 002383 数据失败：arrays must all be same length
+❌ 加载 600702 数据失败：arrays must all be same length
+❌ 加载 600383 数据失败：arrays must all be same length
+❌ 加载 688311 数据失败：arrays must all be same length
+❌ 加载 603590 数据失败：arrays must all be same length
+❌ 加载 688121 数据失败：arrays must all be same length
+❌ 加载 301310 数据失败：arrays must all be same length
+❌ 加载 301312 数据失败：arrays must all be same length
+❌ 加载 002559 数据失败：arrays must all be same length
+❌ 加载 300549 数据失败：arrays must all be same length
+❌ 加载 progress_batch_41 数据失败：If using all scalar values, you must pass an index
+❌ 加载 300292 数据失败：arrays must all be same length
+❌ 加载 progress_batch_98 数据失败：If using all scalar values, you must pass an index
+❌ 加载 300096 数据失败：arrays must all be same length
+❌ 加载 688528 数据失败：arrays must all be same length
+❌ 加载 601668 数据失败：arrays must all be same length
+❌ 加载 301603 数据失败：arrays must all be same length
+❌ 加载 301536 数据失败：arrays must all be same length
+❌ 加载 000586 数据失败：arrays must all be same length
+❌ 加载 301110 数据失败：arrays must all be same length
+❌ 加载 600754 数据失败：arrays must all be same length
+❌ 加载 601633 数据失败：arrays must all be same length
+❌ 加载 000898 数据失败：arrays must all be same length
+❌ 加载 002898 数据失败：arrays must all be same length
+❌ 加载 603156 数据失败：arrays must all be same length
+❌ 加载 688622 数据失败：arrays must all be same length
+❌ 加载 603021 数据失败：arrays must all be same length
+❌ 加载 003038 数据失败：arrays must all be same length
+❌ 加载 920964 数据失败：arrays must all be same length
+❌ 加载 002329 数据失败：arrays must all be same length
+❌ 加载 688501 数据失败：arrays must all be same length
+❌ 加载 600257 数据失败：arrays must all be same length
+❌ 加载 300350 数据失败：arrays must all be same length
+❌ 加载 fetch_progress_batch_48 数据失败：Mixing dicts with non-Series may lead to ambiguous ordering.
+❌ 加载 301333 数据失败：arrays must all be same length
+❌ 加载 603031 数据失败：arrays must all be same length
+❌ 加载 002991 数据失败：arrays must all be same length
+❌ 加载 002798 数据失败：arrays must all be same length
+❌ 加载 002691 数据失败：arrays must all be same length
+❌ 加载 300972 数据失败：arrays must all be same length
+❌ 加载 300167 数据失败：arrays must all be same length
+❌ 加载 300839 数据失败：arrays must all be same length
+❌ 加载 603711 数据失败：arrays must all be same length
+❌ 加载 301507 数据失败：arrays must all be same length
+❌ 加载 301568 数据失败：arrays must all be same length
+❌ 加载 002044 数据失败：arrays must all be same length
+❌ 加载 301112 数据失败：arrays must all be same length
+❌ 加载 600192 数据失败：arrays must all be same length
+❌ 加载 300960 数据失败：arrays must all be same length
+❌ 加载 300973 数据失败：arrays must all be same length
+❌ 加载 300770 数据失败：arrays must all be same length
+❌ 加载 603601 数据失败：arrays must all be same length
+❌ 加载 600722 数据失败：arrays must all be same length
+❌ 加载 002229 数据失败：arrays must all be same length
+❌ 加载 000813 数据失败：arrays must all be same length
+❌ 加载 301258 数据失败：arrays must all be same length
+❌ 加载 002121 数据失败：arrays must all be same length
+❌ 加载 002165 数据失败：arrays must all be same length
+❌ 加载 002300 数据失败：arrays must all be same length
+❌ 加载 300810 数据失败：arrays must all be same length
+❌ 加载 002366 数据失败：arrays must all be same length
+❌ 加载 fetch_progress_batch_44 数据失败：Mixing dicts with non-Series may lead to ambiguous ordering.
+❌ 加载 002414 数据失败：arrays must all be same length
+❌ 加载 603150 数据失败：arrays must all be same length
+❌ 加载 920036 数据失败：arrays must all be same length
+❌ 加载 301279 数据失败：arrays must all be same length
+❌ 加载 600673 数据失败：arrays must all be same length
+❌ 加载 600880 数据失败：arrays must all be same length
+❌ 加载 603301 数据失败：arrays must all be same length
+❌ 加载 002852 数据失败：arrays must all be same length
+❌ 加载 300387 数据失败：arrays must all be same length
+❌ 加载 000915 数据失败：arrays must all be same length
+❌ 加载 600501 数据失败：arrays must all be same length
+❌ 加载 301585 数据失败：arrays must all be same length
+❌ 加载 605167 数据失败：arrays must all be same length
+❌ 加载 300663 数据失败：arrays must all be same length
+❌ 加载 002622 数据失败：arrays must all be same length
+❌ 加载 601609 数据失败：arrays must all be same length
+❌ 加载 601616 数据失败：arrays must all be same length
+❌ 加载 002788 数据失败：arrays must all be same length
+❌ 加载 progress_batch_19 数据失败：If using all scalar values, you must pass an index
+❌ 加载 301358 数据失败：arrays must all be same length
+❌ 加载 603117 数据失败：arrays must all be same length
+❌ 加载 300822 数据失败：arrays must all be same length
+❌ 加载 301558 数据失败：arrays must all be same length
+❌ 加载 000886 数据失败：arrays must all be same length
+❌ 加载 603828 数据失败：arrays must all be same length
+❌ 加载 600303 数据失败：arrays must all be same length
+❌ 加载 601388 数据失败：arrays must all be same length
+❌ 加载 300880 数据失败：arrays must all be same length
+❌ 加载 300313 数据失败：arrays must all be same length
+❌ 加载 600526 数据失败：arrays must all be same length
+❌ 加载 002671 数据失败：arrays must all be same length
+❌ 加载 002522 数据失败：arrays must all be same length
+❌ 加载 000571 数据失败：arrays must all be same length
+❌ 加载 688520 数据失败：arrays must all be same length
+❌ 加载 603389 数据失败：arrays must all be same length
+❌ 加载 000868 数据失败：arrays must all be same length
+❌ 加载 603583 数据失败：arrays must all be same length
+❌ 加载 603023 数据失败：arrays must all be same length
+❌ 加载 688410 数据失败：arrays must all be same length
+❌ 加载 920527 数据失败：arrays must all be same length
+❌ 加载 progress_batch_89 数据失败：If using all scalar values, you must pass an index
+❌ 加载 688213 数据失败：arrays must all be same length
+❌ 加载 688307 数据失败：arrays must all be same length
+❌ 加载 300107 数据失败：arrays must all be same length
+❌ 加载 002579 数据失败：arrays must all be same length
+❌ 加载 301023 数据失败：arrays must all be same length
+❌ 加载 300047 数据失败：arrays must all be same length
+❌ 加载 300669 数据失败：arrays must all be same length
+❌ 加载 002550 数据失败：arrays must all be same length
+❌ 加载 603179 数据失败：arrays must all be same length
+❌ 加载 001279 数据失败：arrays must all be same length
+❌ 加载 000968 数据失败：arrays must all be same length
+❌ 加载 300739 数据失败：arrays must all be same length
+❌ 加载 000629 数据失败：arrays must all be same length
+❌ 加载 300999 数据失败：arrays must all be same length
+❌ 加载 600262 数据失败：arrays must all be same length
+❌ 加载 002445 数据失败：arrays must all be same length
+❌ 加载 301567 数据失败：arrays must all be same length
+❌ 加载 progress_batch_25 数据失败：If using all scalar values, you must pass an index
+❌ 加载 301308 数据失败：arrays must all be same length
+❌ 加载 000596 数据失败：arrays must all be same length
+❌ 加载 603602 数据失败：arrays must all be same length
+❌ 加载 600481 数据失败：arrays must all be same length
+❌ 加载 000652 数据失败：arrays must all be same length
+❌ 加载 002489 数据失败：arrays must all be same length
+❌ 加载 688813 数据失败：arrays must all be same length
+❌ 加载 603948 数据失败：arrays must all be same length
+❌ 加载 300773 数据失败：arrays must all be same length
+❌ 加载 002408 数据失败：arrays must all be same length
+❌ 加载 920273 数据失败：arrays must all be same length
+❌ 加载 002014 数据失败：arrays must all be same length
+❌ 加载 603279 数据失败：arrays must all be same length
+❌ 加载 688618 数据失败：arrays must all be same length
+❌ 加载 603600 数据失败：arrays must all be same length
+❌ 加载 301024 数据失败：arrays must all be same length
+❌ 加载 301078 数据失败：arrays must all be same length
+❌ 加载 601000 数据失败：arrays must all be same length
+❌ 加载 603092 数据失败：arrays must all be same length
+❌ 加载 000812 数据失败：arrays must all be same length
+❌ 加载 600352 数据失败：arrays must all be same length
+❌ 加载 000633 数据失败：arrays must all be same length
+❌ 加载 002656 数据失败：arrays must all be same length
+❌ 加载 002099 数据失败：arrays must all be same length
+❌ 加载 progress_batch_92 数据失败：If using all scalar values, you must pass an index
+❌ 加载 601956 数据失败：arrays must all be same length
+❌ 加载 600661 数据失败：arrays must all be same length
+❌ 加载 300651 数据失败：arrays must all be same length
+❌ 加载 002078 数据失败：arrays must all be same length
+❌ 加载 301152 数据失败：arrays must all be same length
+❌ 加载 002368 数据失败：arrays must all be same length
+❌ 加载 002570 数据失败：arrays must all be same length
+❌ 加载 301082 数据失败：arrays must all be same length
+❌ 加载 300268 数据失败：arrays must all be same length
+❌ 加载 603360 数据失败：arrays must all be same length
+❌ 加载 600459 数据失败：arrays must all be same length
+❌ 加载 002549 数据失败：arrays must all be same length
+❌ 加载 002322 数据失败：arrays must all be same length
+❌ 加载 603809 数据失败：arrays must all be same length
+❌ 加载 601001 数据失败：arrays must all be same length
+❌ 加载 600612 数据失败：arrays must all be same length
+❌ 加载 688693 数据失败：arrays must all be same length
+❌ 加载 600366 数据失败：arrays must all be same length
+❌ 加载 688234 数据失败：arrays must all be same length
+❌ 加载 002187 数据失败：arrays must all be same length
+❌ 加载 001289 数据失败：arrays must all be same length
+❌ 加载 603758 数据失败：arrays must all be same length
+❌ 加载 300057 数据失败：arrays must all be same length
+❌ 加载 688063 数据失败：arrays must all be same length
+❌ 加载 progress_batch_104 数据失败：If using all scalar values, you must pass an index
+❌ 加载 002498 数据失败：arrays must all be same length
+❌ 加载 300778 数据失败：arrays must all be same length
+❌ 加载 601665 数据失败：arrays must all be same length
+❌ 加载 920924 数据失败：arrays must all be same length
+❌ 加载 605016 数据失败：arrays must all be same length
+❌ 加载 920675 数据失败：arrays must all be same length
+❌ 加载 920132 数据失败：arrays must all be same length
+❌ 加载 301209 数据失败：arrays must all be same length
+❌ 加载 301075 数据失败：arrays must all be same length
+❌ 加载 603299 数据失败：arrays must all be same length
+❌ 加载 600280 数据失败：arrays must all be same length
+❌ 加载 002394 数据失败：arrays must all be same length
+❌ 加载 688793 数据失败：arrays must all be same length
+❌ 加载 000603 数据失败：arrays must all be same length
+❌ 加载 603685 数据失败：arrays must all be same length
+❌ 加载 603980 数据失败：arrays must all be same length
+❌ 加载 688133 数据失败：arrays must all be same length
+❌ 加载 920807 数据失败：arrays must all be same length
+❌ 加载 603373 数据失败：arrays must all be same length
+❌ 加载 000593 数据失败：arrays must all be same length
+❌ 加载 688193 数据失败：arrays must all be same length
+❌ 加载 002145 数据失败：arrays must all be same length
+❌ 加载 300820 数据失败：arrays must all be same length
+❌ 加载 002486 数据失败：arrays must all be same length
+❌ 加载 300667 数据失败：arrays must all be same length
+❌ 加载 300578 数据失败：arrays must all be same length
+❌ 加载 300864 数据失败：arrays must all be same length
+❌ 加载 002128 数据失败：arrays must all be same length
+❌ 加载 002306 数据失败：arrays must all be same length
+❌ 加载 600624 数据失败：arrays must all be same length
+❌ 加载 301566 数据失败：arrays must all be same length
+❌ 加载 688659 数据失败：arrays must all be same length
+❌ 加载 601990 数据失败：arrays must all be same length
+❌ 加载 002596 数据失败：arrays must all be same length
+❌ 加载 300496 数据失败：arrays must all be same length
+❌ 加载 002431 数据失败：arrays must all be same length
+❌ 加载 603931 数据失败：arrays must all be same length
+❌ 加载 300903 数据失败：arrays must all be same length
+❌ 加载 600239 数据失败：arrays must all be same length
+❌ 加载 000620 数据失败：arrays must all be same length
+❌ 加载 001219 数据失败：arrays must all be same length
+❌ 加载 000701 数据失败：arrays must all be same length
+❌ 加载 603398 数据失败：arrays must all be same length
+❌ 加载 300917 数据失败：arrays must all be same length
+❌ 加载 600278 数据失败：arrays must all be same length
+❌ 加载 300993 数据失败：arrays must all be same length
+❌ 加载 603800 数据失败：arrays must all be same length
+❌ 加载 603289 数据失败：arrays must all be same length
+❌ 加载 688375 数据失败：arrays must all be same length
+❌ 加载 000720 数据失败：arrays must all be same length
+❌ 加载 301157 数据失败：arrays must all be same length
+❌ 加载 000809 数据失败：arrays must all be same length
+❌ 加载 progress_batch_64 数据失败：If using all scalar values, you must pass an index
+❌ 加载 000903 数据失败：arrays must all be same length
+❌ 加载 002223 数据失败：arrays must all be same length
+❌ 加载 688607 数据失败：arrays must all be same length
+❌ 加载 688578 数据失败：arrays must all be same length
+❌ 加载 301202 数据失败：arrays must all be same length
+❌ 加载 300482 数据失败：arrays must all be same length
+❌ 加载 920367 数据失败：arrays must all be same length
+❌ 加载 688396 数据失败：arrays must all be same length
+❌ 加载 301602 数据失败：arrays must all be same length
+❌ 加载 603567 数据失败：arrays must all be same length
+❌ 加载 600418 数据失败：arrays must all be same length
+❌ 加载 688660 数据失败：arrays must all be same length
+❌ 加载 600917 数据失败：arrays must all be same length
+❌ 加载 603615 数据失败：arrays must all be same length
+❌ 加载 301077 数据失败：arrays must all be same length
+❌ 加载 002813 数据失败：arrays must all be same length
+❌ 加载 300654 数据失败：arrays must all be same length
+❌ 加载 688205 数据失败：arrays must all be same length
+❌ 加载 603889 数据失败：arrays must all be same length
+❌ 加载 002555 数据失败：arrays must all be same length
+❌ 加载 600960 数据失败：arrays must all be same length
+❌ 加载 002748 数据失败：arrays must all be same length
+❌ 加载 688288 数据失败：arrays must all be same length
+❌ 加载 002134 数据失败：arrays must all be same length
+❌ 加载 300173 数据失败：arrays must all be same length
+❌ 加载 600888 数据失败：arrays must all be same length
+❌ 加载 605389 数据失败：arrays must all be same length
+❌ 加载 002369 数据失败：arrays must all be same length
+❌ 加载 002561 数据失败：arrays must all be same length
+❌ 加载 688348 数据失败：arrays must all be same length
+❌ 加载 002674 数据失败：arrays must all be same length
+❌ 加载 601162 数据失败：arrays must all be same length
+❌ 加载 600588 数据失败：arrays must all be same length
+❌ 加载 300726 数据失败：arrays must all be same length
+❌ 加载 600622 数据失败：arrays must all be same length
+❌ 加载 688605 数据失败：arrays must all be same length
+❌ 加载 301004 数据失败：arrays must all be same length
+❌ 加载 002318 数据失败：arrays must all be same length
+❌ 加载 603983 数据失败：arrays must all be same length
+❌ 加载 688038 数据失败：arrays must all be same length
+❌ 加载 002564 数据失败：arrays must all be same length
+❌ 加载 603703 数据失败：arrays must all be same length
+❌ 加载 688631 数据失败：arrays must all be same length
+❌ 加载 301016 数据失败：arrays must all be same length
+❌ 加载 000909 数据失败：arrays must all be same length
+❌ 加载 301133 数据失败：arrays must all be same length
+❌ 加载 920266 数据失败：arrays must all be same length
+❌ 加载 300323 数据失败：arrays must all be same length
+❌ 加载 688207 数据失败：arrays must all be same length
+❌ 加载 301218 数据失败：arrays must all be same length
+❌ 加载 002847 数据失败：arrays must all be same length
+❌ 加载 002232 数据失败：arrays must all be same length
+❌ 加载 002177 数据失败：arrays must all be same length
+❌ 加载 000059 数据失败：arrays must all be same length
+❌ 加载 301138 数据失败：arrays must all be same length
+❌ 加载 600476 数据失败：arrays must all be same length
+❌ 加载 000913 数据失败：arrays must all be same length
+❌ 加载 601198 数据失败：arrays must all be same length
+❌ 加载 300281 数据失败：arrays must all be same length
+❌ 加载 301118 数据失败：arrays must all be same length
+❌ 加载 920168 数据失败：arrays must all be same length
+❌ 加载 fetch_progress_batch_24 数据失败：Mixing dicts with non-Series may lead to ambiguous ordering.
+❌ 加载 000685 数据失败：arrays must all be same length
+❌ 加载 002802 数据失败：arrays must all be same length
+❌ 加载 603801 数据失败：arrays must all be same length
+❌ 加载 601138 数据失败：arrays must all be same length
+❌ 加载 601011 数据失败：arrays must all be same length
+❌ 加载 301166 数据失败：arrays must all be same length
+❌ 加载 688115 数据失败：arrays must all be same length
+❌ 加载 301287 数据失败：arrays must all be same length
+❌ 加载 001201 数据失败：arrays must all be same length
+❌ 加载 002342 数据失败：arrays must all be same length
+❌ 加载 601108 数据失败：arrays must all be same length
+❌ 加载 688298 数据失败：arrays must all be same length
+❌ 加载 603896 数据失败：arrays must all be same length
+❌ 加载 300964 数据失败：arrays must all be same length
+❌ 加载 601882 数据失败：arrays must all be same length
+❌ 加载 600521 数据失败：arrays must all be same length
+❌ 加载 301021 数据失败：arrays must all be same length
+❌ 加载 688129 数据失败：arrays must all be same length
+❌ 加载 002202 数据失败：arrays must all be same length
+❌ 加载 601369 数据失败：arrays must all be same length
+❌ 加载 688238 数据失败：arrays must all be same length
+❌ 加载 920009 数据失败：arrays must all be same length
+❌ 加载 002275 数据失败：arrays must all be same length
+❌ 加载 600237 数据失败：arrays must all be same length
+❌ 加载 688198 数据失败：arrays must all be same length
+❌ 加载 603138 数据失败：arrays must all be same length
+❌ 加载 300867 数据失败：arrays must all be same length
+❌ 加载 000852 数据失败：arrays must all be same length
+❌ 加载 301363 数据失败：arrays must all be same length
+❌ 加载 600566 数据失败：arrays must all be same length
+❌ 加载 000657 数据失败：arrays must all be same length
+❌ 加载 progress_batch_81 数据失败：If using all scalar values, you must pass an index
+❌ 加载 000718 数据失败：arrays must all be same length
+❌ 加载 002839 数据失败：arrays must all be same length
+❌ 加载 688037 数据失败：arrays must all be same length
+❌ 加载 688383 数据失败：arrays must all be same length
+❌ 加载 001379 数据失败：arrays must all be same length
+❌ 加载 688509 数据失败：arrays must all be same length
+❌ 加载 001336 数据失败：arrays must all be same length
+❌ 加载 600165 数据失败：arrays must all be same length
+❌ 加载 000850 数据失败：arrays must all be same length
+❌ 加载 600376 数据失败：arrays must all be same length
+❌ 加载 301584 数据失败：arrays must all be same length
+❌ 加载 600643 数据失败：arrays must all be same length
+❌ 加载 003039 数据失败：arrays must all be same length
+❌ 加载 002248 数据失败：arrays must all be same length
+❌ 加载 920839 数据失败：arrays must all be same length
+❌ 加载 002627 数据失败：arrays must all be same length
+❌ 加载 300678 数据失败：arrays must all be same length
+❌ 加载 002363 数据失败：arrays must all be same length
+❌ 加载 001395 数据失败：arrays must all be same length
+❌ 加载 603320 数据失败：arrays must all be same length
+❌ 加载 600470 数据失败：arrays must all be same length
+❌ 加载 progress_batch_28 数据失败：If using all scalar values, you must pass an index
+❌ 加载 002130 数据失败：arrays must all be same length
+❌ 加载 603556 数据失败：arrays must all be same length
+❌ 加载 progress_batch_96 数据失败：If using all scalar values, you must pass an index
+❌ 加载 001267 数据失败：arrays must all be same length
+❌ 加载 300652 数据失败：arrays must all be same length
+❌ 加载 688251 数据失败：arrays must all be same length
+❌ 加载 600458 数据失败：arrays must all be same length
+❌ 加载 920069 数据失败：arrays must all be same length
+❌ 加载 688287 数据失败：arrays must all be same length
+❌ 加载 301035 数据失败：arrays must all be same length
+❌ 加载 301029 数据失败：arrays must all be same length
+❌ 加载 600518 数据失败：arrays must all be same length
+❌ 加载 003043 数据失败：arrays must all be same length
+❌ 加载 603203 数据失败：arrays must all be same length
+❌ 加载 301535 数据失败：arrays must all be same length
+❌ 加载 688191 数据失败：arrays must all be same length
+❌ 加载 300476 数据失败：arrays must all be same length
+❌ 加载 600081 数据失败：arrays must all be same length
+❌ 加载 600691 数据失败：arrays must all be same length
+❌ 加载 progress_batch_45 数据失败：If using all scalar values, you must pass an index
+❌ 加载 600780 数据失败：arrays must all be same length
+❌ 加载 001896 数据失败：arrays must all be same length
+❌ 加载 688819 数据失败：arrays must all be same length
+❌ 加载 600354 数据失败：arrays must all be same length
+❌ 加载 300777 数据失败：arrays must all be same length
+❌ 加载 600639 数据失败：arrays must all be same length
+❌ 加载 600753 数据失败：arrays must all be same length
+❌ 加载 301399 数据失败：arrays must all be same length
+❌ 加载 300612 数据失败：arrays must all be same length
+❌ 加载 300253 数据失败：arrays must all be same length
+❌ 加载 688139 数据失败：arrays must all be same length
+❌ 加载 300644 数据失败：arrays must all be same length
+❌ 加载 000509 数据失败：arrays must all be same length
+❌ 加载 600819 数据失败：arrays must all be same length
+❌ 加载 301307 数据失败：arrays must all be same length
+❌ 加载 600155 数据失败：arrays must all be same length
+❌ 加载 000951 数据失败：arrays must all be same length
+❌ 加载 000408 数据失败：arrays must all be same length
+❌ 加载 000568 数据失败：arrays must all be same length
+❌ 加载 601518 数据失败：arrays must all be same length
+❌ 加载 002440 数据失败：arrays must all be same length
+❌ 加载 000669 数据失败：arrays must all be same length
+❌ 加载 603637 数据失败：arrays must all be same length
+❌ 加载 301588 数据失败：arrays must all be same length
+❌ 加载 002277 数据失败：arrays must all be same length
+❌ 加载 688334 数据失败：arrays must all be same length
+❌ 加载 progress_batch_5 数据失败：If using all scalar values, you must pass an index
+❌ 加载 605007 数据失败：arrays must all be same length
+❌ 加载 301132 数据失败：arrays must all be same length
+❌ 加载 688696 数据失败：arrays must all be same length
+❌ 加载 688319 数据失败：arrays must all be same length
+❌ 加载 301395 数据失败：arrays must all be same length
+❌ 加载 300904 数据失败：arrays must all be same length
+❌ 加载 920541 数据失败：arrays must all be same length
+❌ 加载 002009 数据失败：arrays must all be same length
+❌ 加载 002583 数据失败：arrays must all be same length
+❌ 加载 300556 数据失败：arrays must all be same length
+❌ 加载 fetch_progress_batch_15 数据失败：Mixing dicts with non-Series may lead to ambiguous ordering.
+❌ 加载 300584 数据失败：arrays must all be same length
+❌ 加载 603062 数据失败：arrays must all be same length
+❌ 加载 603298 数据失败：arrays must all be same length
+❌ 加载 301055 数据失败：arrays must all be same length
+❌ 加载 605001 数据失败：arrays must all be same length
+❌ 加载 600809 数据失败：arrays must all be same length
+❌ 加载 300402 数据失败：arrays must all be same length
+❌ 加载 920249 数据失败：arrays must all be same length
+❌ 加载 600901 数据失败：arrays must all be same length
+❌ 加载 301533 数据失败：arrays must all be same length
+❌ 加载 300277 数据失败：arrays must all be same length
+❌ 加载 603990 数据失败：arrays must all be same length
+❌ 加载 603008 数据失败：arrays must all be same length
+❌ 加载 300940 数据失败：arrays must all be same length
+❌ 加载 600801 数据失败：arrays must all be same length
+❌ 加载 603126 数据失败：arrays must all be same length
+❌ 加载 fetch_progress_batch_37 数据失败：Mixing dicts with non-Series may lead to ambiguous ordering.
+❌ 加载 300389 数据失败：arrays must all be same length
+❌ 加载 progress_batch_4 数据失败：If using all scalar values, you must pass an index
+❌ 加载 688079 数据失败：arrays must all be same length
+❌ 加载 603458 数据失败：arrays must all be same length
+❌ 加载 688566 数据失败：arrays must all be same length
+❌ 加载 002878 数据失败：arrays must all be same length
+❌ 加载 000007 数据失败：arrays must all be same length
+❌ 加载 fetch_progress_batch_40 数据失败：Mixing dicts with non-Series may lead to ambiguous ordering.
+❌ 加载 300716 数据失败：arrays must all be same length
+❌ 加载 002056 数据失败：arrays must all be same length
+❌ 加载 603589 数据失败：arrays must all be same length
+❌ 加载 000983 数据失败：arrays must all be same length
+❌ 加载 progress_batch_26 数据失败：If using all scalar values, you must pass an index
+❌ 加载 001367 数据失败：arrays must all be same length
+❌ 加载 600851 数据失败：arrays must all be same length
+❌ 加载 300074 数据失败：arrays must all be same length
+❌ 加载 001318 数据失败：arrays must all be same length
+❌ 加载 301326 数据失败：arrays must all be same length
+❌ 加载 603959 数据失败：arrays must all be same length
+❌ 加载 600197 数据失败：arrays must all be same length
+❌ 加载 600036 数据失败：arrays must all be same length
+❌ 加载 000679 数据失败：arrays must all be same length
+❌ 加载 600620 数据失败：arrays must all be same length
+❌ 加载 301321 数据失败：arrays must all be same length
+❌ 加载 603233 数据失败：arrays must all be same length
+❌ 加载 600833 数据失败：arrays must all be same length
+❌ 加载 603658 数据失败：arrays must all be same length
+❌ 加载 001257 数据失败：arrays must all be same length
+❌ 加载 688223 数据失败：arrays must all be same length
+❌ 加载 301428 数据失败：arrays must all be same length
+❌ 加载 920895 数据失败：arrays must all be same length
+❌ 加载 688419 数据失败：arrays must all be same length
+❌ 加载 601156 数据失败：arrays must all be same length
+❌ 加载 300175 数据失败：arrays must all be same length
+❌ 加载 603836 数据失败：arrays must all be same length
+❌ 加载 920876 数据失败：arrays must all be same length
+❌ 加载 920770 数据失败：arrays must all be same length
+❌ 加载 300570 数据失败：arrays must all be same length
+❌ 加载 300623 数据失败：arrays must all be same length
+❌ 加载 301348 数据失败：arrays must all be same length
+❌ 加载 920118 数据失败：arrays must all be same length
+❌ 加载 300101 数据失败：arrays must all be same length
+❌ 加载 002492 数据失败：arrays must all be same length
+❌ 加载 002402 数据失败：arrays must all be same length
+❌ 加载 002962 数据失败：arrays must all be same length
+❌ 加载 600119 数据失败：arrays must all be same length
+❌ 加载 301015 数据失败：arrays must all be same length
+❌ 加载 600095 数据失败：arrays must all be same length
+❌ 加载 301349 数据失败：arrays must all be same length
+❌ 加载 600900 数据失败：arrays must all be same length
+❌ 加载 601106 数据失败：arrays must all be same length
+❌ 加载 920086 数据失败：arrays must all be same length
+❌ 加载 605222 数据失败：arrays must all be same length
+❌ 加载 688262 数据失败：arrays must all be same length
+❌ 加载 002732 数据失败：arrays must all be same length
+❌ 加载 600241 数据失败：arrays must all be same length
+❌ 加载 600540 数据失败：arrays must all be same length
+❌ 加载 920271 数据失败：arrays must all be same length
+❌ 加载 300272 数据失败：arrays must all be same length
+❌ 加载 002560 数据失败：arrays must all be same length
+❌ 加载 600763 数据失败：arrays must all be same length
+❌ 加载 920092 数据失败：arrays must all be same length
+❌ 加载 600133 数据失败：arrays must all be same length
+❌ 加载 688280 数据失败：arrays must all be same length
+❌ 加载 002869 数据失败：arrays must all be same length
+❌ 加载 301371 数据失败：arrays must all be same length
+❌ 加载 002739 数据失败：arrays must all be same length
+❌ 加载 002249 数据失败：arrays must all be same length
+❌ 加载 002545 数据失败：arrays must all be same length
+❌ 加载 603025 数据失败：arrays must all be same length
+❌ 加载 300453 数据失败：arrays must all be same length
+❌ 加载 603818 数据失败：arrays must all be same length
+❌ 加载 002153 数据失败：arrays must all be same length
+❌ 加载 002094 数据失败：arrays must all be same length
+❌ 加载 300712 数据失败：arrays must all be same length
+❌ 加载 300923 数据失败：arrays must all be same length
+❌ 加载 600892 数据失败：arrays must all be same length
+❌ 加载 300030 数据失败：arrays must all be same length
+❌ 加载 600110 数据失败：arrays must all be same length
+❌ 加载 000783 数据失败：arrays must all be same length
+❌ 加载 000709 数据失败：arrays must all be same length
+❌ 加载 002421 数据失败：arrays must all be same length
+❌ 加载 002733 数据失败：arrays must all be same length
+❌ 加载 300298 数据失败：arrays must all be same length
+❌ 加载 600884 数据失败：arrays must all be same length
+❌ 加载 002328 数据失败：arrays must all be same length
+❌ 加载 600720 数据失败：arrays must all be same length
+❌ 加载 600128 数据失败：arrays must all be same length
+❌ 加载 300319 数据失败：arrays must all be same length
+❌ 加载 300900 数据失败：arrays must all be same length
+❌ 加载 301398 数据失败：arrays must all be same length
+❌ 加载 920076 数据失败：arrays must all be same length
+❌ 加载 601377 数据失败：arrays must all be same length
+
+======================================================================
+📊 回测报告
+======================================================================
+
+📈 收益统计
+   初始资金：    ¥  100,000.00
+   最终价值：    ¥   38,905.33
+   总盈利：      ¥  -61,066.18
+   总收益率：          -61.09%
+   年化收益：          -74.12%
+
+📊 交易统计
+   总交易次数：             1 次
+   盈利次数：               0 次
+   亏损次数：               1 次
+   胜率：                0.00%
+   盈亏比：              0.00
+
+⚠️  风险指标
+   最大回撤：           64.68%
+   波动率：             85.75%
+   夏普比率：           -1.06
+
+======================================================================
+❌ 加载 600895 数据失败：arrays must all be same length
+❌ 加载 000507 数据失败：arrays must all be same length
+❌ 加载 300752 数据失败：arrays must all be same length
+❌ 加载 688230 数据失败：arrays must all be same length
+❌ 加载 301195 数据失败：arrays must all be same length
+❌ 加载 601689 数据失败：arrays must all be same length
+❌ 加载 603680 数据失败：arrays must all be same length
+❌ 加载 301198 数据失败：arrays must all be same length
+❌ 加载 002224 数据失败：arrays must all be same length
+❌ 加载 000537 数据失败：arrays must all be same length
+❌ 加载 002980 数据失败：arrays must all be same length
+❌ 加载 002061 数据失败：arrays must all be same length
+❌ 加载 002723 数据失败：arrays must all be same length
+❌ 加载 603041 数据失败：arrays must all be same length
+❌ 加载 603505 数据失败：arrays must all be same length
+❌ 加载 002038 数据失败：arrays must all be same length
+❌ 加载 603278 数据失败：arrays must all be same length
+❌ 加载 000737 数据失败：arrays must all be same length
+❌ 加载 688062 数据失败：arrays must all be same length
+❌ 加载 603922 数据失败：arrays must all be same length
+❌ 加载 601579 数据失败：arrays must all be same length
+❌ 加载 603888 数据失败：arrays must all be same length
+❌ 加载 600568 数据失败：arrays must all be same length
+❌ 加载 301268 数据失败：arrays must all be same length
+❌ 加载 000088 数据失败：arrays must all be same length
+❌ 加载 002001 数据失败：arrays must all be same length
+❌ 加载 600379 数据失败：arrays must all be same length
+❌ 加载 000949 数据失败：arrays must all be same length
+❌ 加载 002090 数据失败：arrays must all be same length
+❌ 加载 603982 数据失败：arrays must all be same length
+❌ 加载 601528 数据失败：arrays must all be same length
+❌ 加载 600101 数据失败：arrays must all be same length
+❌ 加载 002183 数据失败：arrays must all be same length
+❌ 加载 300893 数据失败：arrays must all be same length
+❌ 加载 600658 数据失败：arrays must all be same length
+❌ 加载 920252 数据失败：arrays must all be same length
+❌ 加载 002213 数据失败：arrays must all be same length
+❌ 加载 601598 数据失败：arrays must all be same length
+❌ 加载 002086 数据失败：arrays must all be same length
+❌ 加载 300841 数据失败：arrays must all be same length
+❌ 加载 688131 数据失败：arrays must all be same length
+❌ 加载 300185 数据失败：arrays must all be same length
+❌ 加载 300324 数据失败：arrays must all be same length
+❌ 加载 603716 数据失败：arrays must all be same length
+❌ 加载 600120 数据失败：arrays must all be same length
+❌ 加载 920957 数据失败：arrays must all be same length
+❌ 加载 603565 数据失败：arrays must all be same length
+❌ 加载 002790 数据失败：arrays must all be same length
+❌ 加载 600830 数据失败：arrays must all be same length
+❌ 加载 600750 数据失败：arrays must all be same length
+❌ 加载 301387 数据失败：arrays must all be same length
+❌ 加载 920726 数据失败：arrays must all be same length
+❌ 加载 301030 数据失败：arrays must all be same length
+❌ 加载 301591 数据失败：arrays must all be same length
+❌ 加载 002535 数据失败：arrays must all be same length
+❌ 加载 002727 数据失败：arrays must all be same length
+❌ 加载 603669 数据失败：arrays must all be same length
+❌ 加载 300377 数据失败：arrays must all be same length
+❌ 加载 002265 数据失败：arrays must all be same length
+❌ 加载 688114 数据失败：arrays must all be same length
+❌ 加载 600449 数据失败：arrays must all be same length
+❌ 加载 600234 数据失败：arrays must all be same length
+❌ 加载 688322 数据失败：arrays must all be same length
+❌ 加载 920808 数据失败：arrays must all be same length
+❌ 加载 600320 数据失败：arrays must all be same length
+❌ 加载 300755 数据失败：arrays must all be same length
+❌ 加载 688066 数据失败：arrays must all be same length
+❌ 加载 688390 数据失败：arrays must all be same length
+❌ 加载 920641 数据失败：arrays must all be same length
+❌ 加载 002169 数据失败：arrays must all be same length
+❌ 加载 688309 数据失败：arrays must all be same length
+❌ 加载 progress_batch_66 数据失败：If using all scalar values, you must pass an index
+❌ 加载 688206 数据失败：arrays must all be same length
+❌ 加载 688796 数据失败：arrays must all be same length
+❌ 加载 000529 数据失败：arrays must all be same length
+❌ 加载 603111 数据失败：arrays must all be same length
+❌ 加载 002416 数据失败：arrays must all be same length
+❌ 加载 301361 数据失败：arrays must all be same length
+❌ 加载 601233 数据失败：arrays must all be same length
+❌ 加载 301418 数据失败：arrays must all be same length
+❌ 加载 600256 数据失败：arrays must all be same length
+❌ 加载 301289 数据失败：arrays must all be same length
+❌ 加载 920855 数据失败：arrays must all be same length
+❌ 加载 601012 数据失败：arrays must all be same length
+❌ 加载 002696 数据失败：arrays must all be same length
+❌ 加载 300784 数据失败：arrays must all be same length
+❌ 加载 fetch_progress_batch_6 数据失败：Mixing dicts with non-Series may lead to ambiguous ordering.
+❌ 加载 002937 数据失败：arrays must all be same length
+❌ 加载 000926 数据失败：arrays must all be same length
+❌ 加载 300994 数据失败：arrays must all be same length
+❌ 加载 600386 数据失败：arrays must all be same length
+❌ 加载 688425 数据失败：arrays must all be same length
+❌ 加载 600613 数据失败：arrays must all be same length
+❌ 加载 688472 数据失败：arrays must all be same length
+❌ 加载 603033 数据失败：arrays must all be same length
+❌ 加载 920000 数据失败：arrays must all be same length
+❌ 加载 002829 数据失败：arrays must all be same length
+❌ 加载 001979 数据失败：arrays must all be same length
+❌ 加载 300137 数据失败：arrays must all be same length
+❌ 加载 001228 数据失败：arrays must all be same length
+❌ 加载 300008 数据失败：arrays must all be same length
+❌ 加载 000035 数据失败：arrays must all be same length
+❌ 加载 920751 数据失败：arrays must all be same length
+❌ 加载 300234 数据失败：arrays must all be same length
+❌ 加载 688628 数据失败：arrays must all be same length
+❌ 加载 300340 数据失败：arrays must all be same length
+❌ 加载 301148 数据失败：arrays must all be same length
+❌ 加载 600678 数据失败：arrays must all be same length
+❌ 加载 603679 数据失败：arrays must all be same length
+❌ 加载 688059 数据失败：arrays must all be same length
+❌ 加载 002778 数据失败：arrays must all be same length
+❌ 加载 002141 数据失败：arrays must all be same length
+❌ 加载 600511 数据失败：arrays must all be same length
+❌ 加载 920892 数据失败：arrays must all be same length
+❌ 加载 601608 数据失败：arrays must all be same length
+❌ 加载 300066 数据失败：arrays must all be same length
+❌ 加载 301216 数据失败：arrays must all be same length
+❌ 加载 002156 数据失败：arrays must all be same length
+❌ 加载 000798 数据失败：arrays must all be same length
+❌ 加载 fetch_progress_batch_49 数据失败：Mixing dicts with non-Series may lead to ambiguous ordering.
+❌ 加载 688599 数据失败：arrays must all be same length
+❌ 加载 300407 数据失败：arrays must all be same length
+❌ 加载 603712 数据失败：arrays must all be same length
+❌ 加载 301629 数据失败：arrays must all be same length
+❌ 加载 600926 数据失败：arrays must all be same length
+❌ 加载 progress_batch_51 数据失败：If using all scalar values, you must pass an index
+❌ 加载 600577 数据失败：arrays must all be same length
+❌ 加载 920547 数据失败：arrays must all be same length
+❌ 加载 002941 数据失败：arrays must all be same length
+❌ 加载 000897 数据失败：arrays must all be same length
+❌ 加载 000700 数据失败：arrays must all be same length
+❌ 加载 301191 数据失败：arrays must all be same length
+❌ 加载 603180 数据失败：arrays must all be same length
+❌ 加载 600191 数据失败：arrays must all be same length
+❌ 加载 600114 数据失败：arrays must all be same length
+❌ 加载 601328 数据失败：arrays must all be same length
+❌ 加载 000009 数据失败：arrays must all be same length
+❌ 加载 301275 数据失败：arrays must all be same length
+❌ 加载 301155 数据失败：arrays must all be same length
+❌ 加载 002668 数据失败：arrays must all be same length
+❌ 加载 301598 数据失败：arrays must all be same length
+❌ 加载 300150 数据失败：arrays must all be same length
+❌ 加载 001387 数据失败：arrays must all be same length
+❌ 加载 600335 数据失败：arrays must all be same length
+❌ 加载 688173 数据失败：arrays must all be same length
+❌ 加载 600337 数据失败：arrays must all be same length
+❌ 加载 603416 数据失败：arrays must all be same length
+❌ 加载 600651 数据失败：arrays must all be same length
+❌ 加载 300547 数据失败：arrays must all be same length
+❌ 加载 688089 数据失败：arrays must all be same length
+❌ 加载 600557 数据失败：arrays must all be same length
+❌ 加载 002506 数据失败：arrays must all be same length
+❌ 加载 300846 数据失败：arrays must all be same length
+❌ 加载 000908 数据失败：arrays must all be same length
+❌ 加载 001233 数据失败：arrays must all be same length
+❌ 加载 600628 数据失败：arrays must all be same length
+❌ 加载 603936 数据失败：arrays must all be same length
+❌ 加载 920237 数据失败：arrays must all be same length
+❌ 加载 300348 数据失败：arrays must all be same length
+❌ 加载 688053 数据失败：arrays must all be same length
+❌ 加载 603026 数据失败：arrays must all be same length
+❌ 加载 920261 数据失败：arrays must all be same length
+❌ 加载 301259 数据失败：arrays must all be same length
+❌ 加载 601872 数据失败：arrays must all be same length
+❌ 加载 progress_batch_77 数据失败：If using all scalar values, you must pass an index
+❌ 加载 002139 数据失败：arrays must all be same length
+❌ 加载 300503 数据失败：arrays must all be same length
+❌ 加载 301097 数据失败：arrays must all be same length
+❌ 加载 601718 数据失败：arrays must all be same length
+❌ 加载 300427 数据失败：arrays must all be same length
+❌ 加载 920639 数据失败：arrays must all be same length
+❌ 加载 300686 数据失败：arrays must all be same length
+❌ 加载 600674 数据失败：arrays must all be same length
+❌ 加载 300354 数据失败：arrays must all be same length
+❌ 加载 300793 数据失败：arrays must all be same length
+❌ 加载 688302 数据失败：arrays must all be same length
+❌ 加载 920405 数据失败：arrays must all be same length
+❌ 加载 920580 数据失败：arrays must all be same length
+❌ 加载 300565 数据失败：arrays must all be same length
+❌ 加载 002357 数据失败：arrays must all be same length
+❌ 加载 601818 数据失败：arrays must all be same length
+❌ 加载 600784 数据失败：arrays must all be same length
+❌ 加载 600426 数据失败：arrays must all be same length
+❌ 加载 002747 数据失败：arrays must all be same length
+❌ 加载 300603 数据失败：arrays must all be same length
+❌ 加载 300289 数据失败：arrays must all be same length
+❌ 加载 600391 数据失败：arrays must all be same length
+❌ 加载 300083 数据失败：arrays must all be same length
+❌ 加载 000428 数据失败：arrays must all be same length
+❌ 加载 600136 数据失败：arrays must all be same length
+❌ 加载 920002 数据失败：arrays must all be same length
+❌ 加载 600282 数据失败：arrays must all be same length
+❌ 加载 920556 数据失败：arrays must all be same length
+❌ 加载 600551 数据失败：arrays must all be same length
+❌ 加载 002574 数据失败：arrays must all be same length
+❌ 加载 301322 数据失败：arrays must all be same length
+❌ 加载 920953 数据失败：arrays must all be same length
+❌ 加载 688151 数据失败：arrays must all be same length
+❌ 加载 300140 数据失败：arrays must all be same length
+❌ 加载 601208 数据失败：arrays must all be same length
+❌ 加载 301088 数据失败：arrays must all be same length
+❌ 加载 603232 数据失败：arrays must all be same length
+❌ 加载 002218 数据失败：arrays must all be same length
+❌ 加载 000070 数据失败：arrays must all be same length
+❌ 加载 603786 数据失败：arrays must all be same length
+❌ 加载 002371 数据失败：arrays must all be same length
+❌ 加载 002538 数据失败：arrays must all be same length
+❌ 加载 progress_batch_78 数据失败：If using all scalar values, you must pass an index
+❌ 加载 progress_batch_39 数据失败：If using all scalar values, you must pass an index
+❌ 加载 603880 数据失败：arrays must all be same length
+❌ 加载 600873 数据失败：arrays must all be same length
+❌ 加载 920781 数据失败：arrays must all be same length
+❌ 加载 688132 数据失败：arrays must all be same length
+❌ 加载 688119 数据失败：arrays must all be same length
+❌ 加载 fetch_progress_batch_30 数据失败：Mixing dicts with non-Series may lead to ambiguous ordering.
+❌ 加载 002063 数据失败：arrays must all be same length
+❌ 加载 600867 数据失败：arrays must all be same length
+❌ 加载 301519 数据失败：arrays must all be same length
+❌ 加载 300351 数据失败：arrays must all be same length
+❌ 加载 300881 数据失败：arrays must all be same length
+❌ 加载 002185 数据失败：arrays must all be same length
+❌ 加载 601928 数据失败：arrays must all be same length
+❌ 加载 920106 数据失败：arrays must all be same length
+❌ 加载 603129 数据失败：arrays must all be same length
+❌ 加载 688511 数据失败：arrays must all be same length
+❌ 加载 002107 数据失败：arrays must all be same length
+❌ 加载 000519 数据失败：arrays must all be same length
+❌ 加载 003026 数据失败：arrays must all be same length
+❌ 加载 300467 数据失败：arrays must all be same length
+❌ 加载 920981 数据失败：arrays must all be same length
+❌ 加载 688707 数据失败：arrays must all be same length
+❌ 加载 603568 数据失败：arrays must all be same length
+❌ 加载 300691 数据失败：arrays must all be same length
+❌ 加载 progress_batch_72 数据失败：If using all scalar values, you must pass an index
+❌ 加载 688479 数据失败：arrays must all be same length
+❌ 加载 603112 数据失败：arrays must all be same length
+❌ 加载 603162 数据失败：arrays must all be same length
+❌ 加载 000677 数据失败：arrays must all be same length
+❌ 加载 300715 数据失败：arrays must all be same length
+❌ 加载 688326 数据失败：arrays must all be same length
+❌ 加载 301139 数据失败：arrays must all be same length
+❌ 加载 progress_batch_0 数据失败：If using all scalar values, you must pass an index
+❌ 加载 002936 数据失败：arrays must all be same length
+❌ 加载 300699 数据失败：arrays must all be same length
+❌ 加载 600714 数据失败：arrays must all be same length
+❌ 加载 920699 数据失败：arrays must all be same length
+❌ 加载 600626 数据失败：arrays must all be same length
+❌ 加载 603886 数据失败：arrays must all be same length
+❌ 加载 301048 数据失败：arrays must all be same length
+❌ 加载 300735 数据失败：arrays must all be same length
+❌ 加载 600479 数据失败：arrays must all be same length
+❌ 加载 300617 数据失败：arrays must all be same length
+❌ 加载 688489 数据失败：arrays must all be same length
+❌ 加载 603822 数据失败：arrays must all be same length
+❌ 加载 600683 数据失败：arrays must all be same length
+❌ 加载 301093 数据失败：arrays must all be same length
+❌ 加载 603167 数据失败：arrays must all be same length
+❌ 加载 688583 数据失败：arrays must all be same length
+❌ 加载 002556 数据失败：arrays must all be same length
+❌ 加载 601515 数据失败：arrays must all be same length
+❌ 加载 600538 数据失败：arrays must all be same length
+❌ 加载 300807 数据失败：arrays must all be same length
+❌ 加载 002170 数据失败：arrays must all be same length
+❌ 加载 601015 数据失败：arrays must all be same length
+❌ 加载 605005 数据失败：arrays must all be same length
+❌ 加载 300075 数据失败：arrays must all be same length
+❌ 加载 progress_batch_18 数据失败：If using all scalar values, you must pass an index
+❌ 加载 300227 数据失败：arrays must all be same length
+❌ 加载 300113 数据失败：arrays must all be same length
+❌ 加载 688591 数据失败：arrays must all be same length
+❌ 加载 603333 数据失败：arrays must all be same length
+❌ 加载 600029 数据失败：arrays must all be same length
+❌ 加载 301007 数据失败：arrays must all be same length
+❌ 加载 001914 数据失败：arrays must all be same length
+❌ 加载 688646 数据失败：arrays must all be same length
+❌ 加载 300685 数据失败：arrays must all be same length
+❌ 加载 300840 数据失败：arrays must all be same length
+❌ 加载 000063 数据失败：arrays must all be same length
+❌ 加载 002990 数据失败：arrays must all be same length
+❌ 加载 603726 数据失败：arrays must all be same length
+❌ 加载 603029 数据失败：arrays must all be same length
+❌ 加载 600908 数据失败：arrays must all be same length
+❌ 加载 300816 数据失败：arrays must all be same length
+❌ 加载 601567 数据失败：arrays must all be same length
+❌ 加载 000858 数据失败：arrays must all be same length
+❌ 加载 002405 数据失败：arrays must all be same length
+❌ 加载 600397 数据失败：arrays must all be same length
+❌ 加载 002873 数据失败：arrays must all be same length
+❌ 加载 301329 数据失败：arrays must all be same length
+❌ 加载 301608 数据失败：arrays must all be same length
+❌ 加载 002361 数据失败：arrays must all be same length
+❌ 加载 301169 数据失败：arrays must all be same length
+❌ 加载 301366 数据失败：arrays must all be same length
+❌ 加载 300569 数据失败：arrays must all be same length
+❌ 加载 600824 数据失败：arrays must all be same length
+❌ 加载 603738 数据失败：arrays must all be same length
+❌ 加载 605366 数据失败：arrays must all be same length
+❌ 加载 003040 数据失败：arrays must all be same length
+❌ 加载 688486 数据失败：arrays must all be same length
+❌ 加载 600039 数据失败：arrays must all be same length
+❌ 加载 600966 数据失败：arrays must all be same length
+❌ 加载 002494 数据失败：arrays must all be same length
+❌ 加载 001389 数据失败：arrays must all be same length
+
+======================================================================
+📊 全市场回测统计
+======================================================================
+
+回测统计:
+   回测股票数：  3 只
+   盈利股票数：  0 只 (0.0%)
+   亏损股票数：  3 只
+   
+收益统计:
+   平均收益：    -21.34%
+   中位收益：    -2.94%
+   最高收益：    0.00%
+   最低收益：    -61.09%
+   
+   平均年化：    -25.71%
+   
+交易统计:
+   平均交易次数：2.0 次
+   平均胜率：    6.67%
+   
+风险统计:
+   平均最大回撤：27.72%
+
+耗时：2.8秒 (0.0分钟)
+
+💾 详细结果已保存至：backtest_results/backtest_v3_all_20260409_144535.csv

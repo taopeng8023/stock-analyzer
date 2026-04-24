@@ -1,0 +1,126 @@
+======================================================================
+📊 全市场历史数据批量获取 - 腾讯财经 API
+======================================================================
+数据目录：/home/admin/.openclaw/workspace/stocks/data_tushare
+日期范围：20230101 至 20241231
+每批数量：100
+======================================================================
+
+✅ 读取到 5497 只股票
+
+======================================================================
+📦 处理批次 1: [1-100] / 5497
+======================================================================
+[1/5497] 000001.SZ 平安银行... ❌ 6 columns passed, passed data had 7 columns
+[2/5497] 000002.SZ 万科Ａ... ✅ 297条
+[3/5497] 000004.SZ *ST国华... ✅ 298条
+[4/5497] 000006.SZ 深振业Ａ... ✅ 297条
+[5/5497] 000007.SZ 全新好... ✅ 297条
+[6/5497] 000008.SZ 神州高铁... ✅ 297条
+[7/5497] 000009.SZ 中国宝安... ❌ 6 columns passed, passed data had 7 columns
+[8/5497] 000010.SZ 美丽生态... ✅ 297条
+[9/5497] 000011.SZ 深物业A... ❌ 6 columns passed, passed data had 7 columns
+[10/5497] 000012.SZ 南玻Ａ... ❌ 6 columns passed, passed data had 7 columns
+[11/5497] 000014.SZ 沙河股份... ❌ 6 columns passed, passed data had 7 columns
+[12/5497] 000016.SZ 深康佳Ａ... ✅ 305条
+[13/5497] 000017.SZ 深中华A... ✅ 297条
+[14/5497] 000019.SZ 深粮控股... ❌ 6 columns passed, passed data had 7 columns
+[15/5497] 000020.SZ 深华发Ａ... ✅ 297条
+[16/5497] 000021.SZ 深科技... ❌ 6 columns passed, passed data had 7 columns
+[17/5497] 001872.SZ 招商港口... ❌ 6 columns passed, passed data had 7 columns
+[18/5497] 000025.SZ 特力Ａ... ❌ 6 columns passed, passed data had 7 columns
+[19/5497] 000026.SZ 飞亚达... ❌ 6 columns passed, passed data had 7 columns
+[20/5497] 000027.SZ 深圳能源... ❌ 6 columns passed, passed data had 7 columns
+[21/5497] 000028.SZ 国药一致... ❌ 6 columns passed, passed data had 7 columns
+[22/5497] 000029.SZ 深深房Ａ... ✅ 297条
+[23/5497] 000030.SZ 富奥股份... ❌ 6 columns passed, passed data had 7 columns
+[24/5497] 000031.SZ 大悦城... ✅ 297条
+[25/5497] 000032.SZ 深桑达Ａ... ❌ 6 columns passed, passed data had 7 columns
+[26/5497] 000034.SZ 神州数码... ❌ 6 columns passed, passed data had 7 columns
+[27/5497] 000035.SZ 中国天楹... ❌ 6 columns passed, passed data had 7 columns
+[28/5497] 000036.SZ 华联控股... ✅ 297条
+[29/5497] 000037.SZ 深南电A... ✅ 297条
+[30/5497] 000039.SZ 中集集团... ❌ 6 columns passed, passed data had 7 columns
+[31/5497] 000042.SZ 中洲控股... ✅ 297条
+[32/5497] 001914.SZ 招商积余... ❌ 6 columns passed, passed data had 7 columns
+[33/5497] 000045.SZ 深纺织Ａ... ❌ 6 columns passed, passed data had 7 columns
+[34/5497] 000048.SZ 京基智农... ❌ 6 columns passed, passed data had 7 columns
+[35/5497] 000049.SZ 德赛电池... ❌ 6 columns passed, passed data had 7 columns
+[36/5497] 000050.SZ 深天马Ａ... ✅ 297条
+[37/5497] 000055.SZ 方大集团... ❌ 6 columns passed, passed data had 7 columns
+[38/5497] 000056.SZ 皇庭国际... ✅ 297条
+[39/5497] 000058.SZ 深赛格... ❌ 6 columns passed, passed data had 7 columns
+[40/5497] 000059.SZ 华锦股份... ❌ 6 columns passed, passed data had 7 columns
+[41/5497] 000060.SZ 中金岭南... ❌ 6 columns passed, passed data had 7 columns
+[42/5497] 000061.SZ 农产品... ❌ 6 columns passed, passed data had 7 columns
+[43/5497] 000062.SZ 深圳华强... ❌ 6 columns passed, passed data had 7 columns
+[44/5497] 000063.SZ 中兴通讯... ❌ 6 columns passed, passed data had 7 columns
+[45/5497] 000065.SZ 北方国际... ❌ 6 columns passed, passed data had 7 columns
+[46/5497] 000066.SZ 中国长城... ✅ 297条
+[47/5497] 000068.SZ 华控赛格... ✅ 297条
+[48/5497] 000069.SZ 华侨城Ａ... ✅ 297条
+[49/5497] 000070.SZ 特发信息... ✅ 298条
+[50/5497] 000078.SZ 海王生物... ✅ 297条
+[51/5497] 000088.SZ 盐田港... ❌ 6 columns passed, passed data had 7 columns
+[52/5497] 000089.SZ 深圳机场... ❌ 6 columns passed, passed data had 7 columns
+[53/5497] 000090.SZ 天健集团... ❌ 6 columns passed, passed data had 7 columns
+[54/5497] 000096.SZ 广聚能源... ❌ 6 columns passed, passed data had 7 columns
+[55/5497] 000099.SZ 中信海直... ❌ 6 columns passed, passed data had 7 columns
+[56/5497] 000100.SZ TCL科技... ❌ 6 columns passed, passed data had 7 columns
+[57/5497] 000151.SZ 中成股份... ✅ 305条
+[58/5497] 000153.SZ 丰原药业... ❌ 6 columns passed, passed data had 7 columns
+[59/5497] 000155.SZ 川能动力... ❌ 6 columns passed, passed data had 7 columns
+[60/5497] 000156.SZ 华数传媒... ❌ 6 columns passed, passed data had 7 columns
+[61/5497] 000157.SZ 中联重科... ❌ 6 columns passed, passed data had 7 columns
+[62/5497] 000158.SZ 常山北明... ✅ 297条
+[63/5497] 000159.SZ 国际实业... ✅ 297条
+[64/5497] 000301.SZ 东方盛虹... ❌ 6 columns passed, passed data had 7 columns
+[65/5497] 000400.SZ 许继电气... ❌ 6 columns passed, passed data had 7 columns
+[66/5497] 000401.SZ 金隅冀东... ❌ 6 columns passed, passed data had 7 columns
+[67/5497] 000402.SZ 金融街... ✅ 297条
+[68/5497] 000403.SZ 派林生物... ❌ 6 columns passed, passed data had 7 columns
+[69/5497] 000404.SZ 长虹华意... ❌ 6 columns passed, passed data had 7 columns
+[70/5497] 000407.SZ 胜利股份... ❌ 6 columns passed, passed data had 7 columns
+[71/5497] 000408.SZ 藏格矿业... ❌ 6 columns passed, passed data had 7 columns
+[72/5497] 000409.SZ 云鼎科技... ✅ 297条
+[73/5497] 000410.SZ 沈阳机床... ✅ 297条
+[74/5497] 000411.SZ 英特集团... ❌ 6 columns passed, passed data had 7 columns
+[75/5497] 000415.SZ 渤海租赁... ✅ 297条
+[76/5497] 000417.SZ 合百集团... ❌ 6 columns passed, passed data had 7 columns
+[77/5497] 000419.SZ 通程控股... ❌ 6 columns passed, passed data had 7 columns
+[78/5497] 000420.SZ 吉林化纤... ✅ 297条
+[79/5497] 000421.SZ 南京公用... ❌ 6 columns passed, passed data had 7 columns
+[80/5497] 000422.SZ 湖北宜化... ❌ 6 columns passed, passed data had 7 columns
+[81/5497] 000423.SZ 东阿阿胶... ❌ 6 columns passed, passed data had 7 columns
+[82/5497] 000425.SZ 徐工机械... ❌ 6 columns passed, passed data had 7 columns
+[83/5497] 000426.SZ 兴业银锡... ❌ 6 columns passed, passed data had 7 columns
+[84/5497] 000428.SZ 华天酒店... ✅ 297条
+[85/5497] 000429.SZ 粤高速Ａ... ❌ 6 columns passed, passed data had 7 columns
+[86/5497] 000430.SZ ST张家界... ❌ 6 columns passed, passed data had 7 columns
+[87/5497] 000488.SZ ST晨鸣... ✅ 298条
+[88/5497] 000498.SZ 山东路桥... ❌ 6 columns passed, passed data had 7 columns
+[89/5497] 000501.SZ 武商集团... ❌ 6 columns passed, passed data had 7 columns
+[90/5497] 000503.SZ 国新健康... ✅ 297条
+[91/5497] 000504.SZ *ST生物... ✅ 298条
+[92/5497] 000505.SZ 京粮控股... ❌ 6 columns passed, passed data had 7 columns
+[93/5497] 000506.SZ 招金黄金... ✅ 298条
+[94/5497] 000507.SZ 珠海港... ❌ 6 columns passed, passed data had 7 columns
+[95/5497] 000509.SZ 华塑控股... ✅ 297条
+[96/5497] 000510.SZ 新金路... ✅ 297条
+[97/5497] 000513.SZ 丽珠集团... ❌ 6 columns passed, passed data had 7 columns
+[98/5497] 000514.SZ 渝开发... ❌ 6 columns passed, passed data had 7 columns
+[99/5497] 000516.SZ 国际医学... ✅ 297条
+[100/5497] 000517.SZ 荣安地产... ❌ 6 columns passed, passed data had 7 columns
+
+📊 批次完成：成功=37 跳过=0 失败=63
+
+======================================================================
+📦 处理批次 2: [101-200] / 5497
+======================================================================
+[101/5497] 000518.SZ *ST四环... ✅ 298条
+[102/5497] 000519.SZ 中兵红箭... ❌ 6 columns passed, passed data had 7 columns
+[103/5497] 000520.SZ 凤凰航运... ✅ 297条
+[104/5497] 000521.SZ 长虹美菱... ❌ 6 columns passed, passed data had 7 columns
+[105/5497] 000523.SZ 红棉股份... ✅ 297条
+[106/5497] 000524.SZ 岭南控股... ❌ 6 columns passed, passed data had 7 columns
+[107/5497] 000525.SZ 红太阳...

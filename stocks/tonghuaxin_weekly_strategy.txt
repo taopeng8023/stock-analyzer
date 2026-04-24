@@ -1,0 +1,281 @@
+===============================================================================
+每周选股策略 - 同花顺K线公式
+===============================================================================
+
+策略名称: RSI超卖+均线多头每周选股
+适用周期: 日线
+推荐持有: 5-10个交易日
+回测收益: 平均+0.31%, 胜率48.6%
+
+===============================================================================
+【主图公式 - 买卖信号显示】
+===============================================================================
+
+// ========== 参数设置 ==========
+N1:=5;      // 短期均线
+N2:=10;     // 长期均线
+N3:=20;     // 趋势均线
+RSI_N:=14;  // RSI周期
+RSI_LOW:=30;  // RSI买入下限
+RSI_HIGH:=50; // RSI买入上限
+
+// ========== 均线绘制 ==========
+MA5:MA(C,N1),COLORWHITE,LINETHICK2;
+MA10:MA(C,N2),COLORYELLOW,LINETHICK1;
+MA20:MA(C,N3),COLORMAGENTA,LINETHICK1;
+
+// ========== RSI计算 (隐藏) ==========
+LC:=REF(C,1);
+RSI_UP:=SMA(MAX(C-LC,0),RSI_N,1);
+RSI_DOWN:=SMA(ABS(C-LC),RSI_N,1);
+RSI_VALUE:=100*RSI_UP/(RSI_UP+RSI_DOWN);
+
+// ========== KDJ计算 (隐藏) ==========
+LLV9:=LLV(L,9);
+HHV9:=HHV(H,9);
+RSV:=(C-LLV9)/(HHV9-LLV9)*100;
+K:=SMA(RSV,3,1);
+D:=SMA(K,3,1);
+J:=3*K-2*D;
+
+// ========== 买入条件 ==========
+COND1:=RSI_VALUE>RSI_LOW AND RSI_VALUE<RSI_HIGH;  // RSI在30-50区间
+COND2:=MA5>MA10;                                   // 均线多头
+COND3:=C>MA5;                                      // 股价站上MA5
+COND4:=J<40;                                       // KDJ低位(加分项)
+COND5:=C>MA20;                                     // 趋势向上(加分项)
+
+// 核心买入信号 (3项必满足)
+BUY_SIGNAL:=COND1 AND COND2 AND COND3;
+
+// 强买入信号 (5项全满足)
+STRONG_BUY:=BUY_SIGNAL AND COND4 AND COND5;
+
+// ========== 买入标记 ==========
+DRAWICON(BUY_SIGNAL,L*0.98,1);  // 红箭头 - 普通买入
+DRAWICON(STRONG_BUY,L*0.96,23); // 红星 - 强买入
+
+DRAWTEXT(BUY_SIGNAL,L*0.94,'买入'),COLORRED;
+DRAWTEXT(STRONG_BUY,L*0.92,'强买'),COLORRED,LINETHICK2;
+
+// ========== 卖出条件 ==========
+// RSI超买卖出
+SELL_RSI:=RSI_VALUE>70;
+
+// 死叉卖出
+SELL_DEAD:=MA5<MA10 AND REF(MA5,1)>=REF(MA10,1);
+
+// ========== 卖出标记 ==========
+DRAWICON(SELL_RSI OR SELL_DEAD,H*1.02,2);  // 绿箭头
+DRAWTEXT(SELL_RSI,H*1.04,'超买'),COLORGREEN;
+DRAWTEXT(SELL_DEAD,H*1.06,'死叉'),COLORCYAN;
+
+// ========== 持仓区域填充 ==========
+STICKLINE(BUY_SIGNAL,H,L,8,0),COLOR000055;
+STICKLINE(BUY_SIGNAL,C,O,6,0),COLOR0000AA;
+
+===============================================================================
+【副图公式1 - RSI+信号强度】
+===============================================================================
+
+// ========== 参数 ==========
+RSI_N:=14;
+RSI_LOW:=30;
+RSI_HIGH:=50;
+
+// ========== RSI绘制 ==========
+LC:=REF(C,1);
+RSI_UP:=SMA(MAX(C-LC,0),RSI_N,1);
+RSI_DOWN:=SMA(ABS(C-LC),RSI_N,1);
+RSI:100*RSI_UP/(RSI_UP+RSI_DOWN),COLORWHITE,LINETHICK2;
+
+// ========== 买卖区间线 ==========
+超卖线:RSI_LOW,COLORGREEN,LINETHICK1;  // 30线
+中轴线:50,COLORYELLOW,DOTLINE;
+超买线:70,COLORRED,LINETHICK1;         // 70线
+买入上限:RSI_HIGH,COLORCYAN,DOTLINE;   // 50线
+
+// ========== 区域填充 ==========
+STICKLINE(RSI<RSI_LOW,RSI,RSI_LOW,4,0),COLORGREEN;  // 超卖区
+STICKLINE(RSI>RSI_LOW AND RSI<RSI_HIGH,RSI,RSI_LOW,4,0),COLORCYAN; // 买入区
+STICKLINE(RSI>70,RSI,70,4,0),COLORRED;              // 超买区
+
+// ========== 信号标记 ==========
+MA5:=MA(C,5);
+MA10:=MA(C,10);
+BUY_OK:=RSI>RSI_LOW AND RSI<RSI_HIGH AND MA5>MA10 AND C>MA5;
+
+DRAWICON(BUY_OK,RSI_LOW*0.95,1);
+DRAWTEXT(BUY_OK,RSI_LOW*0.90,'买'),COLORRED;
+
+===============================================================================
+【副图公式2 - 信号强度评分】
+===============================================================================
+
+// ========== 指标计算 ==========
+RSI_N:=14;
+LC:=REF(C,1);
+RSI_UP:=SMA(MAX(C-LC,0),RSI_N,1);
+RSI_DOWN:=SMA(ABS(C-LC),RSI_N,1);
+RSI_VALUE:=100*RSI_UP/(RSI_UP+RSI_DOWN);
+
+MA5:=MA(C,5);
+MA10:=MA(C,10);
+MA20:=MA(C,20);
+
+LLV9:=LLV(L,9);
+HHV9:=HHV(H,9);
+RSV:=(C-LLV9)/(HHV9-LLV9)*100;
+K:=SMA(RSV,3,1);
+D:=SMA(K,3,1);
+J:=3*K-2*D;
+
+// ========== 评分计算 ==========
+SCORE:=0;
+
+// 条件1: RSI超卖区间 (2分)
+IF RSI_VALUE>30 AND RSI_VALUE<50 THEN
+    SCORE:=SCORE+2;
+END;
+
+// 条件2: 均线多头 (1分)
+IF MA5>MA10 THEN
+    SCORE:=SCORE+1;
+END;
+
+// 条件3: 股价站上MA5 (1分)
+IF C>MA5 THEN
+    SCORE:=SCORE+1;
+END;
+
+// 条件4: KDJ低位 (1分)
+IF J<40 THEN
+    SCORE:=SCORE+1;
+END;
+
+// 条件5: 趋势向上 (1分)
+IF C>MA20 THEN
+    SCORE:=SCORE+1;
+END;
+
+// ========== 信号强度绘制 ==========
+信号强度:SCORE,COLORWHITE,LINETHICK2;
+
+满分:6,COLORRED,DOTLINE;
+入选线:4,COLORGREEN,LINETHICK1;
+
+// ========== 区域填充 ==========
+STICKLINE(SCORE>=4,SCORE,4,6,0),COLORRED;
+STICKLINE(SCORE<4,SCORE,0,4,0),COLORGRAY;
+
+// ========== 状态显示 ==========
+DRAWTEXT(SCORE=6,6,'★★★★★'),COLORRED;
+DRAWTEXT(SCORE=5,5,'★★★★'),COLORMAGENTA;
+DRAWTEXT(SCORE=4,4,'★★★'),COLORCYAN;
+DRAWTEXT(SCORE>=4 AND SCORE<6,SCORE,'入选'),COLORRED;
+
+===============================================================================
+【选股公式 - 每周筛选】
+===============================================================================
+
+// ========== 选股条件 ==========
+// 参数: RSI周期14, RSI下限30, RSI上限50
+
+RSI_N:=14;
+RSI_LOW:=30;
+RSI_HIGH:=50;
+
+LC:=REF(C,1);
+RSI_UP:=SMA(MAX(C-LC,0),RSI_N,1);
+RSI_DOWN:=SMA(ABS(C-LC),RSI_N,1);
+RSI_VALUE:=100*RSI_UP/(RSI_UP+RSI_DOWN);
+
+MA5:=MA(C,5);
+MA10:=MA(C,10);
+
+// ========== 入选条件 ==========
+RSI_OK:=RSI_VALUE>RSI_LOW AND RSI_VALUE<RSI_HIGH;
+MA_OK:=MA5>MA10;
+PRICE_OK:=C>MA5;
+
+// ========== 输出 ==========
+XG:RSI_OK AND MA_OK AND PRICE_OK;
+
+===============================================================================
+【预警公式 - 实时提醒】
+===============================================================================
+
+// ========== 买入预警 ==========
+RSI_N:=14;
+LC:=REF(C,1);
+RSI_UP:=SMA(MAX(C-LC,0),RSI_N,1);
+RSI_DOWN:=SMA(ABS(C-LC),RSI_N,1);
+RSI_VALUE:=100*RSI_UP/(RSI_UP+RSI_DOWN);
+
+MA5:=MA(C,5);
+MA10:=MA(C,10);
+
+// 买入信号触发
+BUY_ALERT:=RSI_VALUE>30 AND RSI_VALUE<50 AND MA5>MA10 AND C>MA5;
+
+// 买入预警
+预警买入:BUY_ALERT;
+
+===============================================================================
+【使用说明】
+===============================================================================
+
+一、公式安装步骤:
+─────────────────────────────────────────────────────────────────────────────
+1. 打开同花顺 → 公式管理器 (Ctrl+F)
+2. 新建技术指标公式 → 输入上述代码
+3. 设置参数默认值
+4. 测试公式 → 确认无误后保存
+
+二、选股使用方法:
+─────────────────────────────────────────────────────────────────────────────
+1. 打开智能选股 (Ctrl+Q)
+2. 选择"自定义选股"
+3. 添加选股条件 → 输入选股公式
+4. 设置范围: 全A股
+5. 执行选股 → 查看结果
+
+三、信号解读:
+─────────────────────────────────────────────────────────────────────────────
+• 红箭头: 普通买入信号 (信号强度≥4分)
+• 红星: 强买入信号 (信号强度=6分)
+• 绿箭头: 卖出信号 (RSI超买或死叉)
+
+四、操作建议:
+─────────────────────────────────────────────────────────────────────────────
+• 每周五收盘后运行选股
+• 优先选择信号强度≥5分的股票
+• 同时持有不超过3只
+• 持有5-10个交易日
+• 设置移动止盈10%, 止损-8%
+
+===============================================================================
+【止损止盈辅助公式】
+===============================================================================
+
+// ========== 持仓后追踪 ==========
+// 假设买入价为近期最低点 (实际需手动设置)
+
+BUY_PRICE:=REF(L,BARSLAST(BUY_SIGNAL));  // 买入价估算
+HIGH_PRICE:=HHV(H,BARSLAST(BUY_SIGNAL)); // 持仓最高价
+
+// ========== 止盈止损计算 ==========
+止盈价:BUY_PRICE*1.10,COLORRED,DOTLINE;     // 盈利10%
+止损价:BUY_PRICE*0.92,COLORGREEN,DOTLINE;   // 亏损8%
+移动止盈:HIGH_PRICE*0.90,COLORCYAN,DOTLINE;  // 最高价回撤10%
+
+// ========== 触发标记 ==========
+触发止盈:=C>=止盈价;
+触发止损:=C<=止损价;
+触发移动:=C<=移动止盈 AND HIGH_PRICE>BUY_PRICE*1.05;
+
+DRAWICON(触发止盈,H*1.02,9);   // 黄箭头 - 止盈
+DRAWICON(触发止损,L*0.98,10);  // 蓝箭头 - 止损
+DRAWICON(触发移动,H*1.01,11);  // 紫箭头 - 移动止盈
+
+===============================================================================
