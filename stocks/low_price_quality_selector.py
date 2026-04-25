@@ -108,7 +108,7 @@ def calculate_score(item):
     return score
 
 
-def select_stocks(data_dir='data', min_price=0, max_price=20, min_main_inflow=1, min_main_pct=5):
+def select_stocks(data_dir='data', min_price=0, max_price=20, min_main_inflow=1, min_main_pct=5, max_pct=99, sort_by='score'):
     """
     选股主函数
     
@@ -118,6 +118,8 @@ def select_stocks(data_dir='data', min_price=0, max_price=20, min_main_inflow=1,
         max_price: 最高价格
         min_main_inflow: 最小主力净流入（亿）
         min_main_pct: 最小主力占比（%）
+        max_pct: 最大涨幅（%，默认 99，不限制）
+        sort_by: 排序方式 ('score'=综合评分, 'inflow'=主力净流入)
     
     返回：
         候选股票列表（按评分排序）
@@ -129,6 +131,7 @@ def select_stocks(data_dir='data', min_price=0, max_price=20, min_main_inflow=1,
         code = item['code']
         name = item['name']
         price = item.get('price', 0)
+        pct = item.get('change_pct', 0)
         
         # 筛选条件
         if not is_mainboard(code):
@@ -141,13 +144,18 @@ def select_stocks(data_dir='data', min_price=0, max_price=20, min_main_inflow=1,
             continue
         if item.get('main_net_pct', 0) < min_main_pct:
             continue
+        if pct >= max_pct:  # 排除涨幅>=max_pct 的股票
+            continue
         
         # 计算评分
         item['score'] = calculate_score(item)
         candidates.append(item)
     
-    # 按评分排序
-    candidates.sort(key=lambda x: x['score'], reverse=True)
+    # 排序
+    if sort_by == 'inflow':
+        candidates.sort(key=lambda x: x.get('main_net_inflow', 0), reverse=True)
+    else:
+        candidates.sort(key=lambda x: x['score'], reverse=True)
     
     return candidates, data['update_time']
 
@@ -219,6 +227,8 @@ def main():
     parser.add_argument('--min-inflow', type=float, default=1, help='最小主力净流入亿 (默认: 1)')
     parser.add_argument('--min-pct', type=float, default=5, help='最小主力占比% (默认: 5)')
     parser.add_argument('--top', type=int, default=10, help='显示 TOP N (默认: 10)')
+    parser.add_argument('--max-pct', type=float, default=99, help='最大涨幅%% (默认: 99，不限制)')
+    parser.add_argument('--sort-by', choices=['score', 'inflow'], default='score', help='排序方式 (默认: score)')
     
     args = parser.parse_args()
     
@@ -227,7 +237,9 @@ def main():
         data_dir=args.data_dir,
         max_price=args.max_price,
         min_main_inflow=args.min_inflow,
-        min_main_pct=args.min_pct
+        min_main_pct=args.min_pct,
+        max_pct=args.max_pct,
+        sort_by=args.sort_by
     )
     
     # 打印结果
