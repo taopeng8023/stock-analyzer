@@ -1,0 +1,14 @@
+{
+  "code": "002428",
+  "name": "云南锗业",
+  "period": 250,
+  "initial_capital": 100000,
+  "final_value": 100000,
+  "total_return": 0.0,
+  "total_trades": 0,
+  "win_rate": 0,
+  "avg_profit": 0,
+  "max_drawdown": 0,
+  "trades": [],
+  "annual_return": 0.0
+}

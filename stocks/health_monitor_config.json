@@ -1,0 +1,84 @@
+{
+  "monitor": {
+    "check_interval_seconds": 3600,
+    "timeout_seconds": 10,
+    "retry_times": 2
+  },
+  
+  "thresholds": {
+    "response_time_warning_ms": 5000,
+    "response_time_critical_ms": 10000,
+    "success_rate_warning_percent": 80,
+    "success_rate_critical_percent": 50
+  },
+  
+  "alerts": {
+    "enabled": true,
+    "channels": {
+      "wechat_work": {
+        "enabled": true,
+        "webhook": "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=76babaf7-4a40-4e24-b547-98e9798baff5"
+      },
+      "log": {
+        "enabled": true,
+        "file": "cache/health_alerts.log"
+      }
+    },
+    
+    "rules": [
+      {
+        "name": "数据源宕机",
+        "condition": "status == 'down'",
+        "level": "critical",
+        "message": "🚨 {source_name} 宕机\n错误：{last_error}"
+      },
+      {
+        "name": "响应过慢",
+        "condition": "response_time_ms > 10000",
+        "level": "warning",
+        "message": "⚠️ {source_name} 响应过慢\n响应时间：{response_time_ms}ms"
+      },
+      {
+        "name": "成功率过低",
+        "condition": "success_rate < 50",
+        "level": "warning",
+        "message": "⚠️ {source_name} 成功率过低\n成功率：{success_rate:.1f}%"
+      }
+    ]
+  },
+  
+  "sources": {
+    "baidu": {
+      "url": "https://gushitong.baidu.com/opendata",
+      "enabled": true,
+      "priority": 3
+    },
+    "eastmoney": {
+      "url": "http://push2.eastmoney.com/api/qt/clist/get",
+      "enabled": true,
+      "priority": 1
+    },
+    "tencent": {
+      "url": "http://qt.gtimg.cn/q=sh600519",
+      "enabled": true,
+      "priority": 2
+    },
+    "sina": {
+      "url": "http://hq.sinajs.cn/list=sh600519",
+      "enabled": true,
+      "priority": 4
+    },
+    "netease": {
+      "url": "http://quotes.money.163.com/quote/price/600519.html",
+      "enabled": false,
+      "priority": 5,
+      "note": "502 Bad Gateway - 暂时禁用"
+    }
+  },
+  
+  "report": {
+    "enabled": true,
+    "schedule": "0 9 * * *",
+    "recipients": ["wechat_work"]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "version": "2.1",
+  "description": "选股模块配置文件 (支持主力选股池)",
+  
+  "factors": {
+    "amount_weight": 0.25,
+    "change_weight": 0.20,
+    "volume_weight": 0.15,
+    "main_flow_weight": 0.25,
+    "turnover_weight": 0.10,
+    "technical_weight": 0.05
+  },
+  
+  "filters": {
+    "min_amount": 100000000,
+    "min_volume": 10000,
+    "max_change_pct": 20.0,
+    "min_price": 1.0,
+    "max_price": 500.0,
+    "min_quality": 0.8
+  },
+  
+  "main_pool": {
+    "size": 100,
+    "min_amount": 50000000,
+    "min_price": 0.5,
+    "max_price": 1000,
+    "min_quality": 0.5
+  },
+  
+  "strategies": {
+    "main": {
+      "description": "主力净流入策略",
+      "factors": {
+        "main_flow_weight": 0.50,
+        "amount_weight": 0.30,
+        "change_weight": 0.10,
+        "volume_weight": 0.05,
+        "turnover_weight": 0.03,
+        "technical_weight": 0.02
+      }
+    },
+    "multi": {
+      "description": "多因子综合策略",
+      "factors": {
+        "amount_weight": 0.25,
+        "change_weight": 0.20,
+        "volume_weight": 0.15,
+        "main_flow_weight": 0.25,
+        "turnover_weight": 0.10,
+        "technical_weight": 0.05
+      }
+    },
+    "volume": {
+      "description": "成交量策略",
+      "factors": {
+        "volume_weight": 0.40,
+        "amount_weight": 0.35,
+        "change_weight": 0.10,
+        "main_flow_weight": 0.10,
+        "turnover_weight": 0.03,
+        "technical_weight": 0.02
+      }
+    },
+    "gainer": {
+      "description": "涨幅策略",
+      "factors": {
+        "change_weight": 0.50,
+        "volume_weight": 0.20,
+        "amount_weight": 0.15,
+        "main_flow_weight": 0.10,
+        "turnover_weight": 0.03,
+        "technical_weight": 0.02
+      }
+    }
+  },
+  
+  "cache": {
+    "default_age_minutes": 10,
+    "tencent_age_minutes": 5,
+    "baidu_age_minutes": 5,
+    "sina_age_minutes": 3
+  },
+  
+  "output": {
+    "format": "json",
+    "save_results": true,
+    "print_table": true
+  }
+}

@@ -1,0 +1,7184 @@
+{
+  "backtest_date": "2026-03-21T10:32:36.175556",
+  "symbols_count": 51,
+  "days": 250,
+  "test_dates_count": 12,
+  "top_n": 10,
+  "decisions": [
+    {
+      "symbol": "688167",
+      "name": "炬光科技",
+      "price": 75.55,
+      "change_pct": 0.7467662354980695,
+      "volume": 2119781.0,
+      "amount": 16014945454.999998,
+      "score": 30,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 86.8825,
+      "stop_loss": 67.995,
+      "decision_date": "2025-04-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-04-02",
+          "price": 75.75,
+          "return": 0.26
+        },
+        "day_2": {
+          "date": "2025-04-03",
+          "price": 73.82,
+          "return": -2.29
+        },
+        "day_3": {
+          "date": "2025-04-07",
+          "price": 59.73,
+          "return": -20.94
+        }
+      },
+      "final_return": -20.94,
+      "max_return": 0.26,
+      "min_return": -20.94,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "000601",
+      "name": "韶能股份",
+      "price": 5.72,
+      "change_pct": 5.925925925925914,
+      "volume": 1772116.0,
+      "amount": 1013650352.0,
+      "score": 30,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 6.4064000000000005,
+      "stop_loss": 5.2624,
+      "decision_date": "2025-04-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-04-02",
+          "price": 5.93,
+          "return": 3.67
+        },
+        "day_2": {
+          "date": "2025-04-03",
+          "price": 5.96,
+          "return": 4.2
+        },
+        "day_3": {
+          "date": "2025-04-07",
+          "price": 5.36,
+          "return": -6.29
+        },
+        "day_4": {
+          "date": "2025-04-08",
+          "price": 5.45,
+          "return": -4.72
+        },
+        "day_5": {
+          "date": "2025-04-09",
+          "price": 5.25,
+          "return": -8.22
+        }
+      },
+      "final_return": -8.22,
+      "max_return": 4.2,
+      "min_return": -8.22,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688627",
+      "name": "精智达",
+      "price": 73.832,
+      "change_pct": 4.250091779390572,
+      "volume": 1322611.0,
+      "amount": 9765101535.2,
+      "score": 30,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 84.90679999999999,
+      "stop_loss": 66.44879999999999,
+      "decision_date": "2025-04-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-04-02",
+          "price": 74.762,
+          "return": 1.26
+        },
+        "day_2": {
+          "date": "2025-04-03",
+          "price": 72.512,
+          "return": -1.79
+        },
+        "day_3": {
+          "date": "2025-04-07",
+          "price": 65.182,
+          "return": -11.72
+        }
+      },
+      "final_return": -11.72,
+      "max_return": 1.26,
+      "min_return": -11.72,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688498",
+      "name": "源杰科技",
+      "price": 112.052,
+      "change_pct": 0.945928902181953,
+      "volume": 1426332.0,
+      "amount": 15982335326.4,
+      "score": 30,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 128.8598,
+      "stop_loss": 100.8468,
+      "decision_date": "2025-04-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-04-02",
+          "price": 115.012,
+          "return": 2.64
+        },
+        "day_2": {
+          "date": "2025-04-03",
+          "price": 114.612,
+          "return": 2.28
+        },
+        "day_3": {
+          "date": "2025-04-07",
+          "price": 91.612,
+          "return": -18.24
+        }
+      },
+      "final_return": -18.24,
+      "max_return": 2.64,
+      "min_return": -18.24,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688411",
+      "name": "海博思创",
+      "price": 77.43,
+      "change_pct": -0.7943625880845487,
+      "volume": 1554801.0,
+      "amount": 12038824143.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 91.3674,
+      "stop_loss": 68.1384,
+      "decision_date": "2025-04-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-04-02",
+          "price": 74.57,
+          "return": -3.69
+        },
+        "day_2": {
+          "date": "2025-04-03",
+          "price": 74.09,
+          "return": -4.31
+        },
+        "day_3": {
+          "date": "2025-04-07",
+          "price": 64.23,
+          "return": -17.05
+        }
+      },
+      "final_return": -17.05,
+      "max_return": 0,
+      "min_return": -17.05,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688025",
+      "name": "杰普特",
+      "price": 55.67,
+      "change_pct": -2.4702172389628534,
+      "volume": 2721570.0,
+      "amount": 15150980190.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 65.6906,
+      "stop_loss": 48.9896,
+      "decision_date": "2025-04-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-04-02",
+          "price": 56.44,
+          "return": 1.38
+        },
+        "day_2": {
+          "date": "2025-04-03",
+          "price": 51.42,
+          "return": -7.63
+        },
+        "day_3": {
+          "date": "2025-04-07",
+          "price": 41.05,
+          "return": -26.26
+        }
+      },
+      "final_return": -26.26,
+      "max_return": 1.38,
+      "min_return": -26.26,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688097",
+      "name": "博众精工",
+      "price": 29.376,
+      "change_pct": -1.0442632890924972,
+      "volume": 4867814.0,
+      "amount": 14299690406.400002,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 34.66368,
+      "stop_loss": 25.85088,
+      "decision_date": "2025-04-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-04-02",
+          "price": 29.916,
+          "return": 1.84
+        },
+        "day_2": {
+          "date": "2025-04-03",
+          "price": 27.216,
+          "return": -7.35
+        },
+        "day_3": {
+          "date": "2025-04-07",
+          "price": 21.726,
+          "return": -26.04
+        }
+      },
+      "final_return": -26.04,
+      "max_return": 1.84,
+      "min_return": -26.04,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688668",
+      "name": "鼎通科技",
+      "price": 44.12,
+      "change_pct": 0.34114168751421103,
+      "volume": 2169590.0,
+      "amount": 9572231080.0,
+      "score": 20,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 50.73799999999999,
+      "stop_loss": 39.708,
+      "decision_date": "2025-04-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-04-02",
+          "price": 44.49,
+          "return": 0.84
+        },
+        "day_2": {
+          "date": "2025-04-03",
+          "price": 43.55,
+          "return": -1.29
+        },
+        "day_3": {
+          "date": "2025-04-07",
+          "price": 34.7,
+          "return": -21.35
+        }
+      },
+      "final_return": -21.35,
+      "max_return": 0.84,
+      "min_return": -21.35,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "002756",
+      "name": "永兴材料",
+      "price": 32.726,
+      "change_pct": 0.8318954892777791,
+      "volume": 50664.0,
+      "amount": 165803006.4,
+      "score": 5,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 37.634899999999995,
+      "stop_loss": 29.4534,
+      "decision_date": "2025-04-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-04-02",
+          "price": 32.496,
+          "return": -0.7
+        },
+        "day_2": {
+          "date": "2025-04-03",
+          "price": 32.186,
+          "return": -1.65
+        },
+        "day_3": {
+          "date": "2025-04-07",
+          "price": 28.886,
+          "return": -11.73
+        }
+      },
+      "final_return": -11.73,
+      "max_return": 0,
+      "min_return": -11.73,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "603063",
+      "name": "禾望电气",
+      "price": 32.72,
+      "change_pct": 1.2376237623762332,
+      "volume": 217803.0,
+      "amount": 712651416.0,
+      "score": 5,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 37.62799999999999,
+      "stop_loss": 29.448,
+      "decision_date": "2025-04-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-04-02",
+          "price": 34.96,
+          "return": 6.85
+        },
+        "day_2": {
+          "date": "2025-04-03",
+          "price": 31.48,
+          "return": -3.79
+        },
+        "day_3": {
+          "date": "2025-04-07",
+          "price": 28.32,
+          "return": -13.45
+        }
+      },
+      "final_return": -13.45,
+      "max_return": 6.85,
+      "min_return": -13.45,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688498",
+      "name": "源杰科技",
+      "price": 122.902,
+      "change_pct": 7.523927840282754,
+      "volume": 3217524.0,
+      "amount": 39544013464.8,
+      "score": 60,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 137.65024000000003,
+      "stop_loss": 113.06984,
+      "decision_date": "2025-05-06",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-05-07",
+          "price": 132.172,
+          "return": 7.54
+        },
+        "day_2": {
+          "date": "2025-05-08",
+          "price": 138.962,
+          "return": 13.07
+        }
+      },
+      "final_return": 13.07,
+      "max_return": 13.07,
+      "min_return": 0,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688167",
+      "name": "炬光科技",
+      "price": 67.77,
+      "change_pct": 4.825986078886295,
+      "volume": 2773992.0,
+      "amount": 18799343784.0,
+      "score": 40,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 77.93549999999999,
+      "stop_loss": 60.992999999999995,
+      "decision_date": "2025-05-06",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-05-07",
+          "price": 67.95,
+          "return": 0.27
+        },
+        "day_2": {
+          "date": "2025-05-08",
+          "price": 69.94,
+          "return": 3.2
+        },
+        "day_3": {
+          "date": "2025-05-09",
+          "price": 70.06,
+          "return": 3.38
+        },
+        "day_4": {
+          "date": "2025-05-12",
+          "price": 70.1,
+          "return": 3.44
+        },
+        "day_5": {
+          "date": "2025-05-13",
+          "price": 71.83,
+          "return": 5.99
+        },
+        "day_6": {
+          "date": "2025-05-14",
+          "price": 69.63,
+          "return": 2.74
+        },
+        "day_7": {
+          "date": "2025-05-15",
+          "price": 67.3,
+          "return": -0.69
+        },
+        "day_8": {
+          "date": "2025-05-16",
+          "price": 68.74,
+          "return": 1.43
+        },
+        "day_9": {
+          "date": "2025-05-19",
+          "price": 67.98,
+          "return": 0.31
+        },
+        "day_10": {
+          "date": "2025-05-20",
+          "price": 68.5,
+          "return": 1.08
+        }
+      },
+      "final_return": 1.08,
+      "max_return": 5.99,
+      "min_return": -0.69,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688627",
+      "name": "精智达",
+      "price": 77.742,
+      "change_pct": 4.209002439612879,
+      "volume": 2285425.0,
+      "amount": 17767351035.000004,
+      "score": 40,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 89.4033,
+      "stop_loss": 69.96780000000001,
+      "decision_date": "2025-05-06",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-05-07",
+          "price": 76.322,
+          "return": -1.83
+        },
+        "day_2": {
+          "date": "2025-05-08",
+          "price": 75.802,
+          "return": -2.5
+        },
+        "day_3": {
+          "date": "2025-05-09",
+          "price": 71.862,
+          "return": -7.56
+        },
+        "day_4": {
+          "date": "2025-05-12",
+          "price": 72.242,
+          "return": -7.07
+        },
+        "day_5": {
+          "date": "2025-05-13",
+          "price": 71.052,
+          "return": -8.61
+        },
+        "day_6": {
+          "date": "2025-05-14",
+          "price": 69.992,
+          "return": -9.97
+        },
+        "day_7": {
+          "date": "2025-05-15",
+          "price": 67.932,
+          "return": -12.62
+        }
+      },
+      "final_return": -12.62,
+      "max_return": 0,
+      "min_return": -12.62,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688025",
+      "name": "杰普特",
+      "price": 50.13,
+      "change_pct": 3.7888198757764093,
+      "volume": 2327348.0,
+      "amount": 11666995524.0,
+      "score": 40,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 57.649499999999996,
+      "stop_loss": 45.117000000000004,
+      "decision_date": "2025-05-06",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-05-07",
+          "price": 49.58,
+          "return": -1.1
+        },
+        "day_2": {
+          "date": "2025-05-08",
+          "price": 50.76,
+          "return": 1.26
+        },
+        "day_3": {
+          "date": "2025-05-09",
+          "price": 49.95,
+          "return": -0.36
+        },
+        "day_4": {
+          "date": "2025-05-12",
+          "price": 51.74,
+          "return": 3.21
+        },
+        "day_5": {
+          "date": "2025-05-13",
+          "price": 50.76,
+          "return": 1.26
+        },
+        "day_6": {
+          "date": "2025-05-14",
+          "price": 50.28,
+          "return": 0.3
+        },
+        "day_7": {
+          "date": "2025-05-15",
+          "price": 49.48,
+          "return": -1.3
+        },
+        "day_8": {
+          "date": "2025-05-16",
+          "price": 50.12,
+          "return": -0.02
+        },
+        "day_9": {
+          "date": "2025-05-19",
+          "price": 50.4,
+          "return": 0.54
+        },
+        "day_10": {
+          "date": "2025-05-20",
+          "price": 50.41,
+          "return": 0.56
+        }
+      },
+      "final_return": 0.56,
+      "max_return": 3.21,
+      "min_return": -1.3,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688668",
+      "name": "鼎通科技",
+      "price": 47.95,
+      "change_pct": 4.397996951883307,
+      "volume": 5486426.0,
+      "amount": 26307412670.0,
+      "score": 40,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 55.1425,
+      "stop_loss": 43.155,
+      "decision_date": "2025-05-06",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-05-07",
+          "price": 48.18,
+          "return": 0.48
+        },
+        "day_2": {
+          "date": "2025-05-08",
+          "price": 50.18,
+          "return": 4.65
+        },
+        "day_3": {
+          "date": "2025-05-09",
+          "price": 49.3,
+          "return": 2.82
+        },
+        "day_4": {
+          "date": "2025-05-12",
+          "price": 49.7,
+          "return": 3.65
+        },
+        "day_5": {
+          "date": "2025-05-13",
+          "price": 49.09,
+          "return": 2.38
+        },
+        "day_6": {
+          "date": "2025-05-14",
+          "price": 49.0,
+          "return": 2.19
+        },
+        "day_7": {
+          "date": "2025-05-15",
+          "price": 47.86,
+          "return": -0.19
+        },
+        "day_8": {
+          "date": "2025-05-16",
+          "price": 47.5,
+          "return": -0.94
+        },
+        "day_9": {
+          "date": "2025-05-19",
+          "price": 47.86,
+          "return": -0.19
+        },
+        "day_10": {
+          "date": "2025-05-20",
+          "price": 48.15,
+          "return": 0.42
+        }
+      },
+      "final_return": 0.42,
+      "max_return": 4.65,
+      "min_return": -0.94,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "603063",
+      "name": "禾望电气",
+      "price": 31.78,
+      "change_pct": 7.039407207814078,
+      "volume": 291031.0,
+      "amount": 924896518.0,
+      "score": 35,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 35.5936,
+      "stop_loss": 29.237600000000004,
+      "decision_date": "2025-05-06",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-05-07",
+          "price": 31.55,
+          "return": -0.72
+        },
+        "day_2": {
+          "date": "2025-05-08",
+          "price": 31.43,
+          "return": -1.1
+        },
+        "day_3": {
+          "date": "2025-05-09",
+          "price": 30.85,
+          "return": -2.93
+        },
+        "day_4": {
+          "date": "2025-05-12",
+          "price": 31.78,
+          "return": 0.0
+        },
+        "day_5": {
+          "date": "2025-05-13",
+          "price": 31.43,
+          "return": -1.1
+        },
+        "day_6": {
+          "date": "2025-05-14",
+          "price": 31.35,
+          "return": -1.35
+        },
+        "day_7": {
+          "date": "2025-05-15",
+          "price": 29.97,
+          "return": -5.7
+        },
+        "day_8": {
+          "date": "2025-05-16",
+          "price": 29.64,
+          "return": -6.73
+        },
+        "day_9": {
+          "date": "2025-05-19",
+          "price": 29.7,
+          "return": -6.54
+        },
+        "day_10": {
+          "date": "2025-05-20",
+          "price": 32.12,
+          "return": 1.07
+        }
+      },
+      "final_return": 1.07,
+      "max_return": 1.07,
+      "min_return": -6.73,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "002272",
+      "name": "川润股份",
+      "price": 10.75,
+      "change_pct": 10.03070624360287,
+      "volume": 740634.0,
+      "amount": 796181550.0,
+      "score": 35,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 11.610000000000001,
+      "stop_loss": 10.104999999999999,
+      "decision_date": "2025-05-06",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-05-07",
+          "price": 10.85,
+          "return": 0.93
+        },
+        "day_2": {
+          "date": "2025-05-08",
+          "price": 11.24,
+          "return": 4.56
+        },
+        "day_3": {
+          "date": "2025-05-09",
+          "price": 10.82,
+          "return": 0.65
+        },
+        "day_4": {
+          "date": "2025-05-12",
+          "price": 10.49,
+          "return": -2.42
+        },
+        "day_5": {
+          "date": "2025-05-13",
+          "price": 10.69,
+          "return": -0.56
+        },
+        "day_6": {
+          "date": "2025-05-14",
+          "price": 11.08,
+          "return": 3.07
+        },
+        "day_7": {
+          "date": "2025-05-15",
+          "price": 10.54,
+          "return": -1.95
+        },
+        "day_8": {
+          "date": "2025-05-16",
+          "price": 10.72,
+          "return": -0.28
+        },
+        "day_9": {
+          "date": "2025-05-19",
+          "price": 10.85,
+          "return": 0.93
+        },
+        "day_10": {
+          "date": "2025-05-20",
+          "price": 10.99,
+          "return": 2.23
+        }
+      },
+      "final_return": 2.23,
+      "max_return": 4.56,
+      "min_return": -2.42,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688411",
+      "name": "海博思创",
+      "price": 74.05,
+      "change_pct": 1.1473842371260805,
+      "volume": 2072418.0,
+      "amount": 15346255290.0,
+      "score": 30,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 85.15749999999998,
+      "stop_loss": 66.645,
+      "decision_date": "2025-05-06",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-05-07",
+          "price": 72.15,
+          "return": -2.57
+        },
+        "day_2": {
+          "date": "2025-05-08",
+          "price": 72.64,
+          "return": -1.9
+        },
+        "day_3": {
+          "date": "2025-05-09",
+          "price": 70.89,
+          "return": -4.27
+        },
+        "day_4": {
+          "date": "2025-05-12",
+          "price": 72.65,
+          "return": -1.89
+        },
+        "day_5": {
+          "date": "2025-05-13",
+          "price": 73.99,
+          "return": -0.08
+        },
+        "day_6": {
+          "date": "2025-05-14",
+          "price": 72.0,
+          "return": -2.77
+        },
+        "day_7": {
+          "date": "2025-05-15",
+          "price": 71.1,
+          "return": -3.98
+        },
+        "day_8": {
+          "date": "2025-05-16",
+          "price": 70.48,
+          "return": -4.82
+        },
+        "day_9": {
+          "date": "2025-05-19",
+          "price": 71.8,
+          "return": -3.04
+        },
+        "day_10": {
+          "date": "2025-05-20",
+          "price": 70.32,
+          "return": -5.04
+        }
+      },
+      "final_return": -5.04,
+      "max_return": 0,
+      "min_return": -5.04,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "688097",
+      "name": "博众精工",
+      "price": 25.946,
+      "change_pct": 1.5260604163405875,
+      "volume": 7692692.0,
+      "amount": 19959458663.2,
+      "score": 30,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 29.8379,
+      "stop_loss": 23.3514,
+      "decision_date": "2025-05-06",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-05-07",
+          "price": 25.666,
+          "return": -1.08
+        },
+        "day_2": {
+          "date": "2025-05-08",
+          "price": 26.286,
+          "return": 1.31
+        },
+        "day_3": {
+          "date": "2025-05-09",
+          "price": 25.196,
+          "return": -2.89
+        },
+        "day_4": {
+          "date": "2025-05-12",
+          "price": 26.116,
+          "return": 0.66
+        },
+        "day_5": {
+          "date": "2025-05-13",
+          "price": 26.096,
+          "return": 0.58
+        },
+        "day_6": {
+          "date": "2025-05-14",
+          "price": 25.616,
+          "return": -1.27
+        },
+        "day_7": {
+          "date": "2025-05-15",
+          "price": 24.976,
+          "return": -3.74
+        },
+        "day_8": {
+          "date": "2025-05-16",
+          "price": 24.976,
+          "return": -3.74
+        },
+        "day_9": {
+          "date": "2025-05-19",
+          "price": 24.826,
+          "return": -4.32
+        },
+        "day_10": {
+          "date": "2025-05-20",
+          "price": 25.066,
+          "return": -3.39
+        }
+      },
+      "final_return": -3.39,
+      "max_return": 1.31,
+      "min_return": -4.32,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "001283",
+      "name": "豪鹏科技",
+      "price": 57.007,
+      "change_pct": 6.1444504440761865,
+      "volume": 30132.0,
+      "amount": 171773492.39999998,
+      "score": 25,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 63.847840000000005,
+      "stop_loss": 52.44644,
+      "decision_date": "2025-05-06",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-05-07",
+          "price": 56.717,
+          "return": -0.51
+        },
+        "day_2": {
+          "date": "2025-05-08",
+          "price": 55.827,
+          "return": -2.07
+        },
+        "day_3": {
+          "date": "2025-05-09",
+          "price": 55.737,
+          "return": -2.23
+        },
+        "day_4": {
+          "date": "2025-05-12",
+          "price": 55.917,
+          "return": -1.91
+        },
+        "day_5": {
+          "date": "2025-05-13",
+          "price": 54.447,
+          "return": -4.49
+        },
+        "day_6": {
+          "date": "2025-05-14",
+          "price": 53.757,
+          "return": -5.7
+        },
+        "day_7": {
+          "date": "2025-05-15",
+          "price": 53.127,
+          "return": -6.81
+        },
+        "day_8": {
+          "date": "2025-05-16",
+          "price": 53.387,
+          "return": -6.35
+        },
+        "day_9": {
+          "date": "2025-05-19",
+          "price": 54.067,
+          "return": -5.16
+        },
+        "day_10": {
+          "date": "2025-05-20",
+          "price": 54.277,
+          "return": -4.79
+        }
+      },
+      "final_return": -4.79,
+      "max_return": 0,
+      "min_return": -6.81,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "688627",
+      "name": "精智达",
+      "price": 79.572,
+      "change_pct": 2.6047039405817975,
+      "volume": 2345397.0,
+      "amount": 18662793008.4,
+      "score": 30,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 91.5078,
+      "stop_loss": 71.6148,
+      "decision_date": "2025-06-03",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-06-04",
+          "price": 79.982,
+          "return": 0.52
+        },
+        "day_2": {
+          "date": "2025-06-05",
+          "price": 82.162,
+          "return": 3.25
+        },
+        "day_3": {
+          "date": "2025-06-06",
+          "price": 82.272,
+          "return": 3.39
+        },
+        "day_4": {
+          "date": "2025-06-09",
+          "price": 80.632,
+          "return": 1.33
+        },
+        "day_5": {
+          "date": "2025-06-10",
+          "price": 76.802,
+          "return": -3.48
+        },
+        "day_6": {
+          "date": "2025-06-11",
+          "price": 75.752,
+          "return": -4.8
+        },
+        "day_7": {
+          "date": "2025-06-12",
+          "price": 74.382,
+          "return": -6.52
+        },
+        "day_8": {
+          "date": "2025-06-13",
+          "price": 72.172,
+          "return": -9.3
+        },
+        "day_9": {
+          "date": "2025-06-16",
+          "price": 72.402,
+          "return": -9.01
+        },
+        "day_10": {
+          "date": "2025-06-17",
+          "price": 72.182,
+          "return": -9.29
+        }
+      },
+      "final_return": -9.29,
+      "max_return": 3.39,
+      "min_return": -9.3,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "688167",
+      "name": "炬光科技",
+      "price": 68.05,
+      "change_pct": -0.5553119976618582,
+      "volume": 1589209.0,
+      "amount": 10814567244.999998,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 80.29899999999999,
+      "stop_loss": 59.884,
+      "decision_date": "2025-06-03",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-06-04",
+          "price": 70.67,
+          "return": 3.85
+        },
+        "day_2": {
+          "date": "2025-06-05",
+          "price": 75.3,
+          "return": 10.65
+        },
+        "day_3": {
+          "date": "2025-06-06",
+          "price": 75.63,
+          "return": 11.14
+        },
+        "day_4": {
+          "date": "2025-06-09",
+          "price": 75.7,
+          "return": 11.24
+        },
+        "day_5": {
+          "date": "2025-06-10",
+          "price": 73.9,
+          "return": 8.6
+        },
+        "day_6": {
+          "date": "2025-06-11",
+          "price": 73.11,
+          "return": 7.44
+        },
+        "day_7": {
+          "date": "2025-06-12",
+          "price": 71.99,
+          "return": 5.79
+        },
+        "day_8": {
+          "date": "2025-06-13",
+          "price": 69.73,
+          "return": 2.47
+        },
+        "day_9": {
+          "date": "2025-06-16",
+          "price": 75.79,
+          "return": 11.37
+        },
+        "day_10": {
+          "date": "2025-06-17",
+          "price": 73.93,
+          "return": 8.64
+        }
+      },
+      "final_return": 8.64,
+      "max_return": 11.37,
+      "min_return": 0,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688668",
+      "name": "鼎通科技",
+      "price": 49.76,
+      "change_pct": -1.5238472194735861,
+      "volume": 2572891.0,
+      "amount": 12802705616.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 58.71679999999999,
+      "stop_loss": 43.7888,
+      "decision_date": "2025-06-03",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-06-04",
+          "price": 52.94,
+          "return": 6.39
+        },
+        "day_2": {
+          "date": "2025-06-05",
+          "price": 54.76,
+          "return": 10.05
+        },
+        "day_3": {
+          "date": "2025-06-06",
+          "price": 55.3,
+          "return": 11.13
+        },
+        "day_4": {
+          "date": "2025-06-09",
+          "price": 56.5,
+          "return": 13.55
+        },
+        "day_5": {
+          "date": "2025-06-10",
+          "price": 58.08,
+          "return": 16.72
+        },
+        "day_6": {
+          "date": "2025-06-11",
+          "price": 57.98,
+          "return": 16.52
+        },
+        "day_7": {
+          "date": "2025-06-12",
+          "price": 60.5,
+          "return": 21.58
+        }
+      },
+      "final_return": 21.58,
+      "max_return": 21.58,
+      "min_return": 0,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688498",
+      "name": "源杰科技",
+      "price": 128.222,
+      "change_pct": -4.091493881458875,
+      "volume": 2127066.0,
+      "amount": 27273665665.2,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 151.30196,
+      "stop_loss": 112.83536000000001,
+      "decision_date": "2025-06-03",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-06-04",
+          "price": 132.622,
+          "return": 3.43
+        },
+        "day_2": {
+          "date": "2025-06-05",
+          "price": 144.912,
+          "return": 13.02
+        },
+        "day_3": {
+          "date": "2025-06-06",
+          "price": 146.902,
+          "return": 14.57
+        },
+        "day_4": {
+          "date": "2025-06-09",
+          "price": 148.452,
+          "return": 15.78
+        },
+        "day_5": {
+          "date": "2025-06-10",
+          "price": 142.302,
+          "return": 10.98
+        },
+        "day_6": {
+          "date": "2025-06-11",
+          "price": 145.402,
+          "return": 13.4
+        },
+        "day_7": {
+          "date": "2025-06-12",
+          "price": 150.212,
+          "return": 17.15
+        },
+        "day_8": {
+          "date": "2025-06-13",
+          "price": 148.452,
+          "return": 15.78
+        },
+        "day_9": {
+          "date": "2025-06-16",
+          "price": 155.602,
+          "return": 21.35
+        }
+      },
+      "final_return": 21.35,
+      "max_return": 21.35,
+      "min_return": 0,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688411",
+      "name": "海博思创",
+      "price": 69.05,
+      "change_pct": 1.172161172161168,
+      "volume": 854208.0,
+      "amount": 5898306240.0,
+      "score": 20,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 79.40749999999998,
+      "stop_loss": 62.144999999999996,
+      "decision_date": "2025-06-03",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-06-04",
+          "price": 69.48,
+          "return": 0.62
+        },
+        "day_2": {
+          "date": "2025-06-05",
+          "price": 69.72,
+          "return": 0.97
+        },
+        "day_3": {
+          "date": "2025-06-06",
+          "price": 70.05,
+          "return": 1.45
+        },
+        "day_4": {
+          "date": "2025-06-09",
+          "price": 73.9,
+          "return": 7.02
+        },
+        "day_5": {
+          "date": "2025-06-10",
+          "price": 73.46,
+          "return": 6.39
+        },
+        "day_6": {
+          "date": "2025-06-11",
+          "price": 73.57,
+          "return": 6.55
+        },
+        "day_7": {
+          "date": "2025-06-12",
+          "price": 76.62,
+          "return": 10.96
+        },
+        "day_8": {
+          "date": "2025-06-13",
+          "price": 77.88,
+          "return": 12.79
+        },
+        "day_9": {
+          "date": "2025-06-16",
+          "price": 77.21,
+          "return": 11.82
+        },
+        "day_10": {
+          "date": "2025-06-17",
+          "price": 76.57,
+          "return": 10.89
+        }
+      },
+      "final_return": 10.89,
+      "max_return": 12.79,
+      "min_return": 0,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688025",
+      "name": "杰普特",
+      "price": 47.9,
+      "change_pct": 1.1615628299894343,
+      "volume": 1087216.0,
+      "amount": 5207764640.0,
+      "score": 20,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 55.084999999999994,
+      "stop_loss": 43.11,
+      "decision_date": "2025-06-03",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-06-04",
+          "price": 45.78,
+          "return": -4.43
+        },
+        "day_2": {
+          "date": "2025-06-05",
+          "price": 46.89,
+          "return": -2.11
+        },
+        "day_3": {
+          "date": "2025-06-06",
+          "price": 52.65,
+          "return": 9.92
+        },
+        "day_4": {
+          "date": "2025-06-09",
+          "price": 55.32,
+          "return": 15.49
+        }
+      },
+      "final_return": 15.49,
+      "max_return": 15.49,
+      "min_return": -4.43,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "002352",
+      "name": "顺丰控股",
+      "price": 47.022,
+      "change_pct": 3.9114293290904176,
+      "volume": 400382.0,
+      "amount": 1882676240.3999999,
+      "score": 20,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 54.07529999999999,
+      "stop_loss": 42.3198,
+      "decision_date": "2025-06-03",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-06-04",
+          "price": 46.352,
+          "return": -1.42
+        },
+        "day_2": {
+          "date": "2025-06-05",
+          "price": 46.482,
+          "return": -1.15
+        },
+        "day_3": {
+          "date": "2025-06-06",
+          "price": 46.002,
+          "return": -2.17
+        },
+        "day_4": {
+          "date": "2025-06-09",
+          "price": 45.882,
+          "return": -2.42
+        },
+        "day_5": {
+          "date": "2025-06-10",
+          "price": 45.542,
+          "return": -3.15
+        },
+        "day_6": {
+          "date": "2025-06-11",
+          "price": 46.002,
+          "return": -2.17
+        },
+        "day_7": {
+          "date": "2025-06-12",
+          "price": 47.882,
+          "return": 1.83
+        },
+        "day_8": {
+          "date": "2025-06-13",
+          "price": 48.092,
+          "return": 2.28
+        },
+        "day_9": {
+          "date": "2025-06-16",
+          "price": 48.902,
+          "return": 4.0
+        },
+        "day_10": {
+          "date": "2025-06-17",
+          "price": 48.782,
+          "return": 3.74
+        }
+      },
+      "final_return": 3.74,
+      "max_return": 4.0,
+      "min_return": -3.15,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688097",
+      "name": "博众精工",
+      "price": 24.256,
+      "change_pct": -1.622323166774816,
+      "volume": 2851271.0,
+      "amount": 6916042937.6,
+      "score": 15,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 28.62208,
+      "stop_loss": 21.34528,
+      "decision_date": "2025-06-03",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-06-04",
+          "price": 24.386,
+          "return": 0.54
+        },
+        "day_2": {
+          "date": "2025-06-05",
+          "price": 24.696,
+          "return": 1.81
+        },
+        "day_3": {
+          "date": "2025-06-06",
+          "price": 24.467,
+          "return": 0.87
+        },
+        "day_4": {
+          "date": "2025-06-09",
+          "price": 25.667,
+          "return": 5.82
+        },
+        "day_5": {
+          "date": "2025-06-10",
+          "price": 25.187,
+          "return": 3.84
+        },
+        "day_6": {
+          "date": "2025-06-11",
+          "price": 25.247,
+          "return": 4.09
+        },
+        "day_7": {
+          "date": "2025-06-12",
+          "price": 25.487,
+          "return": 5.08
+        },
+        "day_8": {
+          "date": "2025-06-13",
+          "price": 24.977,
+          "return": 2.97
+        },
+        "day_9": {
+          "date": "2025-06-16",
+          "price": 25.017,
+          "return": 3.14
+        },
+        "day_10": {
+          "date": "2025-06-17",
+          "price": 25.267,
+          "return": 4.17
+        }
+      },
+      "final_return": 4.17,
+      "max_return": 5.82,
+      "min_return": 0,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "600000",
+      "name": "浦发银行",
+      "price": 12.13,
+      "change_pct": 1.76174496644296,
+      "volume": 834353.0,
+      "amount": 1012070189.0,
+      "score": 10,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 13.9495,
+      "stop_loss": 10.917000000000002,
+      "decision_date": "2025-06-03",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-06-04",
+          "price": 11.97,
+          "return": -1.32
+        },
+        "day_2": {
+          "date": "2025-06-05",
+          "price": 11.91,
+          "return": -1.81
+        },
+        "day_3": {
+          "date": "2025-06-06",
+          "price": 11.91,
+          "return": -1.81
+        },
+        "day_4": {
+          "date": "2025-06-09",
+          "price": 11.9,
+          "return": -1.9
+        },
+        "day_5": {
+          "date": "2025-06-10",
+          "price": 11.95,
+          "return": -1.48
+        },
+        "day_6": {
+          "date": "2025-06-11",
+          "price": 11.94,
+          "return": -1.57
+        },
+        "day_7": {
+          "date": "2025-06-12",
+          "price": 12.05,
+          "return": -0.66
+        },
+        "day_8": {
+          "date": "2025-06-13",
+          "price": 11.93,
+          "return": -1.65
+        },
+        "day_9": {
+          "date": "2025-06-16",
+          "price": 12.17,
+          "return": 0.33
+        },
+        "day_10": {
+          "date": "2025-06-17",
+          "price": 12.13,
+          "return": 0.0
+        }
+      },
+      "final_return": 0.0,
+      "max_return": 0.33,
+      "min_return": -1.9,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "600000",
+      "name": "浦发银行",
+      "price": 12.13,
+      "change_pct": 1.76174496644296,
+      "volume": 834353.0,
+      "amount": 1012070189.0,
+      "score": 10,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 13.9495,
+      "stop_loss": 10.917000000000002,
+      "decision_date": "2025-06-03",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-06-04",
+          "price": 11.97,
+          "return": -1.32
+        },
+        "day_2": {
+          "date": "2025-06-05",
+          "price": 11.91,
+          "return": -1.81
+        },
+        "day_3": {
+          "date": "2025-06-06",
+          "price": 11.91,
+          "return": -1.81
+        },
+        "day_4": {
+          "date": "2025-06-09",
+          "price": 11.9,
+          "return": -1.9
+        },
+        "day_5": {
+          "date": "2025-06-10",
+          "price": 11.95,
+          "return": -1.48
+        },
+        "day_6": {
+          "date": "2025-06-11",
+          "price": 11.94,
+          "return": -1.57
+        },
+        "day_7": {
+          "date": "2025-06-12",
+          "price": 12.05,
+          "return": -0.66
+        },
+        "day_8": {
+          "date": "2025-06-13",
+          "price": 11.93,
+          "return": -1.65
+        },
+        "day_9": {
+          "date": "2025-06-16",
+          "price": 12.17,
+          "return": 0.33
+        },
+        "day_10": {
+          "date": "2025-06-17",
+          "price": 12.13,
+          "return": 0.0
+        }
+      },
+      "final_return": 0.0,
+      "max_return": 0.33,
+      "min_return": -1.9,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "688627",
+      "name": "精智达",
+      "price": 89.422,
+      "change_pct": 1.9728139396980389,
+      "volume": 3894914.0,
+      "amount": 34829099970.8,
+      "score": 30,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 102.83529999999999,
+      "stop_loss": 80.4798,
+      "decision_date": "2025-07-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-07-02",
+          "price": 87.172,
+          "return": -2.52
+        },
+        "day_2": {
+          "date": "2025-07-03",
+          "price": 83.772,
+          "return": -6.32
+        },
+        "day_3": {
+          "date": "2025-07-04",
+          "price": 85.302,
+          "return": -4.61
+        },
+        "day_4": {
+          "date": "2025-07-07",
+          "price": 86.582,
+          "return": -3.18
+        },
+        "day_5": {
+          "date": "2025-07-08",
+          "price": 86.342,
+          "return": -3.44
+        },
+        "day_6": {
+          "date": "2025-07-09",
+          "price": 86.712,
+          "return": -3.03
+        },
+        "day_7": {
+          "date": "2025-07-10",
+          "price": 90.5,
+          "return": 1.21
+        },
+        "day_8": {
+          "date": "2025-07-11",
+          "price": 90.0,
+          "return": 0.65
+        },
+        "day_9": {
+          "date": "2025-07-14",
+          "price": 91.42,
+          "return": 2.23
+        },
+        "day_10": {
+          "date": "2025-07-15",
+          "price": 86.75,
+          "return": -2.99
+        }
+      },
+      "final_return": -2.99,
+      "max_return": 2.23,
+      "min_return": -6.32,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "688025",
+      "name": "杰普特",
+      "price": 71.58,
+      "change_pct": 0.1118881118881095,
+      "volume": 2594915.0,
+      "amount": 18574401570.0,
+      "score": 30,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 82.317,
+      "stop_loss": 64.422,
+      "decision_date": "2025-07-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-07-02",
+          "price": 71.24,
+          "return": -0.47
+        },
+        "day_2": {
+          "date": "2025-07-03",
+          "price": 75.53,
+          "return": 5.52
+        },
+        "day_3": {
+          "date": "2025-07-04",
+          "price": 75.61,
+          "return": 5.63
+        },
+        "day_4": {
+          "date": "2025-07-07",
+          "price": 79.59,
+          "return": 11.19
+        },
+        "day_5": {
+          "date": "2025-07-08",
+          "price": 81.45,
+          "return": 13.79
+        },
+        "day_6": {
+          "date": "2025-07-09",
+          "price": 81.06,
+          "return": 13.24
+        },
+        "day_7": {
+          "date": "2025-07-10",
+          "price": 80.13,
+          "return": 11.94
+        },
+        "day_8": {
+          "date": "2025-07-11",
+          "price": 80.6,
+          "return": 12.6
+        },
+        "day_9": {
+          "date": "2025-07-14",
+          "price": 84.8,
+          "return": 18.47
+        }
+      },
+      "final_return": 18.47,
+      "max_return": 18.47,
+      "min_return": -0.47,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688668",
+      "name": "鼎通科技",
+      "price": 63.02,
+      "change_pct": 1.22068743976872,
+      "volume": 4516318.0,
+      "amount": 28461836036.0,
+      "score": 30,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 72.473,
+      "stop_loss": 56.718,
+      "decision_date": "2025-07-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-07-02",
+          "price": 59.56,
+          "return": -5.49
+        },
+        "day_2": {
+          "date": "2025-07-03",
+          "price": 59.0,
+          "return": -6.38
+        },
+        "day_3": {
+          "date": "2025-07-04",
+          "price": 60.64,
+          "return": -3.78
+        },
+        "day_4": {
+          "date": "2025-07-07",
+          "price": 60.7,
+          "return": -3.68
+        },
+        "day_5": {
+          "date": "2025-07-08",
+          "price": 62.76,
+          "return": -0.41
+        },
+        "day_6": {
+          "date": "2025-07-09",
+          "price": 63.17,
+          "return": 0.24
+        },
+        "day_7": {
+          "date": "2025-07-10",
+          "price": 63.57,
+          "return": 0.87
+        },
+        "day_8": {
+          "date": "2025-07-11",
+          "price": 62.7,
+          "return": -0.51
+        },
+        "day_9": {
+          "date": "2025-07-14",
+          "price": 60.68,
+          "return": -3.71
+        },
+        "day_10": {
+          "date": "2025-07-15",
+          "price": 62.02,
+          "return": -1.59
+        }
+      },
+      "final_return": -1.59,
+      "max_return": 0.87,
+      "min_return": -6.38,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "688167",
+      "name": "炬光科技",
+      "price": 80.1,
+      "change_pct": -0.8049535603715241,
+      "volume": 2419802.0,
+      "amount": 19382614020.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 94.51799999999999,
+      "stop_loss": 70.488,
+      "decision_date": "2025-07-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-07-02",
+          "price": 78.5,
+          "return": -2.0
+        },
+        "day_2": {
+          "date": "2025-07-03",
+          "price": 80.64,
+          "return": 0.67
+        },
+        "day_3": {
+          "date": "2025-07-04",
+          "price": 79.44,
+          "return": -0.82
+        },
+        "day_4": {
+          "date": "2025-07-07",
+          "price": 77.6,
+          "return": -3.12
+        },
+        "day_5": {
+          "date": "2025-07-08",
+          "price": 79.41,
+          "return": -0.86
+        },
+        "day_6": {
+          "date": "2025-07-09",
+          "price": 78.0,
+          "return": -2.62
+        },
+        "day_7": {
+          "date": "2025-07-10",
+          "price": 77.93,
+          "return": -2.71
+        },
+        "day_8": {
+          "date": "2025-07-11",
+          "price": 79.97,
+          "return": -0.16
+        },
+        "day_9": {
+          "date": "2025-07-14",
+          "price": 78.83,
+          "return": -1.59
+        },
+        "day_10": {
+          "date": "2025-07-15",
+          "price": 80.0,
+          "return": -0.12
+        }
+      },
+      "final_return": -0.12,
+      "max_return": 0.67,
+      "min_return": -3.12,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "688411",
+      "name": "海博思创",
+      "price": 84.03,
+      "change_pct": -1.4079549454417493,
+      "volume": 1274616.0,
+      "amount": 10710598248.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 99.1554,
+      "stop_loss": 73.9464,
+      "decision_date": "2025-07-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-07-02",
+          "price": 85.13,
+          "return": 1.31
+        },
+        "day_2": {
+          "date": "2025-07-03",
+          "price": 86.08,
+          "return": 2.44
+        },
+        "day_3": {
+          "date": "2025-07-04",
+          "price": 88.0,
+          "return": 4.72
+        },
+        "day_4": {
+          "date": "2025-07-07",
+          "price": 86.2,
+          "return": 2.58
+        },
+        "day_5": {
+          "date": "2025-07-08",
+          "price": 89.88,
+          "return": 6.96
+        },
+        "day_6": {
+          "date": "2025-07-09",
+          "price": 88.41,
+          "return": 5.21
+        },
+        "day_7": {
+          "date": "2025-07-10",
+          "price": 88.11,
+          "return": 4.86
+        },
+        "day_8": {
+          "date": "2025-07-11",
+          "price": 87.08,
+          "return": 3.63
+        },
+        "day_9": {
+          "date": "2025-07-14",
+          "price": 85.3,
+          "return": 1.51
+        },
+        "day_10": {
+          "date": "2025-07-15",
+          "price": 91.9,
+          "return": 9.37
+        }
+      },
+      "final_return": 9.37,
+      "max_return": 9.37,
+      "min_return": 0,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "000601",
+      "name": "韶能股份",
+      "price": 5.12,
+      "change_pct": 5.349794238683122,
+      "volume": 779865.0,
+      "amount": 399290880.0,
+      "score": 25,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 5.734400000000001,
+      "stop_loss": 4.7104,
+      "decision_date": "2025-07-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-07-02",
+          "price": 4.98,
+          "return": -2.73
+        },
+        "day_2": {
+          "date": "2025-07-03",
+          "price": 5.05,
+          "return": -1.37
+        },
+        "day_3": {
+          "date": "2025-07-04",
+          "price": 5.56,
+          "return": 8.59
+        },
+        "day_4": {
+          "date": "2025-07-07",
+          "price": 6.12,
+          "return": 19.53
+        }
+      },
+      "final_return": 19.53,
+      "max_return": 19.53,
+      "min_return": -2.73,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688097",
+      "name": "博众精工",
+      "price": 27.707,
+      "change_pct": -0.3954416364093879,
+      "volume": 5368249.0,
+      "amount": 14873807504.300001,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 32.69426,
+      "stop_loss": 24.382160000000002,
+      "decision_date": "2025-07-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-07-02",
+          "price": 27.387,
+          "return": -1.15
+        },
+        "day_2": {
+          "date": "2025-07-03",
+          "price": 27.557,
+          "return": -0.54
+        },
+        "day_3": {
+          "date": "2025-07-04",
+          "price": 27.107,
+          "return": -2.17
+        },
+        "day_4": {
+          "date": "2025-07-07",
+          "price": 26.797,
+          "return": -3.28
+        },
+        "day_5": {
+          "date": "2025-07-08",
+          "price": 26.847,
+          "return": -3.1
+        },
+        "day_6": {
+          "date": "2025-07-09",
+          "price": 26.877,
+          "return": -3.0
+        },
+        "day_7": {
+          "date": "2025-07-10",
+          "price": 26.697,
+          "return": -3.65
+        },
+        "day_8": {
+          "date": "2025-07-11",
+          "price": 27.367,
+          "return": -1.23
+        },
+        "day_9": {
+          "date": "2025-07-14",
+          "price": 26.867,
+          "return": -3.03
+        },
+        "day_10": {
+          "date": "2025-07-15",
+          "price": 28.387,
+          "return": 2.45
+        }
+      },
+      "final_return": 2.45,
+      "max_return": 2.45,
+      "min_return": -3.65,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688498",
+      "name": "源杰科技",
+      "price": 194.602,
+      "change_pct": 0.0,
+      "volume": 4094648.0,
+      "amount": 79682669009.6,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 229.63036,
+      "stop_loss": 171.24976,
+      "decision_date": "2025-07-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-07-02",
+          "price": 195.932,
+          "return": 0.68
+        },
+        "day_2": {
+          "date": "2025-07-03",
+          "price": 197.592,
+          "return": 1.54
+        },
+        "day_3": {
+          "date": "2025-07-04",
+          "price": 189.102,
+          "return": -2.83
+        },
+        "day_4": {
+          "date": "2025-07-07",
+          "price": 189.672,
+          "return": -2.53
+        },
+        "day_5": {
+          "date": "2025-07-08",
+          "price": 205.502,
+          "return": 5.6
+        },
+        "day_6": {
+          "date": "2025-07-09",
+          "price": 199.502,
+          "return": 2.52
+        },
+        "day_7": {
+          "date": "2025-07-10",
+          "price": 194.232,
+          "return": -0.19
+        },
+        "day_8": {
+          "date": "2025-07-11",
+          "price": 192.132,
+          "return": -1.27
+        },
+        "day_9": {
+          "date": "2025-07-14",
+          "price": 198.542,
+          "return": 2.02
+        },
+        "day_10": {
+          "date": "2025-07-15",
+          "price": 210.872,
+          "return": 8.36
+        }
+      },
+      "final_return": 8.36,
+      "max_return": 8.36,
+      "min_return": -2.83,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "003031",
+      "name": "中瓷电子",
+      "price": 55.63,
+      "change_pct": 4.548017289983089,
+      "volume": 186138.0,
+      "amount": 1035485694.0000001,
+      "score": 20,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 63.9745,
+      "stop_loss": 50.067,
+      "decision_date": "2025-07-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-07-02",
+          "price": 52.74,
+          "return": -5.2
+        },
+        "day_2": {
+          "date": "2025-07-03",
+          "price": 53.0,
+          "return": -4.73
+        },
+        "day_3": {
+          "date": "2025-07-04",
+          "price": 51.79,
+          "return": -6.9
+        },
+        "day_4": {
+          "date": "2025-07-07",
+          "price": 51.35,
+          "return": -7.69
+        },
+        "day_5": {
+          "date": "2025-07-08",
+          "price": 51.85,
+          "return": -6.79
+        },
+        "day_6": {
+          "date": "2025-07-09",
+          "price": 52.73,
+          "return": -5.21
+        },
+        "day_7": {
+          "date": "2025-07-10",
+          "price": 51.6,
+          "return": -7.24
+        },
+        "day_8": {
+          "date": "2025-07-11",
+          "price": 51.96,
+          "return": -6.6
+        },
+        "day_9": {
+          "date": "2025-07-14",
+          "price": 51.73,
+          "return": -7.01
+        },
+        "day_10": {
+          "date": "2025-07-15",
+          "price": 51.42,
+          "return": -7.57
+        }
+      },
+      "final_return": -7.57,
+      "max_return": 0,
+      "min_return": -7.69,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "001283",
+      "name": "豪鹏科技",
+      "price": 57.0,
+      "change_pct": 4.683195592286496,
+      "volume": 53853.0,
+      "amount": 306962100.0,
+      "score": 15,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 65.55,
+      "stop_loss": 51.300000000000004,
+      "decision_date": "2025-07-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-07-02",
+          "price": 55.98,
+          "return": -1.79
+        },
+        "day_2": {
+          "date": "2025-07-03",
+          "price": 58.48,
+          "return": 2.6
+        },
+        "day_3": {
+          "date": "2025-07-04",
+          "price": 57.93,
+          "return": 1.63
+        },
+        "day_4": {
+          "date": "2025-07-07",
+          "price": 57.75,
+          "return": 1.32
+        },
+        "day_5": {
+          "date": "2025-07-08",
+          "price": 59.48,
+          "return": 4.35
+        },
+        "day_6": {
+          "date": "2025-07-09",
+          "price": 59.86,
+          "return": 5.02
+        },
+        "day_7": {
+          "date": "2025-07-10",
+          "price": 63.15,
+          "return": 10.79
+        },
+        "day_8": {
+          "date": "2025-07-11",
+          "price": 62.51,
+          "return": 9.67
+        },
+        "day_9": {
+          "date": "2025-07-14",
+          "price": 62.15,
+          "return": 9.04
+        },
+        "day_10": {
+          "date": "2025-07-15",
+          "price": 62.37,
+          "return": 9.42
+        }
+      },
+      "final_return": 9.42,
+      "max_return": 10.79,
+      "min_return": -1.79,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688025",
+      "name": "杰普特",
+      "price": 100.8,
+      "change_pct": 5.219206680584551,
+      "volume": 2700977.0,
+      "amount": 27225848159.999996,
+      "score": 50,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 112.896,
+      "stop_loss": 92.736,
+      "decision_date": "2025-08-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-08-04",
+          "price": 113.48,
+          "return": 12.58
+        }
+      },
+      "final_return": 12.58,
+      "max_return": 12.58,
+      "min_return": 0,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688627",
+      "name": "精智达",
+      "price": 94.04,
+      "change_pct": 0.02127206977239974,
+      "volume": 3333029.0,
+      "amount": 31343804716.000004,
+      "score": 30,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 108.146,
+      "stop_loss": 84.63600000000001,
+      "decision_date": "2025-08-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-08-04",
+          "price": 92.44,
+          "return": -1.7
+        },
+        "day_2": {
+          "date": "2025-08-05",
+          "price": 91.11,
+          "return": -3.12
+        },
+        "day_3": {
+          "date": "2025-08-06",
+          "price": 91.9,
+          "return": -2.28
+        },
+        "day_4": {
+          "date": "2025-08-07",
+          "price": 89.4,
+          "return": -4.93
+        },
+        "day_5": {
+          "date": "2025-08-08",
+          "price": 87.45,
+          "return": -7.01
+        },
+        "day_6": {
+          "date": "2025-08-11",
+          "price": 91.82,
+          "return": -2.36
+        },
+        "day_7": {
+          "date": "2025-08-12",
+          "price": 88.4,
+          "return": -6.0
+        },
+        "day_8": {
+          "date": "2025-08-13",
+          "price": 89.99,
+          "return": -4.31
+        },
+        "day_9": {
+          "date": "2025-08-14",
+          "price": 93.6,
+          "return": -0.47
+        },
+        "day_10": {
+          "date": "2025-08-15",
+          "price": 92.99,
+          "return": -1.12
+        }
+      },
+      "final_return": -1.12,
+      "max_return": 0,
+      "min_return": -7.01,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "688097",
+      "name": "博众精工",
+      "price": 29.227,
+      "change_pct": 0.20571193472074165,
+      "volume": 5310600.0,
+      "amount": 15521290619.999998,
+      "score": 30,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 33.61105,
+      "stop_loss": 26.3043,
+      "decision_date": "2025-08-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-08-04",
+          "price": 30.477,
+          "return": 4.28
+        },
+        "day_2": {
+          "date": "2025-08-05",
+          "price": 30.917,
+          "return": 5.78
+        },
+        "day_3": {
+          "date": "2025-08-06",
+          "price": 30.897,
+          "return": 5.71
+        },
+        "day_4": {
+          "date": "2025-08-07",
+          "price": 30.737,
+          "return": 5.17
+        },
+        "day_5": {
+          "date": "2025-08-08",
+          "price": 29.987,
+          "return": 2.6
+        },
+        "day_6": {
+          "date": "2025-08-11",
+          "price": 31.567,
+          "return": 8.01
+        },
+        "day_7": {
+          "date": "2025-08-12",
+          "price": 31.707,
+          "return": 8.49
+        },
+        "day_8": {
+          "date": "2025-08-13",
+          "price": 32.907,
+          "return": 12.59
+        },
+        "day_9": {
+          "date": "2025-08-14",
+          "price": 32.207,
+          "return": 10.2
+        },
+        "day_10": {
+          "date": "2025-08-15",
+          "price": 33.787,
+          "return": 15.6
+        }
+      },
+      "final_return": 15.6,
+      "max_return": 15.6,
+      "min_return": 0,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688167",
+      "name": "炬光科技",
+      "price": 83.41,
+      "change_pct": -2.547026521789937,
+      "volume": 2883965.0,
+      "amount": 24055152064.999996,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 98.42379999999999,
+      "stop_loss": 73.4008,
+      "decision_date": "2025-08-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-08-04",
+          "price": 85.38,
+          "return": 2.36
+        },
+        "day_2": {
+          "date": "2025-08-05",
+          "price": 86.06,
+          "return": 3.18
+        },
+        "day_3": {
+          "date": "2025-08-06",
+          "price": 100.01,
+          "return": 19.9
+        }
+      },
+      "final_return": 19.9,
+      "max_return": 19.9,
+      "min_return": 0,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688668",
+      "name": "鼎通科技",
+      "price": 89.82,
+      "change_pct": -6.1442006269592575,
+      "volume": 12161231.0,
+      "amount": 109232176841.99998,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 105.98759999999999,
+      "stop_loss": 79.04159999999999,
+      "decision_date": "2025-08-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-08-04",
+          "price": 90.14,
+          "return": 0.36
+        },
+        "day_2": {
+          "date": "2025-08-05",
+          "price": 92.59,
+          "return": 3.08
+        },
+        "day_3": {
+          "date": "2025-08-06",
+          "price": 93.22,
+          "return": 3.79
+        },
+        "day_4": {
+          "date": "2025-08-07",
+          "price": 90.58,
+          "return": 0.85
+        },
+        "day_5": {
+          "date": "2025-08-08",
+          "price": 91.59,
+          "return": 1.97
+        },
+        "day_6": {
+          "date": "2025-08-11",
+          "price": 93.8,
+          "return": 4.43
+        },
+        "day_7": {
+          "date": "2025-08-12",
+          "price": 101.8,
+          "return": 13.34
+        },
+        "day_8": {
+          "date": "2025-08-13",
+          "price": 115.16,
+          "return": 28.21
+        }
+      },
+      "final_return": 28.21,
+      "max_return": 28.21,
+      "min_return": 0,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688498",
+      "name": "源杰科技",
+      "price": 222.702,
+      "change_pct": -7.010672590316166,
+      "volume": 4094077.0,
+      "amount": 91175913605.40001,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 262.78836,
+      "stop_loss": 195.97776,
+      "decision_date": "2025-08-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-08-04",
+          "price": 216.702,
+          "return": -2.69
+        },
+        "day_2": {
+          "date": "2025-08-05",
+          "price": 217.332,
+          "return": -2.41
+        },
+        "day_3": {
+          "date": "2025-08-06",
+          "price": 218.402,
+          "return": -1.93
+        },
+        "day_4": {
+          "date": "2025-08-07",
+          "price": 224.242,
+          "return": 0.69
+        },
+        "day_5": {
+          "date": "2025-08-08",
+          "price": 234.702,
+          "return": 5.39
+        },
+        "day_6": {
+          "date": "2025-08-11",
+          "price": 243.602,
+          "return": 9.38
+        },
+        "day_7": {
+          "date": "2025-08-12",
+          "price": 269.732,
+          "return": 21.12
+        }
+      },
+      "final_return": 21.12,
+      "max_return": 21.12,
+      "min_return": -2.69,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688411",
+      "name": "海博思创",
+      "price": 86.49,
+      "change_pct": 2.0530973451327372,
+      "volume": 848844.0,
+      "amount": 7341651756.0,
+      "score": 20,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 99.46349999999998,
+      "stop_loss": 77.841,
+      "decision_date": "2025-08-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-08-04",
+          "price": 92.37,
+          "return": 6.8
+        },
+        "day_2": {
+          "date": "2025-08-05",
+          "price": 92.0,
+          "return": 6.37
+        },
+        "day_3": {
+          "date": "2025-08-06",
+          "price": 91.28,
+          "return": 5.54
+        },
+        "day_4": {
+          "date": "2025-08-07",
+          "price": 90.65,
+          "return": 4.81
+        },
+        "day_5": {
+          "date": "2025-08-08",
+          "price": 88.5,
+          "return": 2.32
+        },
+        "day_6": {
+          "date": "2025-08-11",
+          "price": 92.81,
+          "return": 7.31
+        },
+        "day_7": {
+          "date": "2025-08-12",
+          "price": 93.2,
+          "return": 7.76
+        },
+        "day_8": {
+          "date": "2025-08-13",
+          "price": 96.58,
+          "return": 11.67
+        },
+        "day_9": {
+          "date": "2025-08-14",
+          "price": 96.4,
+          "return": 11.46
+        },
+        "day_10": {
+          "date": "2025-08-15",
+          "price": 99.98,
+          "return": 15.6
+        }
+      },
+      "final_return": 15.6,
+      "max_return": 15.6,
+      "min_return": 0,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "001283",
+      "name": "豪鹏科技",
+      "price": 79.73,
+      "change_pct": 4.27674601098615,
+      "volume": 55899.0,
+      "amount": 445682727.00000006,
+      "score": 15,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 91.6895,
+      "stop_loss": 71.757,
+      "decision_date": "2025-08-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-08-04",
+          "price": 82.0,
+          "return": 2.85
+        },
+        "day_2": {
+          "date": "2025-08-05",
+          "price": 81.0,
+          "return": 1.59
+        },
+        "day_3": {
+          "date": "2025-08-06",
+          "price": 79.12,
+          "return": -0.77
+        },
+        "day_4": {
+          "date": "2025-08-07",
+          "price": 74.6,
+          "return": -6.43
+        },
+        "day_5": {
+          "date": "2025-08-08",
+          "price": 71.68,
+          "return": -10.1
+        }
+      },
+      "final_return": -10.1,
+      "max_return": 2.85,
+      "min_return": -10.1,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "603063",
+      "name": "禾望电气",
+      "price": 38.1,
+      "change_pct": 0.5277044854881342,
+      "volume": 588544.0,
+      "amount": 2242352640.0,
+      "score": 10,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 43.815,
+      "stop_loss": 34.29,
+      "decision_date": "2025-08-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-08-04",
+          "price": 37.99,
+          "return": -0.29
+        },
+        "day_2": {
+          "date": "2025-08-05",
+          "price": 39.31,
+          "return": 3.18
+        },
+        "day_3": {
+          "date": "2025-08-06",
+          "price": 39.21,
+          "return": 2.91
+        },
+        "day_4": {
+          "date": "2025-08-07",
+          "price": 39.78,
+          "return": 4.41
+        },
+        "day_5": {
+          "date": "2025-08-08",
+          "price": 39.25,
+          "return": 3.02
+        },
+        "day_6": {
+          "date": "2025-08-11",
+          "price": 40.3,
+          "return": 5.77
+        },
+        "day_7": {
+          "date": "2025-08-12",
+          "price": 37.05,
+          "return": -2.76
+        },
+        "day_8": {
+          "date": "2025-08-13",
+          "price": 37.93,
+          "return": -0.45
+        },
+        "day_9": {
+          "date": "2025-08-14",
+          "price": 36.6,
+          "return": -3.94
+        },
+        "day_10": {
+          "date": "2025-08-15",
+          "price": 37.82,
+          "return": -0.73
+        }
+      },
+      "final_return": -0.73,
+      "max_return": 5.77,
+      "min_return": -3.94,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "600438",
+      "name": "通威股份",
+      "price": 20.58,
+      "change_pct": 0.7342143906020488,
+      "volume": 1051816.0,
+      "amount": 2164637327.9999995,
+      "score": 10,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 23.666999999999994,
+      "stop_loss": 18.522,
+      "decision_date": "2025-08-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-08-04",
+          "price": 20.07,
+          "return": -2.48
+        },
+        "day_2": {
+          "date": "2025-08-05",
+          "price": 20.55,
+          "return": -0.15
+        },
+        "day_3": {
+          "date": "2025-08-06",
+          "price": 20.42,
+          "return": -0.78
+        },
+        "day_4": {
+          "date": "2025-08-07",
+          "price": 20.14,
+          "return": -2.14
+        },
+        "day_5": {
+          "date": "2025-08-08",
+          "price": 20.15,
+          "return": -2.09
+        },
+        "day_6": {
+          "date": "2025-08-11",
+          "price": 20.88,
+          "return": 1.46
+        },
+        "day_7": {
+          "date": "2025-08-12",
+          "price": 20.36,
+          "return": -1.07
+        },
+        "day_8": {
+          "date": "2025-08-13",
+          "price": 20.18,
+          "return": -1.94
+        },
+        "day_9": {
+          "date": "2025-08-14",
+          "price": 19.56,
+          "return": -4.96
+        },
+        "day_10": {
+          "date": "2025-08-15",
+          "price": 20.81,
+          "return": 1.12
+        }
+      },
+      "final_return": 1.12,
+      "max_return": 1.46,
+      "min_return": -4.96,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688025",
+      "name": "杰普特",
+      "price": 146.51,
+      "change_pct": 10.116497557309266,
+      "volume": 3690745.0,
+      "amount": 54073104994.99999,
+      "score": 60,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 158.2308,
+      "stop_loss": 137.71939999999998,
+      "decision_date": "2025-09-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-09-02",
+          "price": 134.83,
+          "return": -7.97
+        }
+      },
+      "final_return": -7.97,
+      "max_return": 0,
+      "min_return": -7.97,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688498",
+      "name": "源杰科技",
+      "price": 358.502,
+      "change_pct": 20.0199529966321,
+      "volume": 5278654.0,
+      "amount": 189240801630.80002,
+      "score": 60,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 387.18216,
+      "stop_loss": 336.99188,
+      "decision_date": "2025-09-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-09-02",
+          "price": 351.702,
+          "return": -1.9
+        },
+        "day_2": {
+          "date": "2025-09-03",
+          "price": 397.502,
+          "return": 10.88
+        }
+      },
+      "final_return": 10.88,
+      "max_return": 10.88,
+      "min_return": -1.9,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688627",
+      "name": "精智达",
+      "price": 112.27,
+      "change_pct": 6.518026565464886,
+      "volume": 4785282.0,
+      "amount": 53724361014.0,
+      "score": 50,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 125.7424,
+      "stop_loss": 103.2884,
+      "decision_date": "2025-09-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-09-02",
+          "price": 110.25,
+          "return": -1.8
+        },
+        "day_2": {
+          "date": "2025-09-03",
+          "price": 115.78,
+          "return": 3.13
+        },
+        "day_3": {
+          "date": "2025-09-04",
+          "price": 105.13,
+          "return": -6.36
+        },
+        "day_4": {
+          "date": "2025-09-05",
+          "price": 106.25,
+          "return": -5.36
+        },
+        "day_5": {
+          "date": "2025-09-08",
+          "price": 108.28,
+          "return": -3.55
+        },
+        "day_6": {
+          "date": "2025-09-09",
+          "price": 105.69,
+          "return": -5.86
+        },
+        "day_7": {
+          "date": "2025-09-10",
+          "price": 106.0,
+          "return": -5.58
+        },
+        "day_8": {
+          "date": "2025-09-11",
+          "price": 111.71,
+          "return": -0.5
+        },
+        "day_9": {
+          "date": "2025-09-12",
+          "price": 134.05,
+          "return": 19.4
+        }
+      },
+      "final_return": 19.4,
+      "max_return": 19.4,
+      "min_return": -6.36,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "002074",
+      "name": "国轩高科",
+      "price": 40.12,
+      "change_pct": 10.008225939128048,
+      "volume": 1612977.0,
+      "amount": 6471263723.999999,
+      "score": 50,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 43.3296,
+      "stop_loss": 37.712799999999994,
+      "decision_date": "2025-09-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-09-02",
+          "price": 40.2,
+          "return": 0.2
+        },
+        "day_2": {
+          "date": "2025-09-03",
+          "price": 42.04,
+          "return": 4.79
+        },
+        "day_3": {
+          "date": "2025-09-04",
+          "price": 40.6,
+          "return": 1.2
+        },
+        "day_4": {
+          "date": "2025-09-05",
+          "price": 44.03,
+          "return": 9.75
+        }
+      },
+      "final_return": 9.75,
+      "max_return": 9.75,
+      "min_return": 0,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "300450",
+      "name": "先导智能",
+      "price": 40.7,
+      "change_pct": 14.615601239087594,
+      "volume": 2269784.0,
+      "amount": 9238020880.000002,
+      "score": 50,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 43.956,
+      "stop_loss": 38.258,
+      "decision_date": "2025-09-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-09-02",
+          "price": 43.8,
+          "return": 7.62
+        },
+        "day_2": {
+          "date": "2025-09-03",
+          "price": 43.96,
+          "return": 8.01
+        }
+      },
+      "final_return": 8.01,
+      "max_return": 8.01,
+      "min_return": 0,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "605050",
+      "name": "福然德",
+      "price": 16.431,
+      "change_pct": 10.1199651497889,
+      "volume": 188670.0,
+      "amount": 310003677.0,
+      "score": 35,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 17.74548,
+      "stop_loss": 15.44514,
+      "decision_date": "2025-09-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-09-02",
+          "price": 17.221,
+          "return": 4.81
+        },
+        "day_2": {
+          "date": "2025-09-03",
+          "price": 17.331,
+          "return": 5.48
+        },
+        "day_3": {
+          "date": "2025-09-04",
+          "price": 16.901,
+          "return": 2.86
+        },
+        "day_4": {
+          "date": "2025-09-05",
+          "price": 18.201,
+          "return": 10.77
+        }
+      },
+      "final_return": 10.77,
+      "max_return": 10.77,
+      "min_return": 0,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688167",
+      "name": "炬光科技",
+      "price": 133.4,
+      "change_pct": 2.639070554743408,
+      "volume": 6694988.0,
+      "amount": 89311139920.0,
+      "score": 30,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 153.41,
+      "stop_loss": 120.06,
+      "decision_date": "2025-09-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-09-02",
+          "price": 127.13,
+          "return": -4.7
+        },
+        "day_2": {
+          "date": "2025-09-03",
+          "price": 132.67,
+          "return": -0.55
+        },
+        "day_3": {
+          "date": "2025-09-04",
+          "price": 112.5,
+          "return": -15.67
+        }
+      },
+      "final_return": -15.67,
+      "max_return": 0,
+      "min_return": -15.67,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688411",
+      "name": "海博思创",
+      "price": 125.25,
+      "change_pct": -1.9722939657196494,
+      "volume": 2078815.0,
+      "amount": 26037157875.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 147.795,
+      "stop_loss": 110.22,
+      "decision_date": "2025-09-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-09-02",
+          "price": 123.4,
+          "return": -1.48
+        },
+        "day_2": {
+          "date": "2025-09-03",
+          "price": 148.08,
+          "return": 18.23
+        }
+      },
+      "final_return": 18.23,
+      "max_return": 18.23,
+      "min_return": -1.48,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688668",
+      "name": "鼎通科技",
+      "price": 129.85,
+      "change_pct": -3.814814814814819,
+      "volume": 14305948.0,
+      "amount": 185762734780.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 153.22299999999998,
+      "stop_loss": 114.268,
+      "decision_date": "2025-09-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-09-02",
+          "price": 112.84,
+          "return": -13.1
+        }
+      },
+      "final_return": -13.1,
+      "max_return": 0,
+      "min_return": -13.1,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688097",
+      "name": "博众精工",
+      "price": 35.767,
+      "change_pct": -0.5007371964280739,
+      "volume": 5724544.0,
+      "amount": 20474976524.800003,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 42.20506,
+      "stop_loss": 31.474960000000003,
+      "decision_date": "2025-09-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-09-02",
+          "price": 35.117,
+          "return": -1.82
+        },
+        "day_2": {
+          "date": "2025-09-03",
+          "price": 35.077,
+          "return": -1.93
+        },
+        "day_3": {
+          "date": "2025-09-04",
+          "price": 34.537,
+          "return": -3.44
+        },
+        "day_4": {
+          "date": "2025-09-05",
+          "price": 35.977,
+          "return": 0.59
+        },
+        "day_5": {
+          "date": "2025-09-08",
+          "price": 37.027,
+          "return": 3.52
+        },
+        "day_6": {
+          "date": "2025-09-09",
+          "price": 37.647,
+          "return": 5.26
+        },
+        "day_7": {
+          "date": "2025-09-10",
+          "price": 37.067,
+          "return": 3.63
+        },
+        "day_8": {
+          "date": "2025-09-11",
+          "price": 37.327,
+          "return": 4.36
+        },
+        "day_9": {
+          "date": "2025-09-12",
+          "price": 36.597,
+          "return": 2.32
+        },
+        "day_10": {
+          "date": "2025-09-15",
+          "price": 36.637,
+          "return": 2.43
+        }
+      },
+      "final_return": 2.43,
+      "max_return": 5.26,
+      "min_return": -3.44,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688167",
+      "name": "炬光科技",
+      "price": 163.03,
+      "change_pct": 6.785878037597441,
+      "volume": 7403478.0,
+      "amount": 120698901833.99998,
+      "score": 50,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 182.5936,
+      "stop_loss": 149.98760000000001,
+      "decision_date": "2025-10-09",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-10-10",
+          "price": 151.58,
+          "return": -7.02
+        },
+        "day_2": {
+          "date": "2025-10-13",
+          "price": 157.28,
+          "return": -3.53
+        },
+        "day_3": {
+          "date": "2025-10-14",
+          "price": 148.2,
+          "return": -9.1
+        }
+      },
+      "final_return": -9.1,
+      "max_return": 0,
+      "min_return": -9.1,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "002074",
+      "name": "国轩高科",
+      "price": 49.3,
+      "change_pct": 5.612682090831186,
+      "volume": 1309855.0,
+      "amount": 6457585150.0,
+      "score": 40,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 55.216,
+      "stop_loss": 45.356,
+      "decision_date": "2025-10-09",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-10-10",
+          "price": 44.39,
+          "return": -9.96
+        }
+      },
+      "final_return": -9.96,
+      "max_return": 0,
+      "min_return": -9.96,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "600376",
+      "name": "首开股份",
+      "price": 7.91,
+      "change_pct": 5.748663101604274,
+      "volume": 3171277.0,
+      "amount": 2508480107.0,
+      "score": 30,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 8.859200000000001,
+      "stop_loss": 7.277200000000001,
+      "decision_date": "2025-10-09",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-10-10",
+          "price": 7.22,
+          "return": -8.72
+        }
+      },
+      "final_return": -8.72,
+      "max_return": 0,
+      "min_return": -8.72,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "600096",
+      "name": "云天化",
+      "price": 28.56,
+      "change_pct": 6.567164179104471,
+      "volume": 678063.0,
+      "amount": 1936547927.9999998,
+      "score": 30,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 31.9872,
+      "stop_loss": 26.2752,
+      "decision_date": "2025-10-09",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-10-10",
+          "price": 28.74,
+          "return": 0.63
+        },
+        "day_2": {
+          "date": "2025-10-13",
+          "price": 28.77,
+          "return": 0.74
+        },
+        "day_3": {
+          "date": "2025-10-14",
+          "price": 28.93,
+          "return": 1.3
+        },
+        "day_4": {
+          "date": "2025-10-15",
+          "price": 29.11,
+          "return": 1.93
+        },
+        "day_5": {
+          "date": "2025-10-16",
+          "price": 27.95,
+          "return": -2.14
+        },
+        "day_6": {
+          "date": "2025-10-17",
+          "price": 27.5,
+          "return": -3.71
+        },
+        "day_7": {
+          "date": "2025-10-20",
+          "price": 27.47,
+          "return": -3.82
+        },
+        "day_8": {
+          "date": "2025-10-21",
+          "price": 28.12,
+          "return": -1.54
+        },
+        "day_9": {
+          "date": "2025-10-22",
+          "price": 27.48,
+          "return": -3.78
+        },
+        "day_10": {
+          "date": "2025-10-23",
+          "price": 27.97,
+          "return": -2.07
+        }
+      },
+      "final_return": -2.07,
+      "max_return": 1.93,
+      "min_return": -3.82,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "601390",
+      "name": "中国中铁",
+      "price": 5.728,
+      "change_pct": 5.526897568165067,
+      "volume": 4371684.0,
+      "amount": 2504100595.2,
+      "score": 30,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 6.415360000000001,
+      "stop_loss": 5.26976,
+      "decision_date": "2025-10-09",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-10-10",
+          "price": 5.828,
+          "return": 1.75
+        },
+        "day_2": {
+          "date": "2025-10-13",
+          "price": 5.728,
+          "return": 0.0
+        },
+        "day_3": {
+          "date": "2025-10-14",
+          "price": 5.708,
+          "return": -0.35
+        },
+        "day_4": {
+          "date": "2025-10-15",
+          "price": 5.698,
+          "return": -0.52
+        },
+        "day_5": {
+          "date": "2025-10-16",
+          "price": 5.658,
+          "return": -1.22
+        },
+        "day_6": {
+          "date": "2025-10-17",
+          "price": 5.588,
+          "return": -2.44
+        },
+        "day_7": {
+          "date": "2025-10-20",
+          "price": 5.538,
+          "return": -3.32
+        },
+        "day_8": {
+          "date": "2025-10-21",
+          "price": 5.628,
+          "return": -1.75
+        },
+        "day_9": {
+          "date": "2025-10-22",
+          "price": 5.638,
+          "return": -1.57
+        },
+        "day_10": {
+          "date": "2025-10-23",
+          "price": 5.668,
+          "return": -1.05
+        }
+      },
+      "final_return": -1.05,
+      "max_return": 1.75,
+      "min_return": -3.32,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "002487",
+      "name": "大金重工",
+      "price": 49.744,
+      "change_pct": 5.559799677446731,
+      "volume": 308428.0,
+      "amount": 1534244243.2,
+      "score": 30,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 55.713280000000005,
+      "stop_loss": 45.76448,
+      "decision_date": "2025-10-09",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-10-10",
+          "price": 49.874,
+          "return": 0.26
+        },
+        "day_2": {
+          "date": "2025-10-13",
+          "price": 51.914,
+          "return": 4.36
+        },
+        "day_3": {
+          "date": "2025-10-14",
+          "price": 50.594,
+          "return": 1.71
+        },
+        "day_4": {
+          "date": "2025-10-15",
+          "price": 51.674,
+          "return": 3.88
+        },
+        "day_5": {
+          "date": "2025-10-16",
+          "price": 49.804,
+          "return": 0.12
+        },
+        "day_6": {
+          "date": "2025-10-17",
+          "price": 46.184,
+          "return": -7.16
+        },
+        "day_7": {
+          "date": "2025-10-20",
+          "price": 45.214,
+          "return": -9.11
+        }
+      },
+      "final_return": -9.11,
+      "max_return": 4.36,
+      "min_return": -9.11,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688411",
+      "name": "海博思创",
+      "price": 312.0,
+      "change_pct": -3.6799209681402862,
+      "volume": 3735855.0,
+      "amount": 116558676000.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 368.15999999999997,
+      "stop_loss": 274.56,
+      "decision_date": "2025-10-09",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-10-10",
+          "price": 290.21,
+          "return": -6.98
+        },
+        "day_2": {
+          "date": "2025-10-13",
+          "price": 300.0,
+          "return": -3.85
+        },
+        "day_3": {
+          "date": "2025-10-14",
+          "price": 292.0,
+          "return": -6.41
+        },
+        "day_4": {
+          "date": "2025-10-15",
+          "price": 301.0,
+          "return": -3.53
+        },
+        "day_5": {
+          "date": "2025-10-16",
+          "price": 292.02,
+          "return": -6.4
+        },
+        "day_6": {
+          "date": "2025-10-17",
+          "price": 272.58,
+          "return": -12.63
+        }
+      },
+      "final_return": -12.63,
+      "max_return": 0,
+      "min_return": -12.63,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "001283",
+      "name": "豪鹏科技",
+      "price": 80.57,
+      "change_pct": 5.196500848674749,
+      "volume": 90772.0,
+      "amount": 731350003.9999999,
+      "score": 25,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 90.2384,
+      "stop_loss": 74.1244,
+      "decision_date": "2025-10-09",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-10-10",
+          "price": 76.46,
+          "return": -5.1
+        },
+        "day_2": {
+          "date": "2025-10-13",
+          "price": 74.46,
+          "return": -7.58
+        },
+        "day_3": {
+          "date": "2025-10-14",
+          "price": 72.01,
+          "return": -10.62
+        }
+      },
+      "final_return": -10.62,
+      "max_return": 0,
+      "min_return": -10.62,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688627",
+      "name": "精智达",
+      "price": 180.5,
+      "change_pct": -0.2762430939226519,
+      "volume": 6959187.0,
+      "amount": 125613325350.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 212.98999999999998,
+      "stop_loss": 158.84,
+      "decision_date": "2025-10-09",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-10-10",
+          "price": 166.88,
+          "return": -7.55
+        },
+        "day_2": {
+          "date": "2025-10-13",
+          "price": 166.88,
+          "return": -7.55
+        },
+        "day_3": {
+          "date": "2025-10-14",
+          "price": 150.82,
+          "return": -16.44
+        }
+      },
+      "final_return": -16.44,
+      "max_return": 0,
+      "min_return": -16.44,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688025",
+      "name": "杰普特",
+      "price": 136.8,
+      "change_pct": -3.232651906345047,
+      "volume": 2143033.0,
+      "amount": 29316691440.000004,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 161.424,
+      "stop_loss": 120.38400000000001,
+      "decision_date": "2025-10-09",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-10-10",
+          "price": 135.99,
+          "return": -0.59
+        },
+        "day_2": {
+          "date": "2025-10-13",
+          "price": 142.21,
+          "return": 3.95
+        },
+        "day_3": {
+          "date": "2025-10-14",
+          "price": 129.0,
+          "return": -5.7
+        },
+        "day_4": {
+          "date": "2025-10-15",
+          "price": 140.1,
+          "return": 2.41
+        },
+        "day_5": {
+          "date": "2025-10-16",
+          "price": 136.45,
+          "return": -0.26
+        },
+        "day_6": {
+          "date": "2025-10-17",
+          "price": 132.17,
+          "return": -3.38
+        },
+        "day_7": {
+          "date": "2025-10-20",
+          "price": 136.49,
+          "return": -0.23
+        },
+        "day_8": {
+          "date": "2025-10-21",
+          "price": 142.89,
+          "return": 4.45
+        },
+        "day_9": {
+          "date": "2025-10-22",
+          "price": 140.0,
+          "return": 2.34
+        },
+        "day_10": {
+          "date": "2025-10-23",
+          "price": 137.01,
+          "return": 0.15
+        }
+      },
+      "final_return": 0.15,
+      "max_return": 4.45,
+      "min_return": -5.7,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "002611",
+      "name": "东方精工",
+      "price": 20.9,
+      "change_pct": 9.999999999999993,
+      "volume": 3118475.0,
+      "amount": 6517612749.999999,
+      "score": 50,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 23.408,
+      "stop_loss": 19.227999999999998,
+      "decision_date": "2025-11-03",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-11-04",
+          "price": 21.36,
+          "return": 2.2
+        },
+        "day_2": {
+          "date": "2025-11-05",
+          "price": 21.84,
+          "return": 4.5
+        },
+        "day_3": {
+          "date": "2025-11-06",
+          "price": 21.21,
+          "return": 1.48
+        },
+        "day_4": {
+          "date": "2025-11-07",
+          "price": 19.99,
+          "return": -4.35
+        },
+        "day_5": {
+          "date": "2025-11-10",
+          "price": 19.92,
+          "return": -4.69
+        },
+        "day_6": {
+          "date": "2025-11-11",
+          "price": 19.7,
+          "return": -5.74
+        },
+        "day_7": {
+          "date": "2025-11-12",
+          "price": 18.98,
+          "return": -9.19
+        }
+      },
+      "final_return": -9.19,
+      "max_return": 4.5,
+      "min_return": -9.19,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688411",
+      "name": "海博思创",
+      "price": 284.89,
+      "change_pct": 3.652901582681449,
+      "volume": 4379381.0,
+      "amount": 124764185308.99998,
+      "score": 40,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 327.6235,
+      "stop_loss": 256.401,
+      "decision_date": "2025-11-03",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-11-04",
+          "price": 273.65,
+          "return": -3.95
+        },
+        "day_2": {
+          "date": "2025-11-05",
+          "price": 293.11,
+          "return": 2.89
+        },
+        "day_3": {
+          "date": "2025-11-06",
+          "price": 288.6,
+          "return": 1.3
+        },
+        "day_4": {
+          "date": "2025-11-07",
+          "price": 269.0,
+          "return": -5.58
+        },
+        "day_5": {
+          "date": "2025-11-10",
+          "price": 265.18,
+          "return": -6.92
+        },
+        "day_6": {
+          "date": "2025-11-11",
+          "price": 299.65,
+          "return": 5.18
+        },
+        "day_7": {
+          "date": "2025-11-12",
+          "price": 315.13,
+          "return": 10.61
+        },
+        "day_8": {
+          "date": "2025-11-13",
+          "price": 378.16,
+          "return": 32.74
+        }
+      },
+      "final_return": 32.74,
+      "max_return": 32.74,
+      "min_return": -6.92,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688627",
+      "name": "精智达",
+      "price": 178.7,
+      "change_pct": 3.8953488372092955,
+      "volume": 4689013.0,
+      "amount": 83792662309.99998,
+      "score": 40,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 205.50499999999997,
+      "stop_loss": 160.82999999999998,
+      "decision_date": "2025-11-03",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-11-04",
+          "price": 175.3,
+          "return": -1.9
+        },
+        "day_2": {
+          "date": "2025-11-05",
+          "price": 174.3,
+          "return": -2.46
+        },
+        "day_3": {
+          "date": "2025-11-06",
+          "price": 179.27,
+          "return": 0.32
+        },
+        "day_4": {
+          "date": "2025-11-07",
+          "price": 188.98,
+          "return": 5.75
+        },
+        "day_5": {
+          "date": "2025-11-10",
+          "price": 200.16,
+          "return": 12.01
+        },
+        "day_6": {
+          "date": "2025-11-11",
+          "price": 205.59,
+          "return": 15.05
+        }
+      },
+      "final_return": 15.05,
+      "max_return": 15.05,
+      "min_return": -2.46,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "300456",
+      "name": "赛微电子",
+      "price": 26.33,
+      "change_pct": 7.513270722743977,
+      "volume": 814655.0,
+      "amount": 2144986614.9999998,
+      "score": 40,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 29.4896,
+      "stop_loss": 24.2236,
+      "decision_date": "2025-11-03",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-11-04",
+          "price": 25.49,
+          "return": -3.19
+        },
+        "day_2": {
+          "date": "2025-11-05",
+          "price": 25.12,
+          "return": -4.6
+        },
+        "day_3": {
+          "date": "2025-11-06",
+          "price": 28.42,
+          "return": 7.94
+        },
+        "day_4": {
+          "date": "2025-11-07",
+          "price": 28.66,
+          "return": 8.85
+        },
+        "day_5": {
+          "date": "2025-11-10",
+          "price": 27.8,
+          "return": 5.58
+        },
+        "day_6": {
+          "date": "2025-11-11",
+          "price": 28.18,
+          "return": 7.03
+        },
+        "day_7": {
+          "date": "2025-11-12",
+          "price": 27.44,
+          "return": 4.22
+        },
+        "day_8": {
+          "date": "2025-11-13",
+          "price": 27.47,
+          "return": 4.33
+        },
+        "day_9": {
+          "date": "2025-11-14",
+          "price": 26.02,
+          "return": -1.18
+        },
+        "day_10": {
+          "date": "2025-11-17",
+          "price": 27.16,
+          "return": 3.15
+        }
+      },
+      "final_return": 3.15,
+      "max_return": 8.85,
+      "min_return": -4.6,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688498",
+      "name": "源杰科技",
+      "price": 529.0,
+      "change_pct": 4.1195110909914,
+      "volume": 5109108.0,
+      "amount": 270271813200.0,
+      "score": 40,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 608.3499999999999,
+      "stop_loss": 476.1,
+      "decision_date": "2025-11-03",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-11-04",
+          "price": 516.05,
+          "return": -2.45
+        },
+        "day_2": {
+          "date": "2025-11-05",
+          "price": 529.49,
+          "return": 0.09
+        },
+        "day_3": {
+          "date": "2025-11-06",
+          "price": 616.53,
+          "return": 16.55
+        }
+      },
+      "final_return": 16.55,
+      "max_return": 16.55,
+      "min_return": -2.45,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "000973",
+      "name": "佛塑科技",
+      "price": 8.57,
+      "change_pct": 10.012836970474972,
+      "volume": 884126.0,
+      "amount": 757695982.0,
+      "score": 35,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 9.255600000000001,
+      "stop_loss": 8.0558,
+      "decision_date": "2025-11-03",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-11-04",
+          "price": 8.86,
+          "return": 3.38
+        },
+        "day_2": {
+          "date": "2025-11-05",
+          "price": 9.22,
+          "return": 7.58
+        },
+        "day_3": {
+          "date": "2025-11-06",
+          "price": 9.81,
+          "return": 14.47
+        }
+      },
+      "final_return": 14.47,
+      "max_return": 14.47,
+      "min_return": 0,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688167",
+      "name": "炬光科技",
+      "price": 135.89,
+      "change_pct": -5.749757247884603,
+      "volume": 6276122.0,
+      "amount": 85286221858.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 160.35019999999997,
+      "stop_loss": 119.58319999999999,
+      "decision_date": "2025-11-03",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-11-04",
+          "price": 131.39,
+          "return": -3.31
+        },
+        "day_2": {
+          "date": "2025-11-05",
+          "price": 134.22,
+          "return": -1.23
+        },
+        "day_3": {
+          "date": "2025-11-06",
+          "price": 140.26,
+          "return": 3.22
+        },
+        "day_4": {
+          "date": "2025-11-07",
+          "price": 137.01,
+          "return": 0.82
+        },
+        "day_5": {
+          "date": "2025-11-10",
+          "price": 133.1,
+          "return": -2.05
+        },
+        "day_6": {
+          "date": "2025-11-11",
+          "price": 135.29,
+          "return": -0.44
+        },
+        "day_7": {
+          "date": "2025-11-12",
+          "price": 131.55,
+          "return": -3.19
+        },
+        "day_8": {
+          "date": "2025-11-13",
+          "price": 131.14,
+          "return": -3.5
+        },
+        "day_9": {
+          "date": "2025-11-14",
+          "price": 126.1,
+          "return": -7.2
+        },
+        "day_10": {
+          "date": "2025-11-17",
+          "price": 128.0,
+          "return": -5.81
+        }
+      },
+      "final_return": -5.81,
+      "max_return": 3.22,
+      "min_return": -7.2,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "688025",
+      "name": "杰普特",
+      "price": 148.92,
+      "change_pct": -3.9225806451612986,
+      "volume": 3236828.0,
+      "amount": 48202842575.99999,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 175.7256,
+      "stop_loss": 131.0496,
+      "decision_date": "2025-11-03",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-11-04",
+          "price": 146.96,
+          "return": -1.32
+        },
+        "day_2": {
+          "date": "2025-11-05",
+          "price": 144.69,
+          "return": -2.84
+        },
+        "day_3": {
+          "date": "2025-11-06",
+          "price": 149.4,
+          "return": 0.32
+        },
+        "day_4": {
+          "date": "2025-11-07",
+          "price": 144.64,
+          "return": -2.87
+        },
+        "day_5": {
+          "date": "2025-11-10",
+          "price": 146.72,
+          "return": -1.48
+        },
+        "day_6": {
+          "date": "2025-11-11",
+          "price": 146.31,
+          "return": -1.75
+        },
+        "day_7": {
+          "date": "2025-11-12",
+          "price": 138.93,
+          "return": -6.71
+        },
+        "day_8": {
+          "date": "2025-11-13",
+          "price": 139.81,
+          "return": -6.12
+        },
+        "day_9": {
+          "date": "2025-11-14",
+          "price": 142.08,
+          "return": -4.59
+        },
+        "day_10": {
+          "date": "2025-11-17",
+          "price": 144.32,
+          "return": -3.09
+        }
+      },
+      "final_return": -3.09,
+      "max_return": 0.32,
+      "min_return": -6.71,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "688668",
+      "name": "鼎通科技",
+      "price": 93.16,
+      "change_pct": -0.8936170212765995,
+      "volume": 4135879.0,
+      "amount": 38529848764.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 109.9288,
+      "stop_loss": 81.9808,
+      "decision_date": "2025-11-03",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-11-04",
+          "price": 90.09,
+          "return": -3.3
+        },
+        "day_2": {
+          "date": "2025-11-05",
+          "price": 89.05,
+          "return": -4.41
+        },
+        "day_3": {
+          "date": "2025-11-06",
+          "price": 93.89,
+          "return": 0.78
+        },
+        "day_4": {
+          "date": "2025-11-07",
+          "price": 95.96,
+          "return": 3.01
+        },
+        "day_5": {
+          "date": "2025-11-10",
+          "price": 90.84,
+          "return": -2.49
+        },
+        "day_6": {
+          "date": "2025-11-11",
+          "price": 90.2,
+          "return": -3.18
+        },
+        "day_7": {
+          "date": "2025-11-12",
+          "price": 89.04,
+          "return": -4.42
+        },
+        "day_8": {
+          "date": "2025-11-13",
+          "price": 90.06,
+          "return": -3.33
+        },
+        "day_9": {
+          "date": "2025-11-14",
+          "price": 87.7,
+          "return": -5.86
+        },
+        "day_10": {
+          "date": "2025-11-17",
+          "price": 88.2,
+          "return": -5.32
+        }
+      },
+      "final_return": -5.32,
+      "max_return": 3.01,
+      "min_return": -5.86,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "688097",
+      "name": "博众精工",
+      "price": 32.98,
+      "change_pct": -1.3165769000598588,
+      "volume": 3586438.0,
+      "amount": 11828072524.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 38.916399999999996,
+      "stop_loss": 29.022399999999998,
+      "decision_date": "2025-11-03",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-11-04",
+          "price": 32.17,
+          "return": -2.46
+        },
+        "day_2": {
+          "date": "2025-11-05",
+          "price": 32.33,
+          "return": -1.97
+        },
+        "day_3": {
+          "date": "2025-11-06",
+          "price": 32.8,
+          "return": -0.55
+        },
+        "day_4": {
+          "date": "2025-11-07",
+          "price": 31.9,
+          "return": -3.27
+        },
+        "day_5": {
+          "date": "2025-11-10",
+          "price": 32.05,
+          "return": -2.82
+        },
+        "day_6": {
+          "date": "2025-11-11",
+          "price": 31.7,
+          "return": -3.88
+        },
+        "day_7": {
+          "date": "2025-11-12",
+          "price": 31.35,
+          "return": -4.94
+        },
+        "day_8": {
+          "date": "2025-11-13",
+          "price": 31.69,
+          "return": -3.91
+        },
+        "day_9": {
+          "date": "2025-11-14",
+          "price": 31.9,
+          "return": -3.27
+        },
+        "day_10": {
+          "date": "2025-11-17",
+          "price": 32.1,
+          "return": -2.67
+        }
+      },
+      "final_return": -2.67,
+      "max_return": 0,
+      "min_return": -4.94,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "603063",
+      "name": "禾望电气",
+      "price": 32.27,
+      "change_pct": 8.107202680067006,
+      "volume": 530154.0,
+      "amount": 1710806958.0000002,
+      "score": 40,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 36.14240000000001,
+      "stop_loss": 29.688400000000005,
+      "decision_date": "2025-12-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-12-02",
+          "price": 30.92,
+          "return": -4.18
+        },
+        "day_2": {
+          "date": "2025-12-03",
+          "price": 30.13,
+          "return": -6.63
+        },
+        "day_3": {
+          "date": "2025-12-04",
+          "price": 30.08,
+          "return": -6.79
+        },
+        "day_4": {
+          "date": "2025-12-05",
+          "price": 30.49,
+          "return": -5.52
+        },
+        "day_5": {
+          "date": "2025-12-08",
+          "price": 30.83,
+          "return": -4.46
+        },
+        "day_6": {
+          "date": "2025-12-09",
+          "price": 30.33,
+          "return": -6.01
+        },
+        "day_7": {
+          "date": "2025-12-10",
+          "price": 29.53,
+          "return": -8.49
+        }
+      },
+      "final_return": -8.49,
+      "max_return": 0,
+      "min_return": -8.49,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "002611",
+      "name": "东方精工",
+      "price": 20.24,
+      "change_pct": 10.0,
+      "volume": 501665.0,
+      "amount": 1015369960.0,
+      "score": 40,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 22.6688,
+      "stop_loss": 18.6208,
+      "decision_date": "2025-12-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-12-02",
+          "price": 19.33,
+          "return": -4.5
+        },
+        "day_2": {
+          "date": "2025-12-03",
+          "price": 18.44,
+          "return": -8.89
+        }
+      },
+      "final_return": -8.89,
+      "max_return": 0,
+      "min_return": -8.89,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "300672",
+      "name": "国科微",
+      "price": 98.56,
+      "change_pct": 9.975451908056234,
+      "volume": 190300.0,
+      "amount": 1875596800.0,
+      "score": 40,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 110.3872,
+      "stop_loss": 90.6752,
+      "decision_date": "2025-12-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-12-02",
+          "price": 102.05,
+          "return": 3.54
+        },
+        "day_2": {
+          "date": "2025-12-03",
+          "price": 99.0,
+          "return": 0.45
+        },
+        "day_3": {
+          "date": "2025-12-04",
+          "price": 98.04,
+          "return": -0.53
+        },
+        "day_4": {
+          "date": "2025-12-05",
+          "price": 96.36,
+          "return": -2.23
+        },
+        "day_5": {
+          "date": "2025-12-08",
+          "price": 100.11,
+          "return": 1.57
+        },
+        "day_6": {
+          "date": "2025-12-09",
+          "price": 101.48,
+          "return": 2.96
+        },
+        "day_7": {
+          "date": "2025-12-10",
+          "price": 103.02,
+          "return": 4.53
+        },
+        "day_8": {
+          "date": "2025-12-11",
+          "price": 101.47,
+          "return": 2.95
+        },
+        "day_9": {
+          "date": "2025-12-12",
+          "price": 101.91,
+          "return": 3.4
+        },
+        "day_10": {
+          "date": "2025-12-15",
+          "price": 98.9,
+          "return": 0.34
+        }
+      },
+      "final_return": 0.34,
+      "max_return": 4.53,
+      "min_return": -2.23,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "001283",
+      "name": "豪鹏科技",
+      "price": 74.7,
+      "change_pct": 7.4047447879223665,
+      "volume": 79462.0,
+      "amount": 593581140.0,
+      "score": 35,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 83.66400000000002,
+      "stop_loss": 68.724,
+      "decision_date": "2025-12-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-12-02",
+          "price": 73.0,
+          "return": -2.28
+        },
+        "day_2": {
+          "date": "2025-12-03",
+          "price": 72.16,
+          "return": -3.4
+        },
+        "day_3": {
+          "date": "2025-12-04",
+          "price": 71.85,
+          "return": -3.82
+        },
+        "day_4": {
+          "date": "2025-12-05",
+          "price": 71.35,
+          "return": -4.48
+        },
+        "day_5": {
+          "date": "2025-12-08",
+          "price": 71.82,
+          "return": -3.86
+        },
+        "day_6": {
+          "date": "2025-12-09",
+          "price": 70.54,
+          "return": -5.57
+        },
+        "day_7": {
+          "date": "2025-12-10",
+          "price": 69.84,
+          "return": -6.51
+        },
+        "day_8": {
+          "date": "2025-12-11",
+          "price": 68.87,
+          "return": -7.8
+        },
+        "day_9": {
+          "date": "2025-12-12",
+          "price": 69.0,
+          "return": -7.63
+        },
+        "day_10": {
+          "date": "2025-12-15",
+          "price": 68.8,
+          "return": -7.9
+        }
+      },
+      "final_return": -7.9,
+      "max_return": 0,
+      "min_return": -7.9,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "300456",
+      "name": "赛微电子",
+      "price": 50.69,
+      "change_pct": 4.4939187796330655,
+      "volume": 1661632.0,
+      "amount": 8422812608.0,
+      "score": 30,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 58.293499999999995,
+      "stop_loss": 45.621,
+      "decision_date": "2025-12-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-12-02",
+          "price": 58.43,
+          "return": 15.27
+        }
+      },
+      "final_return": 15.27,
+      "max_return": 15.27,
+      "min_return": 0,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688097",
+      "name": "博众精工",
+      "price": 35.6,
+      "change_pct": 1.7433552443555285,
+      "volume": 9950711.0,
+      "amount": 35424531160.0,
+      "score": 30,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 40.94,
+      "stop_loss": 32.04,
+      "decision_date": "2025-12-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-12-02",
+          "price": 34.87,
+          "return": -2.05
+        },
+        "day_2": {
+          "date": "2025-12-03",
+          "price": 34.56,
+          "return": -2.92
+        },
+        "day_3": {
+          "date": "2025-12-04",
+          "price": 34.13,
+          "return": -4.13
+        },
+        "day_4": {
+          "date": "2025-12-05",
+          "price": 34.38,
+          "return": -3.43
+        },
+        "day_5": {
+          "date": "2025-12-08",
+          "price": 35.3,
+          "return": -0.84
+        },
+        "day_6": {
+          "date": "2025-12-09",
+          "price": 34.93,
+          "return": -1.88
+        },
+        "day_7": {
+          "date": "2025-12-10",
+          "price": 34.34,
+          "return": -3.54
+        },
+        "day_8": {
+          "date": "2025-12-11",
+          "price": 33.99,
+          "return": -4.52
+        },
+        "day_9": {
+          "date": "2025-12-12",
+          "price": 34.2,
+          "return": -3.93
+        },
+        "day_10": {
+          "date": "2025-12-15",
+          "price": 32.0,
+          "return": -10.11
+        }
+      },
+      "final_return": -10.11,
+      "max_return": 0,
+      "min_return": -10.11,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688167",
+      "name": "炬光科技",
+      "price": 139.54,
+      "change_pct": -2.392277560156698,
+      "volume": 5018923.0,
+      "amount": 70034051542.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 164.6572,
+      "stop_loss": 122.7952,
+      "decision_date": "2025-12-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-12-02",
+          "price": 134.1,
+          "return": -3.9
+        },
+        "day_2": {
+          "date": "2025-12-03",
+          "price": 130.63,
+          "return": -6.39
+        },
+        "day_3": {
+          "date": "2025-12-04",
+          "price": 129.56,
+          "return": -7.15
+        },
+        "day_4": {
+          "date": "2025-12-05",
+          "price": 144.99,
+          "return": 3.91
+        },
+        "day_5": {
+          "date": "2025-12-08",
+          "price": 157.17,
+          "return": 12.63
+        },
+        "day_6": {
+          "date": "2025-12-09",
+          "price": 166.8,
+          "return": 19.54
+        }
+      },
+      "final_return": 19.54,
+      "max_return": 19.54,
+      "min_return": -7.15,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688411",
+      "name": "海博思创",
+      "price": 293.52,
+      "change_pct": -3.0967315945856706,
+      "volume": 2526046.0,
+      "amount": 74144502192.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 346.3536,
+      "stop_loss": 258.2976,
+      "decision_date": "2025-12-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-12-02",
+          "price": 288.16,
+          "return": -1.83
+        },
+        "day_2": {
+          "date": "2025-12-03",
+          "price": 277.88,
+          "return": -5.33
+        },
+        "day_3": {
+          "date": "2025-12-04",
+          "price": 280.99,
+          "return": -4.27
+        },
+        "day_4": {
+          "date": "2025-12-05",
+          "price": 275.51,
+          "return": -6.14
+        },
+        "day_5": {
+          "date": "2025-12-08",
+          "price": 278.98,
+          "return": -4.95
+        },
+        "day_6": {
+          "date": "2025-12-09",
+          "price": 285.17,
+          "return": -2.84
+        },
+        "day_7": {
+          "date": "2025-12-10",
+          "price": 262.0,
+          "return": -10.74
+        },
+        "day_8": {
+          "date": "2025-12-11",
+          "price": 261.75,
+          "return": -10.82
+        },
+        "day_9": {
+          "date": "2025-12-12",
+          "price": 264.26,
+          "return": -9.97
+        },
+        "day_10": {
+          "date": "2025-12-15",
+          "price": 260.52,
+          "return": -11.24
+        }
+      },
+      "final_return": -11.24,
+      "max_return": 0,
+      "min_return": -11.24,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "688627",
+      "name": "精智达",
+      "price": 181.8,
+      "change_pct": -3.7076271186440675,
+      "volume": 2744418.0,
+      "amount": 49893519240.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 214.524,
+      "stop_loss": 159.984,
+      "decision_date": "2025-12-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-12-02",
+          "price": 179.14,
+          "return": -1.46
+        },
+        "day_2": {
+          "date": "2025-12-03",
+          "price": 187.71,
+          "return": 3.25
+        },
+        "day_3": {
+          "date": "2025-12-04",
+          "price": 193.0,
+          "return": 6.16
+        },
+        "day_4": {
+          "date": "2025-12-05",
+          "price": 190.15,
+          "return": 4.59
+        },
+        "day_5": {
+          "date": "2025-12-08",
+          "price": 198.0,
+          "return": 8.91
+        },
+        "day_6": {
+          "date": "2025-12-09",
+          "price": 197.11,
+          "return": 8.42
+        },
+        "day_7": {
+          "date": "2025-12-10",
+          "price": 195.8,
+          "return": 7.7
+        },
+        "day_8": {
+          "date": "2025-12-11",
+          "price": 195.91,
+          "return": 7.76
+        },
+        "day_9": {
+          "date": "2025-12-12",
+          "price": 214.88,
+          "return": 18.2
+        }
+      },
+      "final_return": 18.2,
+      "max_return": 18.2,
+      "min_return": -1.46,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688025",
+      "name": "杰普特",
+      "price": 137.25,
+      "change_pct": -4.528380634390645,
+      "volume": 2688004.0,
+      "amount": 36892854900.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 161.95499999999998,
+      "stop_loss": 120.78,
+      "decision_date": "2025-12-01",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2025-12-02",
+          "price": 138.24,
+          "return": 0.72
+        },
+        "day_2": {
+          "date": "2025-12-03",
+          "price": 138.07,
+          "return": 0.6
+        },
+        "day_3": {
+          "date": "2025-12-04",
+          "price": 139.85,
+          "return": 1.89
+        },
+        "day_4": {
+          "date": "2025-12-05",
+          "price": 152.82,
+          "return": 11.34
+        },
+        "day_5": {
+          "date": "2025-12-08",
+          "price": 159.91,
+          "return": 16.51
+        },
+        "day_6": {
+          "date": "2025-12-09",
+          "price": 160.36,
+          "return": 16.84
+        },
+        "day_7": {
+          "date": "2025-12-10",
+          "price": 162.0,
+          "return": 18.03
+        }
+      },
+      "final_return": 18.03,
+      "max_return": 18.03,
+      "min_return": 0,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "300450",
+      "name": "先导智能",
+      "price": 53.48,
+      "change_pct": 7.002801120448179,
+      "volume": 1088080.0,
+      "amount": 5819051840.0,
+      "score": 50,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 59.897600000000004,
+      "stop_loss": 49.2016,
+      "decision_date": "2026-01-05",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-01-06",
+          "price": 55.0,
+          "return": 2.84
+        },
+        "day_2": {
+          "date": "2026-01-07",
+          "price": 55.09,
+          "return": 3.01
+        },
+        "day_3": {
+          "date": "2026-01-08",
+          "price": 57.01,
+          "return": 6.6
+        },
+        "day_4": {
+          "date": "2026-01-09",
+          "price": 58.4,
+          "return": 9.2
+        },
+        "day_5": {
+          "date": "2026-01-12",
+          "price": 56.24,
+          "return": 5.16
+        },
+        "day_6": {
+          "date": "2026-01-13",
+          "price": 55.65,
+          "return": 4.06
+        },
+        "day_7": {
+          "date": "2026-01-14",
+          "price": 58.07,
+          "return": 8.58
+        },
+        "day_8": {
+          "date": "2026-01-15",
+          "price": 60.35,
+          "return": 12.85
+        }
+      },
+      "final_return": 12.85,
+      "max_return": 12.85,
+      "min_return": 0,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688167",
+      "name": "炬光科技",
+      "price": 180.93,
+      "change_pct": 3.3472325355572137,
+      "volume": 4597274.0,
+      "amount": 83178478482.0,
+      "score": 40,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 208.0695,
+      "stop_loss": 162.83700000000002,
+      "decision_date": "2026-01-05",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-01-06",
+          "price": 182.97,
+          "return": 1.13
+        },
+        "day_2": {
+          "date": "2026-01-07",
+          "price": 193.5,
+          "return": 6.95
+        },
+        "day_3": {
+          "date": "2026-01-08",
+          "price": 184.7,
+          "return": 2.08
+        },
+        "day_4": {
+          "date": "2026-01-09",
+          "price": 204.17,
+          "return": 12.84
+        },
+        "day_5": {
+          "date": "2026-01-12",
+          "price": 198.45,
+          "return": 9.68
+        },
+        "day_6": {
+          "date": "2026-01-13",
+          "price": 177.02,
+          "return": -2.16
+        },
+        "day_7": {
+          "date": "2026-01-14",
+          "price": 177.13,
+          "return": -2.1
+        },
+        "day_8": {
+          "date": "2026-01-15",
+          "price": 178.0,
+          "return": -1.62
+        },
+        "day_9": {
+          "date": "2026-01-16",
+          "price": 187.15,
+          "return": 3.44
+        },
+        "day_10": {
+          "date": "2026-01-19",
+          "price": 179.2,
+          "return": -0.96
+        }
+      },
+      "final_return": -0.96,
+      "max_return": 12.84,
+      "min_return": -2.16,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "688627",
+      "name": "精智达",
+      "price": 233.58,
+      "change_pct": 4.4679994633033715,
+      "volume": 3863854.0,
+      "amount": 90251901732.0,
+      "score": 40,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 268.617,
+      "stop_loss": 210.222,
+      "decision_date": "2026-01-05",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-01-06",
+          "price": 228.52,
+          "return": -2.17
+        },
+        "day_2": {
+          "date": "2026-01-07",
+          "price": 244.29,
+          "return": 4.59
+        },
+        "day_3": {
+          "date": "2026-01-08",
+          "price": 242.22,
+          "return": 3.7
+        },
+        "day_4": {
+          "date": "2026-01-09",
+          "price": 241.04,
+          "return": 3.19
+        },
+        "day_5": {
+          "date": "2026-01-12",
+          "price": 234.25,
+          "return": 0.29
+        },
+        "day_6": {
+          "date": "2026-01-13",
+          "price": 210.0,
+          "return": -10.1
+        }
+      },
+      "final_return": -10.1,
+      "max_return": 4.59,
+      "min_return": -10.1,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688498",
+      "name": "源杰科技",
+      "price": 664.0,
+      "change_pct": 3.428402311562484,
+      "volume": 3321325.0,
+      "amount": 220535980000.0,
+      "score": 40,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 763.5999999999999,
+      "stop_loss": 597.6,
+      "decision_date": "2026-01-05",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-01-06",
+          "price": 646.0,
+          "return": -2.71
+        },
+        "day_2": {
+          "date": "2026-01-07",
+          "price": 700.7,
+          "return": 5.53
+        },
+        "day_3": {
+          "date": "2026-01-08",
+          "price": 715.0,
+          "return": 7.68
+        },
+        "day_4": {
+          "date": "2026-01-09",
+          "price": 752.0,
+          "return": 13.25
+        },
+        "day_5": {
+          "date": "2026-01-12",
+          "price": 707.0,
+          "return": 6.48
+        },
+        "day_6": {
+          "date": "2026-01-13",
+          "price": 668.66,
+          "return": 0.7
+        },
+        "day_7": {
+          "date": "2026-01-14",
+          "price": 704.0,
+          "return": 6.02
+        },
+        "day_8": {
+          "date": "2026-01-15",
+          "price": 767.99,
+          "return": 15.66
+        }
+      },
+      "final_return": 15.66,
+      "max_return": 15.66,
+      "min_return": -2.71,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688411",
+      "name": "海博思创",
+      "price": 252.04,
+      "change_pct": 0.7998720204767237,
+      "volume": 2747991.0,
+      "amount": 69260365164.0,
+      "score": 30,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 289.84599999999995,
+      "stop_loss": 226.83599999999998,
+      "decision_date": "2026-01-05",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-01-06",
+          "price": 251.1,
+          "return": -0.37
+        },
+        "day_2": {
+          "date": "2026-01-07",
+          "price": 250.45,
+          "return": -0.63
+        },
+        "day_3": {
+          "date": "2026-01-08",
+          "price": 249.95,
+          "return": -0.83
+        },
+        "day_4": {
+          "date": "2026-01-09",
+          "price": 239.05,
+          "return": -5.15
+        },
+        "day_5": {
+          "date": "2026-01-12",
+          "price": 228.81,
+          "return": -9.22
+        },
+        "day_6": {
+          "date": "2026-01-13",
+          "price": 220.06,
+          "return": -12.69
+        }
+      },
+      "final_return": -12.69,
+      "max_return": 0,
+      "min_return": -12.69,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "002709",
+      "name": "天赐材料",
+      "price": 47.99,
+      "change_pct": 3.6949006050129665,
+      "volume": 1717007.0,
+      "amount": 8239916593.000001,
+      "score": 30,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 55.1885,
+      "stop_loss": 43.191,
+      "decision_date": "2026-01-05",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-01-06",
+          "price": 47.39,
+          "return": -1.25
+        },
+        "day_2": {
+          "date": "2026-01-07",
+          "price": 45.44,
+          "return": -5.31
+        },
+        "day_3": {
+          "date": "2026-01-08",
+          "price": 44.35,
+          "return": -7.58
+        },
+        "day_4": {
+          "date": "2026-01-09",
+          "price": 44.39,
+          "return": -7.5
+        },
+        "day_5": {
+          "date": "2026-01-12",
+          "price": 43.89,
+          "return": -8.54
+        },
+        "day_6": {
+          "date": "2026-01-13",
+          "price": 43.55,
+          "return": -9.25
+        },
+        "day_7": {
+          "date": "2026-01-14",
+          "price": 43.05,
+          "return": -10.29
+        }
+      },
+      "final_return": -10.29,
+      "max_return": 0,
+      "min_return": -10.29,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688097",
+      "name": "博众精工",
+      "price": 38.12,
+      "change_pct": 0.980132450331119,
+      "volume": 6346707.0,
+      "amount": 24193647083.999996,
+      "score": 30,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 43.837999999999994,
+      "stop_loss": 34.308,
+      "decision_date": "2026-01-05",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-01-06",
+          "price": 37.8,
+          "return": -0.84
+        },
+        "day_2": {
+          "date": "2026-01-07",
+          "price": 38.81,
+          "return": 1.81
+        },
+        "day_3": {
+          "date": "2026-01-08",
+          "price": 38.01,
+          "return": -0.29
+        },
+        "day_4": {
+          "date": "2026-01-09",
+          "price": 38.94,
+          "return": 2.15
+        },
+        "day_5": {
+          "date": "2026-01-12",
+          "price": 39.49,
+          "return": 3.59
+        },
+        "day_6": {
+          "date": "2026-01-13",
+          "price": 39.27,
+          "return": 3.02
+        },
+        "day_7": {
+          "date": "2026-01-14",
+          "price": 38.69,
+          "return": 1.5
+        },
+        "day_8": {
+          "date": "2026-01-15",
+          "price": 38.76,
+          "return": 1.68
+        },
+        "day_9": {
+          "date": "2026-01-16",
+          "price": 40.82,
+          "return": 7.08
+        },
+        "day_10": {
+          "date": "2026-01-19",
+          "price": 40.74,
+          "return": 6.87
+        }
+      },
+      "final_return": 6.87,
+      "max_return": 7.08,
+      "min_return": -0.84,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688025",
+      "name": "杰普特",
+      "price": 140.99,
+      "change_pct": -0.40969131878221665,
+      "volume": 2862740.0,
+      "amount": 40361771260.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 166.3682,
+      "stop_loss": 124.0712,
+      "decision_date": "2026-01-05",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-01-06",
+          "price": 137.08,
+          "return": -2.77
+        },
+        "day_2": {
+          "date": "2026-01-07",
+          "price": 143.56,
+          "return": 1.82
+        },
+        "day_3": {
+          "date": "2026-01-08",
+          "price": 139.68,
+          "return": -0.93
+        },
+        "day_4": {
+          "date": "2026-01-09",
+          "price": 138.99,
+          "return": -1.42
+        },
+        "day_5": {
+          "date": "2026-01-12",
+          "price": 137.2,
+          "return": -2.69
+        },
+        "day_6": {
+          "date": "2026-01-13",
+          "price": 130.81,
+          "return": -7.22
+        },
+        "day_7": {
+          "date": "2026-01-14",
+          "price": 132.64,
+          "return": -5.92
+        },
+        "day_8": {
+          "date": "2026-01-15",
+          "price": 136.7,
+          "return": -3.04
+        },
+        "day_9": {
+          "date": "2026-01-16",
+          "price": 145.0,
+          "return": 2.84
+        },
+        "day_10": {
+          "date": "2026-01-19",
+          "price": 145.76,
+          "return": 3.38
+        }
+      },
+      "final_return": 3.38,
+      "max_return": 3.38,
+      "min_return": -7.22,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "600604",
+      "name": "市北高新",
+      "price": 5.85,
+      "change_pct": 5.595667870036094,
+      "volume": 481698.0,
+      "amount": 281793330.0,
+      "score": 25,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 6.5520000000000005,
+      "stop_loss": 5.382,
+      "decision_date": "2026-01-05",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-01-06",
+          "price": 5.84,
+          "return": -0.17
+        },
+        "day_2": {
+          "date": "2026-01-07",
+          "price": 5.94,
+          "return": 1.54
+        },
+        "day_3": {
+          "date": "2026-01-08",
+          "price": 6.04,
+          "return": 3.25
+        },
+        "day_4": {
+          "date": "2026-01-09",
+          "price": 6.14,
+          "return": 4.96
+        },
+        "day_5": {
+          "date": "2026-01-12",
+          "price": 6.26,
+          "return": 7.01
+        },
+        "day_6": {
+          "date": "2026-01-13",
+          "price": 5.96,
+          "return": 1.88
+        },
+        "day_7": {
+          "date": "2026-01-14",
+          "price": 5.96,
+          "return": 1.88
+        },
+        "day_8": {
+          "date": "2026-01-15",
+          "price": 5.82,
+          "return": -0.51
+        },
+        "day_9": {
+          "date": "2026-01-16",
+          "price": 5.73,
+          "return": -2.05
+        },
+        "day_10": {
+          "date": "2026-01-19",
+          "price": 5.72,
+          "return": -2.22
+        }
+      },
+      "final_return": -2.22,
+      "max_return": 7.01,
+      "min_return": -2.22,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "688668",
+      "name": "鼎通科技",
+      "price": 121.9,
+      "change_pct": -1.6935483870967696,
+      "volume": 7344696.0,
+      "amount": 89531844240.00002,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 143.842,
+      "stop_loss": 107.272,
+      "decision_date": "2026-01-05",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-01-06",
+          "price": 119.39,
+          "return": -2.06
+        },
+        "day_2": {
+          "date": "2026-01-07",
+          "price": 119.15,
+          "return": -2.26
+        },
+        "day_3": {
+          "date": "2026-01-08",
+          "price": 115.63,
+          "return": -5.14
+        },
+        "day_4": {
+          "date": "2026-01-09",
+          "price": 114.55,
+          "return": -6.03
+        },
+        "day_5": {
+          "date": "2026-01-12",
+          "price": 112.35,
+          "return": -7.83
+        },
+        "day_6": {
+          "date": "2026-01-13",
+          "price": 106.7,
+          "return": -12.47
+        }
+      },
+      "final_return": -12.47,
+      "max_return": 0,
+      "min_return": -12.47,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "603618",
+      "name": "杭电股份",
+      "price": 9.94,
+      "change_pct": 9.955752212389385,
+      "volume": 119560.0,
+      "amount": 118842639.99999999,
+      "score": 35,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 11.132800000000001,
+      "stop_loss": 9.1448,
+      "decision_date": "2026-02-02",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-02-03",
+          "price": 10.93,
+          "return": 9.96
+        },
+        "day_2": {
+          "date": "2026-02-04",
+          "price": 12.02,
+          "return": 20.93
+        }
+      },
+      "final_return": 20.93,
+      "max_return": 20.93,
+      "min_return": 0,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688167",
+      "name": "炬光科技",
+      "price": 255.13,
+      "change_pct": 1.2500992142233533,
+      "volume": 7428683.0,
+      "amount": 189527989379.0,
+      "score": 30,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 293.3995,
+      "stop_loss": 229.617,
+      "decision_date": "2026-02-02",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-02-03",
+          "price": 301.2,
+          "return": 18.06
+        }
+      },
+      "final_return": 18.06,
+      "max_return": 18.06,
+      "min_return": 0,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "000700",
+      "name": "模塑科技",
+      "price": 14.33,
+      "change_pct": 6.940298507462685,
+      "volume": 1232212.0,
+      "amount": 1765759796.0,
+      "score": 30,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 16.0496,
+      "stop_loss": 13.1836,
+      "decision_date": "2026-02-02",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-02-03",
+          "price": 14.8,
+          "return": 3.28
+        },
+        "day_2": {
+          "date": "2026-02-04",
+          "price": 14.75,
+          "return": 2.93
+        },
+        "day_3": {
+          "date": "2026-02-05",
+          "price": 14.74,
+          "return": 2.86
+        },
+        "day_4": {
+          "date": "2026-02-06",
+          "price": 15.38,
+          "return": 7.33
+        },
+        "day_5": {
+          "date": "2026-02-09",
+          "price": 15.29,
+          "return": 6.7
+        },
+        "day_6": {
+          "date": "2026-02-10",
+          "price": 15.85,
+          "return": 10.61
+        },
+        "day_7": {
+          "date": "2026-02-11",
+          "price": 14.9,
+          "return": 3.98
+        },
+        "day_8": {
+          "date": "2026-02-12",
+          "price": 15.46,
+          "return": 7.89
+        },
+        "day_9": {
+          "date": "2026-02-13",
+          "price": 15.3,
+          "return": 6.77
+        },
+        "day_10": {
+          "date": "2026-02-24",
+          "price": 14.65,
+          "return": 2.23
+        }
+      },
+      "final_return": 2.23,
+      "max_return": 10.61,
+      "min_return": 0,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688411",
+      "name": "海博思创",
+      "price": 224.66,
+      "change_pct": -5.810833473084023,
+      "volume": 6724556.0,
+      "amount": 151073875096.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 265.0988,
+      "stop_loss": 197.7008,
+      "decision_date": "2026-02-02",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-02-03",
+          "price": 228.21,
+          "return": 1.58
+        },
+        "day_2": {
+          "date": "2026-02-04",
+          "price": 227.0,
+          "return": 1.04
+        },
+        "day_3": {
+          "date": "2026-02-05",
+          "price": 221.34,
+          "return": -1.48
+        },
+        "day_4": {
+          "date": "2026-02-06",
+          "price": 223.18,
+          "return": -0.66
+        },
+        "day_5": {
+          "date": "2026-02-09",
+          "price": 223.28,
+          "return": -0.61
+        },
+        "day_6": {
+          "date": "2026-02-10",
+          "price": 221.12,
+          "return": -1.58
+        },
+        "day_7": {
+          "date": "2026-02-11",
+          "price": 219.0,
+          "return": -2.52
+        },
+        "day_8": {
+          "date": "2026-02-12",
+          "price": 222.81,
+          "return": -0.82
+        },
+        "day_9": {
+          "date": "2026-02-13",
+          "price": 219.13,
+          "return": -2.46
+        },
+        "day_10": {
+          "date": "2026-02-24",
+          "price": 220.94,
+          "return": -1.66
+        }
+      },
+      "final_return": -1.66,
+      "max_return": 1.58,
+      "min_return": -2.52,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "688627",
+      "name": "精智达",
+      "price": 270.0,
+      "change_pct": -5.571293673276678,
+      "volume": 4906635.0,
+      "amount": 132479145000.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 318.59999999999997,
+      "stop_loss": 237.6,
+      "decision_date": "2026-02-02",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-02-03",
+          "price": 288.0,
+          "return": 6.67
+        },
+        "day_2": {
+          "date": "2026-02-04",
+          "price": 291.0,
+          "return": 7.78
+        },
+        "day_3": {
+          "date": "2026-02-05",
+          "price": 294.0,
+          "return": 8.89
+        },
+        "day_4": {
+          "date": "2026-02-06",
+          "price": 287.99,
+          "return": 6.66
+        },
+        "day_5": {
+          "date": "2026-02-09",
+          "price": 297.32,
+          "return": 10.12
+        },
+        "day_6": {
+          "date": "2026-02-10",
+          "price": 288.58,
+          "return": 6.88
+        },
+        "day_7": {
+          "date": "2026-02-11",
+          "price": 273.75,
+          "return": 1.39
+        },
+        "day_8": {
+          "date": "2026-02-12",
+          "price": 276.0,
+          "return": 2.22
+        },
+        "day_9": {
+          "date": "2026-02-13",
+          "price": 287.8,
+          "return": 6.59
+        },
+        "day_10": {
+          "date": "2026-02-24",
+          "price": 291.75,
+          "return": 8.06
+        }
+      },
+      "final_return": 8.06,
+      "max_return": 10.12,
+      "min_return": 0,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688025",
+      "name": "杰普特",
+      "price": 155.89,
+      "change_pct": -3.5930735930735946,
+      "volume": 7672957.0,
+      "amount": 119613726672.99998,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 183.95019999999997,
+      "stop_loss": 137.1832,
+      "decision_date": "2026-02-02",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-02-03",
+          "price": 185.3,
+          "return": 18.87
+        }
+      },
+      "final_return": 18.87,
+      "max_return": 18.87,
+      "min_return": 0,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688668",
+      "name": "鼎通科技",
+      "price": 164.83,
+      "change_pct": -0.872023093577092,
+      "volume": 6678784.0,
+      "amount": 110086396672.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 194.4994,
+      "stop_loss": 145.05040000000002,
+      "decision_date": "2026-02-02",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-02-03",
+          "price": 169.0,
+          "return": 2.53
+        },
+        "day_2": {
+          "date": "2026-02-04",
+          "price": 170.87,
+          "return": 3.66
+        },
+        "day_3": {
+          "date": "2026-02-05",
+          "price": 163.0,
+          "return": -1.11
+        },
+        "day_4": {
+          "date": "2026-02-06",
+          "price": 161.88,
+          "return": -1.79
+        },
+        "day_5": {
+          "date": "2026-02-09",
+          "price": 163.42,
+          "return": -0.86
+        },
+        "day_6": {
+          "date": "2026-02-10",
+          "price": 156.97,
+          "return": -4.77
+        },
+        "day_7": {
+          "date": "2026-02-11",
+          "price": 150.5,
+          "return": -8.69
+        },
+        "day_8": {
+          "date": "2026-02-12",
+          "price": 149.37,
+          "return": -9.38
+        },
+        "day_9": {
+          "date": "2026-02-13",
+          "price": 146.17,
+          "return": -11.32
+        },
+        "day_10": {
+          "date": "2026-02-24",
+          "price": 144.36,
+          "return": -12.42
+        }
+      },
+      "final_return": -12.42,
+      "max_return": 3.66,
+      "min_return": -12.42,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688097",
+      "name": "博众精工",
+      "price": 39.49,
+      "change_pct": -1.1019283746556416,
+      "volume": 5808370.0,
+      "amount": 22937253130.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 46.5982,
+      "stop_loss": 34.751200000000004,
+      "decision_date": "2026-02-02",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-02-03",
+          "price": 43.9,
+          "return": 11.17
+        },
+        "day_2": {
+          "date": "2026-02-04",
+          "price": 43.3,
+          "return": 9.65
+        },
+        "day_3": {
+          "date": "2026-02-05",
+          "price": 43.13,
+          "return": 9.22
+        },
+        "day_4": {
+          "date": "2026-02-06",
+          "price": 42.59,
+          "return": 7.85
+        },
+        "day_5": {
+          "date": "2026-02-09",
+          "price": 43.32,
+          "return": 9.7
+        },
+        "day_6": {
+          "date": "2026-02-10",
+          "price": 42.62,
+          "return": 7.93
+        },
+        "day_7": {
+          "date": "2026-02-11",
+          "price": 41.98,
+          "return": 6.31
+        },
+        "day_8": {
+          "date": "2026-02-12",
+          "price": 43.16,
+          "return": 9.29
+        },
+        "day_9": {
+          "date": "2026-02-13",
+          "price": 43.5,
+          "return": 10.15
+        },
+        "day_10": {
+          "date": "2026-02-24",
+          "price": 42.41,
+          "return": 7.39
+        }
+      },
+      "final_return": 7.39,
+      "max_return": 11.17,
+      "min_return": 0,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688498",
+      "name": "源杰科技",
+      "price": 807.7,
+      "change_pct": -1.8590522478736276,
+      "volume": 3070435.0,
+      "amount": 247999034950.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 953.086,
+      "stop_loss": 710.7760000000001,
+      "decision_date": "2026-02-02",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-02-03",
+          "price": 803.0,
+          "return": -0.58
+        },
+        "day_2": {
+          "date": "2026-02-04",
+          "price": 803.39,
+          "return": -0.53
+        },
+        "day_3": {
+          "date": "2026-02-05",
+          "price": 748.49,
+          "return": -7.33
+        },
+        "day_4": {
+          "date": "2026-02-06",
+          "price": 719.0,
+          "return": -10.98
+        },
+        "day_5": {
+          "date": "2026-02-09",
+          "price": 756.93,
+          "return": -6.29
+        },
+        "day_6": {
+          "date": "2026-02-10",
+          "price": 769.99,
+          "return": -4.67
+        },
+        "day_7": {
+          "date": "2026-02-11",
+          "price": 737.6,
+          "return": -8.68
+        },
+        "day_8": {
+          "date": "2026-02-12",
+          "price": 769.31,
+          "return": -4.75
+        },
+        "day_9": {
+          "date": "2026-02-13",
+          "price": 746.98,
+          "return": -7.52
+        },
+        "day_10": {
+          "date": "2026-02-24",
+          "price": 779.56,
+          "return": -3.48
+        }
+      },
+      "final_return": -3.48,
+      "max_return": 0,
+      "min_return": -10.98,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "300118",
+      "name": "东方日升",
+      "price": 20.9,
+      "change_pct": 4.867034621174104,
+      "volume": 2030249.0,
+      "amount": 4243220409.9999995,
+      "score": 20,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 24.034999999999997,
+      "stop_loss": 18.81,
+      "decision_date": "2026-02-02",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-02-03",
+          "price": 22.45,
+          "return": 7.42
+        },
+        "day_2": {
+          "date": "2026-02-04",
+          "price": 24.0,
+          "return": 14.83
+        },
+        "day_3": {
+          "date": "2026-02-05",
+          "price": 23.24,
+          "return": 11.2
+        },
+        "day_4": {
+          "date": "2026-02-06",
+          "price": 22.43,
+          "return": 7.32
+        },
+        "day_5": {
+          "date": "2026-02-09",
+          "price": 22.87,
+          "return": 9.43
+        },
+        "day_6": {
+          "date": "2026-02-10",
+          "price": 21.5,
+          "return": 2.87
+        },
+        "day_7": {
+          "date": "2026-02-11",
+          "price": 21.02,
+          "return": 0.57
+        },
+        "day_8": {
+          "date": "2026-02-12",
+          "price": 20.9,
+          "return": 0.0
+        },
+        "day_9": {
+          "date": "2026-02-13",
+          "price": 19.95,
+          "return": -4.55
+        },
+        "day_10": {
+          "date": "2026-02-24",
+          "price": 19.82,
+          "return": -5.17
+        }
+      },
+      "final_return": -5.17,
+      "max_return": 14.83,
+      "min_return": -5.17,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "688097",
+      "name": "博众精工",
+      "price": 48.8,
+      "change_pct": 7.488986784140966,
+      "volume": 19215236.0,
+      "amount": 93770351680.0,
+      "score": 60,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 54.656,
+      "stop_loss": 44.896,
+      "decision_date": "2026-03-02",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-03-03",
+          "price": 45.0,
+          "return": -7.79
+        },
+        "day_2": {
+          "date": "2026-03-04",
+          "price": 44.52,
+          "return": -8.77
+        }
+      },
+      "final_return": -8.77,
+      "max_return": 0,
+      "min_return": -8.77,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688498",
+      "name": "源杰科技",
+      "price": 855.0,
+      "change_pct": 11.053383556306017,
+      "volume": 5232686.0,
+      "amount": 447394653000.0,
+      "score": 60,
+      "rating": "谨慎推荐",
+      "confidence": 60,
+      "stop_profit": 923.4000000000001,
+      "stop_loss": 803.6999999999999,
+      "decision_date": "2026-03-02",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-03-03",
+          "price": 875.0,
+          "return": 2.34
+        },
+        "day_2": {
+          "date": "2026-03-04",
+          "price": 886.55,
+          "return": 3.69
+        },
+        "day_3": {
+          "date": "2026-03-05",
+          "price": 854.0,
+          "return": -0.12
+        },
+        "day_4": {
+          "date": "2026-03-06",
+          "price": 850.9,
+          "return": -0.48
+        },
+        "day_5": {
+          "date": "2026-03-09",
+          "price": 806.3,
+          "return": -5.7
+        },
+        "day_6": {
+          "date": "2026-03-10",
+          "price": 917.86,
+          "return": 7.35
+        },
+        "day_7": {
+          "date": "2026-03-11",
+          "price": 900.5,
+          "return": 5.32
+        },
+        "day_8": {
+          "date": "2026-03-12",
+          "price": 880.0,
+          "return": 2.92
+        },
+        "day_9": {
+          "date": "2026-03-13",
+          "price": 879.3,
+          "return": 2.84
+        },
+        "day_10": {
+          "date": "2026-03-16",
+          "price": 908.99,
+          "return": 6.31
+        }
+      },
+      "final_return": 6.31,
+      "max_return": 7.35,
+      "min_return": -5.7,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688411",
+      "name": "海博思创",
+      "price": 228.1,
+      "change_pct": 4.388815157201045,
+      "volume": 5678184.0,
+      "amount": 129519377039.99998,
+      "score": 40,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 262.315,
+      "stop_loss": 205.29,
+      "decision_date": "2026-03-02",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-03-03",
+          "price": 229.75,
+          "return": 0.72
+        },
+        "day_2": {
+          "date": "2026-03-04",
+          "price": 222.11,
+          "return": -2.63
+        },
+        "day_3": {
+          "date": "2026-03-05",
+          "price": 223.85,
+          "return": -1.86
+        },
+        "day_4": {
+          "date": "2026-03-06",
+          "price": 229.4,
+          "return": 0.57
+        },
+        "day_5": {
+          "date": "2026-03-09",
+          "price": 237.38,
+          "return": 4.07
+        },
+        "day_6": {
+          "date": "2026-03-10",
+          "price": 239.4,
+          "return": 4.95
+        },
+        "day_7": {
+          "date": "2026-03-11",
+          "price": 268.93,
+          "return": 17.9
+        }
+      },
+      "final_return": 17.9,
+      "max_return": 17.9,
+      "min_return": -2.63,
+      "hit_stop_profit": true,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "688668",
+      "name": "鼎通科技",
+      "price": 153.97,
+      "change_pct": 0.7657068062827143,
+      "volume": 6243642.0,
+      "amount": 96133355874.0,
+      "score": 30,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 177.0655,
+      "stop_loss": 138.573,
+      "decision_date": "2026-03-02",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-03-03",
+          "price": 145.5,
+          "return": -5.5
+        },
+        "day_2": {
+          "date": "2026-03-04",
+          "price": 146.67,
+          "return": -4.74
+        },
+        "day_3": {
+          "date": "2026-03-05",
+          "price": 147.18,
+          "return": -4.41
+        },
+        "day_4": {
+          "date": "2026-03-06",
+          "price": 146.0,
+          "return": -5.18
+        },
+        "day_5": {
+          "date": "2026-03-09",
+          "price": 139.76,
+          "return": -9.23
+        },
+        "day_6": {
+          "date": "2026-03-10",
+          "price": 149.26,
+          "return": -3.06
+        },
+        "day_7": {
+          "date": "2026-03-11",
+          "price": 144.9,
+          "return": -5.89
+        },
+        "day_8": {
+          "date": "2026-03-12",
+          "price": 139.3,
+          "return": -9.53
+        },
+        "day_9": {
+          "date": "2026-03-13",
+          "price": 134.06,
+          "return": -12.93
+        }
+      },
+      "final_return": -12.93,
+      "max_return": 0,
+      "min_return": -12.93,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688167",
+      "name": "炬光科技",
+      "price": 350.41,
+      "change_pct": -8.640333724416632,
+      "volume": 10992598.0,
+      "amount": 385191626518.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 413.48380000000003,
+      "stop_loss": 308.36080000000004,
+      "decision_date": "2026-03-02",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-03-03",
+          "price": 334.12,
+          "return": -4.65
+        },
+        "day_2": {
+          "date": "2026-03-04",
+          "price": 332.33,
+          "return": -5.16
+        },
+        "day_3": {
+          "date": "2026-03-05",
+          "price": 318.0,
+          "return": -9.25
+        },
+        "day_4": {
+          "date": "2026-03-06",
+          "price": 306.2,
+          "return": -12.62
+        }
+      },
+      "final_return": -12.62,
+      "max_return": 0,
+      "min_return": -12.62,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688627",
+      "name": "精智达",
+      "price": 286.58,
+      "change_pct": -6.367824353905973,
+      "volume": 5589898.0,
+      "amount": 160195296884.0,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 338.16439999999994,
+      "stop_loss": 252.19039999999998,
+      "decision_date": "2026-03-02",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-03-03",
+          "price": 266.0,
+          "return": -7.18
+        },
+        "day_2": {
+          "date": "2026-03-04",
+          "price": 266.49,
+          "return": -7.01
+        },
+        "day_3": {
+          "date": "2026-03-05",
+          "price": 265.55,
+          "return": -7.34
+        },
+        "day_4": {
+          "date": "2026-03-06",
+          "price": 257.82,
+          "return": -10.04
+        },
+        "day_5": {
+          "date": "2026-03-09",
+          "price": 245.8,
+          "return": -14.23
+        }
+      },
+      "final_return": -14.23,
+      "max_return": 0,
+      "min_return": -14.23,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "688025",
+      "name": "杰普特",
+      "price": 273.35,
+      "change_pct": -0.36812946493657633,
+      "volume": 7355243.0,
+      "amount": 201055567405.00003,
+      "score": 25,
+      "rating": "观望",
+      "confidence": 45,
+      "stop_profit": 322.553,
+      "stop_loss": 240.54800000000003,
+      "decision_date": "2026-03-02",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-03-03",
+          "price": 273.46,
+          "return": 0.04
+        },
+        "day_2": {
+          "date": "2026-03-04",
+          "price": 274.57,
+          "return": 0.45
+        },
+        "day_3": {
+          "date": "2026-03-05",
+          "price": 272.32,
+          "return": -0.38
+        },
+        "day_4": {
+          "date": "2026-03-06",
+          "price": 256.82,
+          "return": -6.05
+        },
+        "day_5": {
+          "date": "2026-03-09",
+          "price": 245.73,
+          "return": -10.1
+        },
+        "day_6": {
+          "date": "2026-03-10",
+          "price": 263.68,
+          "return": -3.54
+        },
+        "day_7": {
+          "date": "2026-03-11",
+          "price": 252.0,
+          "return": -7.81
+        },
+        "day_8": {
+          "date": "2026-03-12",
+          "price": 240.56,
+          "return": -12.0
+        },
+        "day_9": {
+          "date": "2026-03-13",
+          "price": 225.0,
+          "return": -17.69
+        }
+      },
+      "final_return": -17.69,
+      "max_return": 0.45,
+      "min_return": -17.69,
+      "hit_stop_profit": false,
+      "hit_stop_loss": true,
+      "is_win": false
+    },
+    {
+      "symbol": "002272",
+      "name": "川润股份",
+      "price": 20.39,
+      "change_pct": 4.725218284540327,
+      "volume": 1318178.0,
+      "amount": 2687764942.0,
+      "score": 20,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 23.4485,
+      "stop_loss": 18.351000000000003,
+      "decision_date": "2026-03-02",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-03-03",
+          "price": 19.15,
+          "return": -6.08
+        },
+        "day_2": {
+          "date": "2026-03-04",
+          "price": 21.07,
+          "return": 3.33
+        },
+        "day_3": {
+          "date": "2026-03-05",
+          "price": 21.01,
+          "return": 3.04
+        },
+        "day_4": {
+          "date": "2026-03-06",
+          "price": 20.77,
+          "return": 1.86
+        },
+        "day_5": {
+          "date": "2026-03-09",
+          "price": 19.83,
+          "return": -2.75
+        },
+        "day_6": {
+          "date": "2026-03-10",
+          "price": 20.83,
+          "return": 2.16
+        },
+        "day_7": {
+          "date": "2026-03-11",
+          "price": 20.69,
+          "return": 1.47
+        },
+        "day_8": {
+          "date": "2026-03-12",
+          "price": 19.5,
+          "return": -4.36
+        },
+        "day_9": {
+          "date": "2026-03-13",
+          "price": 18.7,
+          "return": -8.29
+        },
+        "day_10": {
+          "date": "2026-03-16",
+          "price": 19.12,
+          "return": -6.23
+        }
+      },
+      "final_return": -6.23,
+      "max_return": 3.33,
+      "min_return": -8.29,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": false
+    },
+    {
+      "symbol": "600617",
+      "name": "国新能源",
+      "price": 3.36,
+      "change_pct": 4.67289719626168,
+      "volume": 890060.0,
+      "amount": 299060160.0,
+      "score": 15,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 3.8639999999999994,
+      "stop_loss": 3.024,
+      "decision_date": "2026-03-02",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-03-03",
+          "price": 3.7,
+          "return": 10.12
+        },
+        "day_2": {
+          "date": "2026-03-04",
+          "price": 3.6,
+          "return": 7.14
+        },
+        "day_3": {
+          "date": "2026-03-05",
+          "price": 3.43,
+          "return": 2.08
+        },
+        "day_4": {
+          "date": "2026-03-06",
+          "price": 3.44,
+          "return": 2.38
+        },
+        "day_5": {
+          "date": "2026-03-09",
+          "price": 3.61,
+          "return": 7.44
+        },
+        "day_6": {
+          "date": "2026-03-10",
+          "price": 3.44,
+          "return": 2.38
+        },
+        "day_7": {
+          "date": "2026-03-11",
+          "price": 3.42,
+          "return": 1.79
+        },
+        "day_8": {
+          "date": "2026-03-12",
+          "price": 3.53,
+          "return": 5.06
+        },
+        "day_9": {
+          "date": "2026-03-13",
+          "price": 3.46,
+          "return": 2.98
+        },
+        "day_10": {
+          "date": "2026-03-16",
+          "price": 3.39,
+          "return": 0.89
+        }
+      },
+      "final_return": 0.89,
+      "max_return": 10.12,
+      "min_return": 0,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    },
+    {
+      "symbol": "603618",
+      "name": "杭电股份",
+      "price": 18.33,
+      "change_pct": 0.9917355371900811,
+      "volume": 1398282.0,
+      "amount": 2563050906.0,
+      "score": 10,
+      "rating": "观望",
+      "confidence": 50,
+      "stop_profit": 21.079499999999996,
+      "stop_loss": 16.497,
+      "decision_date": "2026-03-02",
+      "is_blacklist": false,
+      "is_watchlist": false,
+      "tracking": {
+        "day_1": {
+          "date": "2026-03-03",
+          "price": 18.72,
+          "return": 2.13
+        },
+        "day_2": {
+          "date": "2026-03-04",
+          "price": 20.59,
+          "return": 12.33
+        },
+        "day_3": {
+          "date": "2026-03-05",
+          "price": 20.82,
+          "return": 13.58
+        },
+        "day_4": {
+          "date": "2026-03-06",
+          "price": 19.17,
+          "return": 4.58
+        },
+        "day_5": {
+          "date": "2026-03-09",
+          "price": 20.0,
+          "return": 9.11
+        },
+        "day_6": {
+          "date": "2026-03-10",
+          "price": 20.72,
+          "return": 13.04
+        },
+        "day_7": {
+          "date": "2026-03-11",
+          "price": 20.6,
+          "return": 12.38
+        },
+        "day_8": {
+          "date": "2026-03-12",
+          "price": 20.23,
+          "return": 10.37
+        },
+        "day_9": {
+          "date": "2026-03-13",
+          "price": 18.98,
+          "return": 3.55
+        },
+        "day_10": {
+          "date": "2026-03-16",
+          "price": 19.05,
+          "return": 3.93
+        }
+      },
+      "final_return": 3.93,
+      "max_return": 13.58,
+      "min_return": 0,
+      "hit_stop_profit": false,
+      "hit_stop_loss": false,
+      "is_win": true
+    }
+  ],
+  "report": {
+    "total_decisions": 120,
+    "wins": 58,
+    "losses": 62,
+    "win_rate": 48.33,
+    "total_return": 94.88,
+    "avg_return": 0.79,
+    "hit_stop_profit": 32,
+    "hit_stop_loss": 36,
+    "stop_ratio": 0.89,
+    "best_stock": {
+      "symbol": "688411",
+      "name": "海博思创",
+      "return": 32.74,
+      "date": "2025-11-03"
+    },
+    "worst_stock": {
+      "symbol": "688025",
+      "name": "杰普特",
+      "return": -26.26,
+      "date": "2025-04-01"
+    },
+    "rating_performance": {
+      "观望": {
+        "count": 87,
+        "win_rate": 47.13,
+        "avg_return": 0.51
+      },
+      "谨慎推荐": {
+        "count": 33,
+        "win_rate": 51.52,
+        "avg_return": 1.53
+      }
+    },
+    "blacklist_performance": {
+      "count": 0,
+      "wins": 0,
+      "avg_return": 0
+    },
+    "watchlist_performance": {
+      "count": 0,
+      "wins": 0,
+      "avg_return": 0
+    }
+  }
+}
