@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """
-资金流排行自动获取脚本 - 集成版
-自动启动浏览器、获取数据、分析并保存
+资金流排行自动获取脚本 V2
+使用东方财富 API 直接获取，无需浏览器
 
-集成到选股系统使用方法:
-    python3 zjlx_auto_fetcher.py
-    
-返回 JSON 格式数据供其他脚本使用
+使用方法:
+    python3 zjlx_auto_fetcher.py           # 获取并保存
+    python3 zjlx_auto_fetcher.py --json    # 输出 JSON
+    python3 zjlx_auto_fetcher.py --top 10  # 仅显示 TOP 10
+    python3 zjlx_auto_fetcher.py --latest  # 显示上次获取的数据
 """
 
 import json
-import subprocess
 import sys
 import time
 import requests
@@ -18,403 +18,299 @@ from datetime import datetime
 from pathlib import Path
 
 # 配置
-BROWSER_CONTROL_URL = "http://127.0.0.1:18791"
-ZJLX_URL = "https://data.eastmoney.com/zjlx/detail.html"
 DATA_DIR = Path(__file__).parent / "data"
-CDP_PORT = 18800
+API_URL = "https://push2.eastmoney.com/api/qt/clist/get"
+DEFAULT_FIELDS = "f2,f3,f12,f14,f62,f184,f185,f186,f187,f188,f189,f190,f191,f192"
+FS_FILTER = "m:0+t:6,m:0+t:80,m:1+t:2,m:1+t:23,m:0+t:81+s:2048"
 
-# JavaScript 提取函数
-JS_EXTRACT_TABLE = """
-() => {
-  const table = document.querySelectorAll('table')[1];
-  if (!table) return '表格未找到';
-  const rows = table.querySelectorAll('tbody tr');
-  const data = [];
-  for (let i = 0; i < Math.min(50, rows.length); i++) {
-    const cells = rows[i].querySelectorAll('td');
-    if (cells.length >= 9) {
-      data.push({
-        序号: i + 1,
-        代码: cells[1]?.innerText?.trim() || '',
-        名称: cells[2]?.innerText?.trim().split(' ')[0] || '',
-        最新价: cells[3]?.innerText?.trim() || '',
-        涨跌幅: cells[4]?.innerText?.trim() || '',
-        主力净流入_净额: cells[5]?.innerText?.trim() || '',
-        主力净流入_净占比: cells[6]?.innerText?.trim() || '',
-        超大单净流入_净额: cells[7]?.innerText?.trim() || '',
-        超大单净流入_净占比: cells[8]?.innerText?.trim() || ''
-      });
+
+def parse_amount(text: str) -> float:
+    """解析金额字符串为亿元"""
+    if not text:
+        return 0.0
+    text = text.strip()
+    try:
+        if "亿" in text:
+            return round(float(text.replace("亿", "")), 2)
+        elif "万" in text:
+            return round(float(text.replace("万", "")) / 10000, 2)
+        return round(float(text), 2)
+    except:
+        return 0.0
+
+
+def parse_pct(text: str) -> float:
+    """解析百分比"""
+    if not text:
+        return 0.0
+    try:
+        return round(float(text.replace("%", "")), 2)
+    except:
+        return 0.0
+
+
+def fetch_zjlx_data(count: int = 50) -> dict:
+    """获取资金流排行数据"""
+    params = {
+        "fid": "f62",
+        "po": "1",
+        "pz": str(count),
+        "pn": "1",
+        "np": "1",
+        "fltt": "2",
+        "invt": "2",
+        "fs": FS_FILTER,
+        "fields": DEFAULT_FIELDS,
     }
-  }
-  return JSON.stringify(data);
-}
-"""
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "Referer": "https://data.eastmoney.com/",
+    }
+
+    print(f"📡 正在获取东方财富资金流排行数据...")
+
+    # 重试机制（东方财富 API 可能被限流）
+    last_error = None
+    data = None
+    for attempt in range(3):
+        try:
+            resp = requests.get(API_URL, params=params, headers=headers, timeout=15)
+            resp.raise_for_status()
+            data = resp.json()
+            if data.get("data") and data["data"].get("diff"):
+                break
+        except Exception as e:
+            last_error = e
+        if attempt < 2:
+            print(f"  ⏳ 重试 {attempt + 1}/3...")
+            time.sleep(2)
+
+    if not data or not data.get("data") or not data["data"].get("diff"):
+        print(f"❌ 获取失败: {last_error or '数据为空'}")
+        return {"success": False, "error": str(last_error or "数据为空")}
+
+    stocks = data["data"]["diff"]
+    print(f"✅ 获取成功: {len(stocks)} 只股票")
+
+    result = []
+    for i, s in enumerate(stocks[:count]):
+        item = {
+            "rank": i + 1,
+            "code": str(s.get("f12", "")),
+            "name": str(s.get("f14", "")),
+            "price": round((s.get("f2", 0) or 0) / 100, 2),
+            "change_pct": round((s.get("f3", 0) or 0) / 100, 2),
+            "main_net_inflow": round((s.get("f62", 0) or 0) / 100000000, 2),
+            "main_net_pct": round((s.get("f184", 0) or 0) / 10000, 2),
+            "super_large_net": round((s.get("f185", 0) or 0) / 100000000, 2),
+            "super_large_pct": round((s.get("f186", 0) or 0) / 10000, 2),
+            "large_net": round((s.get("f187", 0) or 0) / 100000000, 2),
+            "large_pct": round((s.get("f188", 0) or 0) / 10000, 2),
+            "medium_net": round((s.get("f189", 0) or 0) / 100000000, 2),
+            "medium_pct": round((s.get("f190", 0) or 0) / 10000, 2),
+            "small_net": round((s.get("f191", 0) or 0) / 100000000, 2),
+            "small_pct": round((s.get("f192", 0) or 0) / 10000, 2),
+        }
+        result.append(item)
+
+    return {
+        "success": True,
+        "update_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "total": len(result),
+        "data": result,
+    }
 
 
-class ZjlxFetcher:
-    """资金流排行自动获取器"""
-    
-    def __init__(self):
-        self.session_id = None
-        self.page_id = None
-    
-    def check_browser_status(self) -> dict:
-        """检查浏览器状态"""
-        try:
-            resp = requests.get(f"{BROWSER_CONTROL_URL}/status", timeout=5)
-            return resp.json()
-        except Exception as e:
-            return {"running": False, "error": str(e)}
-    
-    def start_browser(self) -> bool:
-        """启动浏览器"""
-        print("🚀 启动浏览器...")
-        
-        result = subprocess.run(
-            ["openclaw", "browser", "start"],
-            capture_output=True, text=True, timeout=30
-        )
-        
-        if result.returncode == 0:
-            print("✅ 浏览器已启动")
-            time.sleep(3)  # 等待初始化
-            return True
-        
-        print(f"❌ 启动失败: {result.stderr}")
-        return False
-    
-    def stop_browser(self):
-        """关闭浏览器"""
-        print("🛑 关闭浏览器...")
-        subprocess.run(["openclaw", "browser", "stop"], capture_output=True)
-    
-    def open_page(self, url: str) -> str:
-        """打开页面并返回 page_id"""
-        print(f"📖 打开页面: {url}")
-        
-        # 使用 requests 调用浏览器 API
-        try:
-            resp = requests.post(
-                f"{BROWSER_CONTROL_URL}/open",
-                json={"url": url},
-                timeout=30
-            )
-            
-            result = resp.json()
-            if result.get("targetId"):
-                self.page_id = result["targetId"]
-                print(f"✅ 页面已打开: {self.page_id}")
-                return self.page_id
-            else:
-                print(f"❌ 打开页面失败: {result}")
-                return None
-        except Exception as e:
-            print(f"❌ 请求异常: {e}")
-            return None
-    
-    def wait_for_load(self, ms: int = 3000):
-        """等待页面加载"""
-        print(f"⏳ 等待 {ms}ms...")
-        time.sleep(ms / 1000)
-    
-    def extract_table_data(self) -> list:
-        """提取表格数据"""
-        print("📊 提取表格数据...")
-        
-        # 使用 requests 调用 act API
-        try:
-            resp = requests.post(
-                f"{BROWSER_CONTROL_URL}/act",
-                json={
-                    "kind": "evaluate",
-                    "fn": JS_EXTRACT_TABLE,
-                    "targetId": self.page_id
-                },
-                timeout=30
-            )
-            
-            result = resp.json()
-            
-            if result.get("ok") and result.get("result"):
-                data_str = result["result"]
-                data = json.loads(data_str)
-                print(f"✅ 提取成功: {len(data)} 条数据")
-                return data
-            else:
-                print(f"❌ 提取失败: {result}")
-                return []
-        except Exception as e:
-            print(f"❌ 提取异常: {e}")
-            return []
-    
-    def parse_and_analyze(self, data: list) -> dict:
-        """解析和分析数据"""
-        
-        if not data:
-            return {"error": "无数据"}
-        
-        # 清理数据
-        clean_data = []
-        for item in data:
-            # 提取金额数值
-            main_amount = self.parse_amount(item.get("主力净流入_净额", ""))
-            
-            clean_item = {
-                "序号": item["序号"],
-                "代码": item["代码"],
-                "名称": item["名称"],
-                "最新价": item["最新价"],
-                "涨跌幅": item["涨跌幅"],
-                "主力净流入": item.get("主力净流入_净额", ""),
-                "主力净流入_金额": main_amount,
-                "主力占比": item.get("主力净流入_净占比", ""),
-                "主力占比_数值": self.parse_ratio(item.get("主力净流入_净占比", "")),
-                "超大单净流入": item.get("超大单净流入_净额", ""),
-                "评级": self.get_rating(main_amount, self.parse_ratio(item.get("主力净流入_净占比", "")))
-            }
-            clean_data.append(clean_item)
-        
-        # 分析
-        top20 = clean_data[:20]
-        total_inflow = sum(d["主力净流入_金额"] for d in top20)
-        
-        # 高占比股票
-        high_ratio = [d for d in top20 if d["主力占比_数值"] > 20]
-        
-        # 涨停股
-        limit_up = [d for d in top20 if "10" in d["涨跌幅"]]
-        
-        # 板块分类
-        sectors = self.classify_sectors(top20)
-        
-        # 推荐股票
-        recommended = self.get_recommendations(top20)
-        
-        analysis = {
-            "fetch_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "total_count": len(data),
-            "top20_total_inflow": round(total_inflow, 2),
-            "high_ratio_stocks": [{"名称": d["名称"], "占比": d["主力占比"]} for d in high_ratio],
-            "limit_up_stocks": [d["名称"] for d in limit_up],
-            "sectors": sectors,
-            "recommended": recommended,
-            "market_summary": self.get_market_summary(clean_data)
-        }
-        
-        return {
-            "data": clean_data,
-            "analysis": analysis
-        }
-    
-    def parse_amount(self, text: str) -> float:
-        """解析金额（亿元）"""
-        if not text:
-            return 0.0
-        text = text.strip()
-        try:
-            if "亿" in text:
-                return float(text.replace("亿", ""))
-            elif "万" in text:
-                return float(text.replace("万", "")) / 10000
-            return float(text)
-        except:
-            return 0.0
-    
-    def parse_ratio(self, text: str) -> float:
-        """解析占比"""
-        if not text:
-            return 0.0
-        try:
-            return float(text.replace("%", ""))
-        except:
-            return 0.0
-    
-    def get_rating(self, amount: float, ratio: float) -> str:
-        """获取评级"""
-        if ratio > 30:
-            return "⭐⭐⭐⭐⭐"
-        elif ratio > 20:
-            return "⭐⭐⭐⭐"
-        elif amount > 5:
-            return "⭐⭐⭐⭐"
-        elif amount > 3:
-            return "⭐⭐⭐"
+def analyze_data(result: dict, top_n: int = 20) -> dict:
+    """分析资金流数据"""
+    stocks = result.get("data", [])
+    if not stocks:
+        return {}
+
+    top = stocks[:top_n]
+
+    # 行业板块识别
+    lithium_names = ["多氟多", "天齐锂业", "赣锋锂业", "恩捷股份", "华友钴业", "天赐材料",
+                     "盛新锂能", "璞泰来", "融捷股份", "亿纬锂能", "西藏珠峰", "盐湖股份",
+                     "江特电机", "天华新能"]
+    tech_names = ["海光信息", "中芯国际", "中科曙光", "拓维信息", "通富微电", "华虹公司",
+                  "富瀚微", "浪潮信息", "长电科技", "华丰科技", "仕佳光子", "C盛合",
+                  "盛科通信", "豪威集团", "江波龙", "协创数据"]
+
+    industry_groups = {}
+    for s in top:
+        if s["name"] in lithium_names:
+            key = "锂电"
+        elif s["name"] in tech_names:
+            key = "科技/芯片"
         else:
-            return "⭐⭐"
-    
-    def classify_sectors(self, data: list) -> dict:
-        """板块分类"""
-        sectors = {}
-        for d in data:
-            code = d["代码"]
-            if code.startswith("688"):
-                sector = "科创板"
-            elif code.startswith("300"):
-                sector = "创业板"
-            elif code.startswith("00"):
-                sector = "深市主板"
-            elif code.startswith("60"):
-                sector = "沪市主板"
-            else:
-                sector = "其他"
-            
-            if sector not in sectors:
-                sectors[sector] = {"count": 0, "stocks": [], "inflow": 0}
-            sectors[sector]["count"] += 1
-            sectors[sector]["stocks"].append(d["名称"])
-            sectors[sector]["inflow"] += d["主力净流入_金额"]
-        
-        return sectors
-    
-    def get_recommendations(self, data: list) -> list:
-        """获取推荐股票"""
-        recommendations = []
-        
-        for d in data[:10]:  # 取前10
-            reasons = []
-            
-            # 主力占比高
-            if d["主力占比_数值"] > 20:
-                reasons.append(f"主力占比{d['主力占比']}")
-            
-            # 流入金额大
-            if d["主力净流入_金额"] > 5:
-                reasons.append(f"流入{d['主力净流入']}")
-            
-            # 涨停
-            if "10" in d["涨跌幅"]:
-                reasons.append("涨停")
-            
-            if reasons:
-                recommendations.append({
-                    "代码": d["代码"],
-                    "名称": d["名称"],
-                    "评级": d["评级"],
-                    "理由": ", ".join(reasons)
-                })
-        
-        return recommendations
-    
-    def get_market_summary(self, data: list) -> dict:
-        """市场摘要"""
-        inflow_count = sum(1 for d in data if d["主力净流入_金额"] > 0)
-        outflow_count = len(data) - inflow_count
-        
-        avg_inflow = sum(d["主力净流入_金额"] for d in data) / len(data) if data else 0
-        
-        return {
-            "流入股票数": inflow_count,
-            "流出股票数": outflow_count,
-            "平均流入": round(avg_inflow, 2),
-            "最强流入": data[0]["名称"] if data else "",
-            "最强流入金额": data[0]["主力净流入"] if data else ""
-        }
-    
-    def save_result(self, result: dict) -> str:
-        """保存结果"""
-        DATA_DIR.mkdir(parents=True, exist_ok=True)
-        
-        date_str = datetime.now().strftime("%Y%m%d_%H%M")
-        filename = f"zjlx_ranking_{date_str}.json"
-        filepath = DATA_DIR / filename
-        
-        with open(filepath, "w", encoding="utf-8") as f:
-            json.dump(result, f, ensure_ascii=False, indent=2)
-        
-        print(f"✅ 数据已保存: {filepath}")
-        return str(filepath)
-    
-    def run(self, auto_close: bool = True) -> dict:
-        """完整流程"""
-        
-        print("\n" + "=" * 60)
-        print("📊 主板资金流排行自动获取")
-        print("=" * 60)
-        
-        # 1. 检查浏览器状态
-        status = self.check_browser_status()
-        
-        if not status.get("running"):
-            # 启动浏览器
-            if not self.start_browser():
-                return {"success": False, "error": "浏览器启动失败"}
-        
-        # 2. 打开页面
-        page_id = self.open_page(ZJLX_URL)
-        if not page_id:
-            if auto_close:
-                self.stop_browser()
-            return {"success": False, "error": "打开页面失败"}
-        
-        # 3. 等待加载
-        self.wait_for_load(3000)
-        
-        # 4. 提取数据
-        raw_data = self.extract_table_data()
-        
-        # 5. 解析和分析
-        result = self.parse_and_analyze(raw_data)
-        
-        # 6. 保存
-        filepath = self.save_result(result)
-        
-        # 7. 关闭浏览器（可选）
-        if auto_close:
-            self.stop_browser()
-        
-        # 8. 打印摘要
-        self.print_summary(result["analysis"])
-        
-        return {
-            "success": True,
-            "data": result["data"],
-            "analysis": result["analysis"],
-            "filepath": filepath
-        }
-    
-    def print_summary(self, analysis: dict):
-        """打印摘要"""
-        print("\n" + "=" * 60)
-        print("📊 今日资金流排行分析")
-        print("=" * 60)
-        print(f"获取时间: {analysis['fetch_time']}")
-        print(f"TOP20总流入: {analysis['top20_total_inflow']} 亿元")
-        print()
-        
-        print("🟢 强烈买入信号（主力占比>20%）:")
-        for stock in analysis['high_ratio_stocks']:
-            print(f"  • {stock['名称']} ({stock['占比']})")
-        print()
-        
-        print(f"🚀 涨停股: {', '.join(analysis['limit_up_stocks'])}")
-        print()
-        
-        print("📈 推荐关注:")
-        for rec in analysis['recommended'][:5]:
-            print(f"  {rec['评级']} {rec['代码']} {rec['名称']}")
-            print(f"     理由: {rec['理由']}")
-        
-        print("\n" + "=" * 60)
+            key = "其他"
+
+        if key not in industry_groups:
+            industry_groups[key] = {"count": 0, "stocks": [], "inflow": 0}
+        industry_groups[key]["count"] += 1
+        industry_groups[key]["stocks"].append(f'{s["name"]}({s["code"]})')
+        industry_groups[key]["inflow"] = round(industry_groups[key]["inflow"] + s["main_net_inflow"], 2)
+
+    # 高占比 (>20%)
+    high_ratio = [s for s in top if s["main_net_pct"] > 20]
+
+    # 涨停
+    limit_up = [s for s in top if s["change_pct"] >= 9.9]
+
+    return {
+        "fetch_time": result.get("update_time", ""),
+        "top_n": top_n,
+        "top_total_inflow": round(sum(s["main_net_inflow"] for s in top), 2),
+        "high_ratio_stocks": [{"name": s["name"], "code": s["code"], "pct": s["main_net_pct"]} for s in high_ratio],
+        "limit_up_stocks": [{"name": s["name"], "code": s["code"], "pct": s["change_pct"]} for s in limit_up],
+        "industry_groups": industry_groups,
+    }
+
+
+def print_summary(result: dict, analysis: dict):
+    """打印摘要"""
+    print("\n" + "=" * 60)
+    print(f"📊 主力资金流排行 TOP {analysis.get('top_n', 20)}")
+    print("=" * 60)
+    print(f"更新时间: {result.get('update_time', '')}")
+    print(f"总记录: {result.get('total', 0)} 只")
+    print(f"TOP{analysis.get('top_n', 20)} 总流入: {analysis.get('top_total_inflow', 0)} 亿")
+    print("-" * 60)
+
+    header = "{:<4} {:<8} {:<10} {:>8} {:>8} {:>12} {:>8}".format(
+        "排名", "代码", "名称", "现价", "涨跌%", "主力净流入", "净占比")
+    print(header)
+    print("-" * 60)
+
+    for item in result["data"][:analysis.get("top_n", 20)]:
+        line = "{:<4} {:<8} {:<10} {:>8.2f} {:>7.2f}% {:>11.2f}亿 {:>7.2f}%".format(
+            item["rank"], item["code"], item["name"], item["price"],
+            item["change_pct"], item["main_net_inflow"], item["main_net_pct"])
+        print(line)
+
+    # 行业板块分析
+    industry = analysis.get("industry_groups", {})
+    if industry:
+        print(f"\n🔥 热门板块分析:")
+        for sector, info in sorted(industry.items(), key=lambda x: -x[1]["inflow"]):
+            if sector == "其他":
+                continue
+            print(f"  {sector}板块: {info['count']} 只上榜, 总流入 {info['inflow']:.2f} 亿")
+            for stock in info["stocks"][:5]:
+                s = next((x for x in result["data"] if x["name"] in stock), None)
+                if s:
+                    print(f"    - {s['name']}({s['code']}): {s['main_net_inflow']:.2f}亿 ({s['main_net_pct']:.2f}%)")
+
+    # 高占比信号
+    high = analysis.get("high_ratio_stocks", [])
+    if high:
+        print(f"\n🟢 强烈买入信号（主力占比>20%）:")
+        for s in high:
+            print(f"  • {s['name']}({s['code']}): {s['pct']:.2f}%")
+
+    # 涨停
+    limit = analysis.get("limit_up_stocks", [])
+    if limit:
+        print(f"\n🚀 涨停股: {', '.join(s['name'] for s in limit)}")
+
+    print("\n" + "=" * 60)
+
+
+def save_result(result: dict, analysis: dict) -> str:
+    """保存结果"""
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+    date_str = datetime.now().strftime("%Y%m%d_%H%M")
+    filename = f"zjlx_ranking_{date_str}.json"
+    filepath = DATA_DIR / filename
+
+    output = {
+        "update_time": result.get("update_time", ""),
+        "total": result.get("total", 0),
+        "analysis": analysis,
+        "data": result["data"],
+    }
+
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+
+    # 同时保存为 latest
+    latest_path = DATA_DIR / "zjlx_ranking_latest.json"
+    with open(latest_path, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+
+    print(f"✅ 数据已保存: {filepath}")
+    print(f"✅ 最新数据: {latest_path}")
+    return str(filepath)
+
+
+def load_latest() -> dict:
+    """加载上次获取的数据"""
+    latest_path = DATA_DIR / "zjlx_ranking_latest.json"
+    if not latest_path.exists():
+        return None
+    with open(latest_path, encoding="utf-8") as f:
+        return json.load(f)
 
 
 def main():
     """CLI 入口"""
-    
     import argparse
-    
-    parser = argparse.ArgumentParser(description="主板资金流排行自动获取")
-    parser.add_argument("--keep-browser", action="store_true", help="保持浏览器打开")
-    parser.add_argument("--json", action="store_true", help="输出JSON格式")
-    
+
+    parser = argparse.ArgumentParser(description="主力资金流排行自动获取 V2")
+    parser.add_argument("--top", type=int, default=20, help="显示 TOP N (默认 20)")
+    parser.add_argument("--count", type=int, default=50, help="获取数量 (默认 50)")
+    parser.add_argument("--json", action="store_true", help="输出 JSON 格式")
+    parser.add_argument("--no-save", action="store_true", help="不保存文件")
+    parser.add_argument("--latest", action="store_true", help="显示上次获取的数据")
+
     args = parser.parse_args()
-    
-    fetcher = ZjlxFetcher()
-    result = fetcher.run(auto_close=not args.keep_browser)
-    
+
+    # 查看上次数据
+    if args.latest:
+        data = load_latest()
+        if not data:
+            print("❌ 没有找到上次获取的数据")
+            return 1
+        result = {"data": data["data"], "update_time": data["update_time"], "total": data["total"]}
+        analysis = analyze_data(result, top_n=args.top)
+        print_summary(result, analysis)
+        return 0
+
+    # 获取新数据
+    result = fetch_zjlx_data(count=args.count)
+    if not result.get("success"):
+        print("❌ 获取失败:", result.get("error"))
+        # 尝试加载缓存
+        cached = load_latest()
+        if cached:
+            print("⚠️ 使用缓存数据...")
+            result = {"data": cached["data"], "update_time": cached["update_time"], "total": cached["total"]}
+        else:
+            return 1
+
+    # 分析
+    analysis = analyze_data(result, top_n=args.top)
+
+    # 保存
+    if not args.no_save:
+        save_result(result, analysis)
+
+    # 输出
     if args.json:
-        print(json.dumps(result, ensure_ascii=False, indent=2))
-    
-    return 0 if result.get("success") else 1
+        output = {
+            "update_time": result.get("update_time", ""),
+            "total": result.get("total", 0),
+            "analysis": analysis,
+            "data": result["data"][:args.top],
+        }
+        print(json.dumps(output, ensure_ascii=False, indent=2))
+    else:
+        print_summary(result, analysis)
+
+    return 0
 
 
 if __name__ == "__main__":
