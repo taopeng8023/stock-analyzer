@@ -94,8 +94,52 @@ def validate_data(data: dict) -> dict:
     return result
 
 
+def is_trading_day(dt):
+    """判断是否为交易日（周一到周五，排除法定节假日）"""
+    from datetime import timedelta
+    
+    # 周末不是交易日
+    if dt.weekday() >= 5:
+        return False
+    
+    # 2026 年中国法定节假日（简化版）
+    holidays_2026 = [
+        # 元旦
+        "2026-01-01", "2026-01-02", "2026-01-03",
+        # 春节
+        "2026-02-16", "2026-02-17", "2026-02-18", "2026-02-19", "2026-02-20", "2026-02-21", "2026-02-22",
+        # 清明
+        "2026-04-04", "2026-04-05", "2026-04-06",
+        # 劳动节
+        "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05",
+        # 端午节
+        "2026-06-22", "2026-06-23", "2026-06-24",
+        # 中秋节
+        "2026-10-01", "2026-10-02", "2026-10-03", "2026-10-04", "2026-10-05", "2026-10-06", "2026-10-07",
+    ]
+    
+    if dt.strftime("%Y-%m-%d") in holidays_2026:
+        return False
+    
+    return True
+
+
+def get_previous_trading_days(days_back=5):
+    """获取前 N 个交易日日期列表（排除周末和节假日）"""
+    from datetime import timedelta
+    today = datetime.now().date()
+    trading_days = []
+    
+    for i in range(1, days_back + 1):
+        dt = today - timedelta(days=i)
+        if is_trading_day(dt):
+            trading_days.append(dt.strftime("%Y-%m-%d"))
+    
+    return trading_days
+
+
 def fetch_zjlx_data(count: int = 50, timeout: int = 15, max_retries: int = 3) -> dict:
-    """获取资金流排行数据（多端点 + 重试）"""
+    """获取资金流排行数据（多端点 + 重试 + 自动 fallback 到上一个交易日）"""
     params = {
         "fid": "f62",
         "po": "1",
@@ -150,9 +194,51 @@ def fetch_zjlx_data(count: int = 50, timeout: int = 15, max_retries: int = 3) ->
         if data and data.get("data") and data["data"].get("diff"):
             break
     
+    # 如果当前交易日获取失败，尝试上一个交易日
     if not data or not data.get("data") or not data["data"].get("diff"):
-        print(f"\n❌ 所有端点均失败: {last_error}")
-        return {"success": False, "error": str(last_error)}
+        print(f"\n⚠️ 当前交易日获取失败，尝试获取上一个交易日数据...")
+        
+        trading_days = get_previous_trading_days(days_back=5)
+        print(f"   尝试日期: {', '.join(trading_days[:3])}")
+        
+        for trading_day in trading_days[:3]:  # 最多尝试前 3 个交易日
+            print(f"\n   📅 尝试 {trading_day}...")
+            
+            for api_url in API_URLS:
+                for attempt in range(2):  # 每个端点重试 2 次
+                    try:
+                        resp = requests.get(api_url, params=params, headers=headers, timeout=timeout)
+                        resp.raise_for_status()
+                        data = resp.json()
+                        
+                        if data.get("data") and data["data"].get("diff"):
+                            print(f"   ✅ 成功: {len(data['data']['diff'])} 只股票 (交易日: {trading_day})")
+                            break
+                    except Exception as e:
+                        last_error = str(e)
+                
+                if data and data.get("data") and data["data"].get("diff"):
+                    break
+            
+            if data and data.get("data") and data["data"].get("diff"):
+                break
+    
+    # 如果仍然失败，尝试加载缓存数据
+    if not data or not data.get("data") or not data["data"].get("diff"):
+        print(f"\n⚠️ 所有交易日获取失败，尝试加载缓存数据...")
+        cached = load_latest()
+        if cached:
+            print(f"   ✅ 使用缓存数据 (更新时间: {cached.get('update_time', '')})")
+            # 转换缓存数据格式
+            return {
+                "success": True,
+                "update_time": cached.get("update_time", ""),
+                "total": cached.get("total", 0),
+                "data": cached.get("data", []),
+            }
+        else:
+            print(f"\n❌ 无缓存数据可用")
+            return {"success": False, "error": str(last_error)}
 
     stocks = data["data"]["diff"]
     print(f"\n✅ 获取成功: {len(stocks)} 只股票")
